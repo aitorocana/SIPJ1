@@ -21,5 +21,5 @@ El contenido está bajo licencia [Creative Commons CC BY-NC-SA 4.0 ES](LICENSE.m
 
 ---
 
-© 2025 Mireia Consarnau
+© 2025 Aitor Ocaña Navarro
 
