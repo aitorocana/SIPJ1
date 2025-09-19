@@ -1,6 +1,6 @@
-# Curso de Machine Learning
+# Pràctiques de Sistemes Informàtics
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Este repositorio contiene el material del curso de Sistemes informàtics desarrollado por Aitor Ocaña Navarro.
 
 ## Contenido
 
@@ -12,7 +12,7 @@ Este repositorio contiene el material del curso de Machine Learning desarrollado
 
 Este repositorio está preparado para ser publicado con GitHub Pages.  
 Puedes ver la versión web pública en:  
-https://mireiaconsarnau.github.io/machine_learning/
+https://aitorocana.github.io/SIPJ1/
 
 ## Licencia
 
