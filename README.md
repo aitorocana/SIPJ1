@@ -16,7 +16,7 @@ https://aitorocana.github.io/SIPJ1/
 
 ## Licencia
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
+El contenido está bajo licencia [Creative Commons CC BY-NC-SA 4.0 ES](LICENSE.md).
 
 
 ---
