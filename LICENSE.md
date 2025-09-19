@@ -1,4 +1,4 @@
-# Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 3.0 España (CC BY-NC-SA 3.0)
+# Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 4.0 España (CC BY-NC-SA 3.0)
 
 Este trabajo está licenciado bajo la [Licencia Creative Commons Reconocimiento - No Comercial - Compartir Igual 3.0 España (CC BY-NC-SA 3.0)](https://creativecommons.org/licenses/by-nc-sa/3.0/es/).
 
@@ -27,4 +27,4 @@ Se debe dar crédito adecuado, proporcionar un enlace a esta licencia e indicar 
 
 ---
 
-© 2025 Mireia Consarnau
+© 2025 Aitor Ocaña Navarro
