@@ -3,11 +3,11 @@ layout: default
 title: "Sistemes informàtics"
 ---
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Aitor Ocaña.
+Aquest repositori conté el contingut del curs de Ssitemes informàtics fet per Aitor Ocaña.
 
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
+- Enllaços a les unitats del curs.
+- Recursos en format PDF, vídeos.
+- Exemples pràctics.
 
 ## Licencia
 
