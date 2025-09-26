@@ -9,6 +9,10 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
 <img width="922" height="555" alt="image" src="https://github.com/user-attachments/assets/9ebd2d0b-a558-4122-b85d-a03c8ea73f14" />
+Per tant, com podem veure, ens demana segons la documentació, una RAM mínima d'uns 3GB i un almacenament mínim de 25GB per a que funcioni minimament.
+Nosaltres hem escollit, tal i com podem veure en la següent captura, una RAM de 4GB i hem assignat un almacenament de 80GB.
+<img width="1172" height="859" alt="image" src="https://github.com/user-attachments/assets/7fad345c-dd0d-49ef-aca7-9acbce5a4c42" />
+
 
 
 ### Instal·lació
