@@ -13,16 +13,9 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/3b8de964-8e64-418e-b752-0d86aad15398" />
 
-
-
-
-
-
-
-
-
-
 ## Llicenciament
+
+
 
 
 
