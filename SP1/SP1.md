@@ -52,6 +52,9 @@ Per últim, destinem 2GB per al /swap, que bàsicament es la memòria d'intercan
 
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/713eb178-ab58-414b-a295-1555ee132615" />
 
+<img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/e9925874-f2b4-4700-9dff-8cdc2dd35f9b" />
+
+
 
 
 
