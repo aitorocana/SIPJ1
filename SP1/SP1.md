@@ -4,12 +4,14 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 ---
 
 ## Virtualització i instal·lació del SO Ubuntu
----
 ### Virtualització
 
-### Instal·lació
-<img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
+Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
+<img width="922" height="555" alt="image" src="https://github.com/user-attachments/assets/9ebd2d0b-a558-4122-b85d-a03c8ea73f14" />
+
+
+### Instal·lació
 
 <img width="871" height="473" alt="image" src="https://github.com/user-attachments/assets/9d2321fd-699a-4430-bed2-766afc7cb368" />
 
@@ -20,6 +22,9 @@ En aquesta part, el que fem es triar la destinació de memòria que li volem don
 amb quants de nuclis volem posar.
 
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/3b8de964-8e64-418e-b752-0d86aad15398" />
+
+<img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
+Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem
 
 ## Llicenciament
 
