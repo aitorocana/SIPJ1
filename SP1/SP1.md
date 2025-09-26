@@ -22,7 +22,7 @@ Nosaltres hem escollit, tal i com podem veure en la següent captura, una RAM de
 
 En aquesta part, el que fem es triar la destinació de memòria que li volem donar per a un funcionament correcte de la nostra màquina virtual, juntament
 amb quants de nuclis volem posar.
----
+
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/3b8de964-8e64-418e-b752-0d86aad15398" />
 
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
@@ -33,21 +33,21 @@ Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que vol
 En el moment de la instal·lació, ens demanarà l'idioma que volem escollir, després el tipus d'instal·lació que volem i el que ens interessa es l'opció de crear particions:
 
 <img width="908" height="662" alt="image" src="https://github.com/user-attachments/assets/b2995272-1591-44da-a0cc-5d754c4e74d1" />
----
+
 Aquí procedim a dividir el disc sorbe les 80GB que hem escollit en el moment de la virtualització de la màquina virtual. Però com pròximament instal·larem amb aquestes 80GB el windows,
 deixem 40GB a banda, que les destinarem per a l'instal·lació del Windows i les altres 40GB per a l'Ubuntu.
 
 <img width="1282" height="865" alt="image" src="https://github.com/user-attachments/assets/5263f550-3d31-45dc-81b7-0f030162bf60" />
----
+
 El cas es que hem de pensar que sol tenim 40GB disponibles per a l'Ubuntu i per a repartir aquests per a la repartició que necessita Ubuntu per a la instal·lació. 
 Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i el sistema.
 
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/cd540697-7714-4385-b25c-50a9d1bec1ed" />
----
+
 Ara destinarem 13GB per al /home, que es on van guardats els teus fitxers.
 
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/97b35073-988e-4867-9d5b-b3936b8d86f1" />
----
+
 Per últim, destinem 2GB per al /swap, que bàsicament es la memòria d'intercanvi.
 
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/713eb178-ab58-414b-a295-1555ee132615" />
