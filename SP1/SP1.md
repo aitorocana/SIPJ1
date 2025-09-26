@@ -4,7 +4,7 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 ---
 
 ## Virtualització i instal·lació del SO Ubuntu
-### Virtualització
+## Virtualització
 
 Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
@@ -14,10 +14,6 @@ Per tant, com podem veure, ens demana segons la documentació, una RAM mínima d
 Nosaltres hem escollit, tal i com podem veure en la següent captura, una RAM de 4GB i hem assignat un almacenament de 80GB.
 
 <img width="1172" height="859" alt="image" src="https://github.com/user-attachments/assets/7fad345c-dd0d-49ef-aca7-9acbce5a4c42" />
-
-
-
-### Instal·lació
 
 <img width="871" height="473" alt="image" src="https://github.com/user-attachments/assets/9d2321fd-699a-4430-bed2-766afc7cb368" />
 
@@ -31,6 +27,8 @@ amb quants de nuclis volem posar.
 
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
 Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem
+
+## Instal·lació
 
 ## Llicenciament
 
