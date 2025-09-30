@@ -54,6 +54,10 @@ Agreguem aqui 1GB per a la EFI per a guardar el sistema d'arrancada.
 Aqui fem l'última partició d'1GB per al BIOS boot
 <img width="843" height="640" alt="image" src="https://github.com/user-attachments/assets/d3466d99-f3fe-4ba5-a556-e1fb692c969b" />
 
+Al haver creat totes les particions, li donem a instal·lar i escollirem el nostre usuari que personalitzarem escollint el nom que volem que sorti.
+<img width="843" height="640" alt="image" src="https://github.com/user-attachments/assets/2193e1c0-98d8-4985-9e3f-27fbbdec916d" />
+
+
 
 
 
