@@ -16,15 +16,20 @@ Nosaltres hem escollit, tal i com podem veure en la següent captura, una RAM de
 <img width="1172" height="859" alt="image" src="https://github.com/user-attachments/assets/7fad345c-dd0d-49ef-aca7-9acbce5a4c42" />
 
 En la següent imatge, començem a escollir la carpeta de destinatari de la nova màquina virtual, escollint el nom que es visualitzarà com a nova màquina virtual amb el seu sistema operatiu escollit. Però encara no triem la ISO. Ho farem després.
+
 <img width="871" height="473" alt="image" src="https://github.com/user-attachments/assets/9d2321fd-699a-4430-bed2-766afc7cb368" />
 
 En aquesta part, el que fem es triar la destinació de memòria que li volem donar per a un funcionament correcte de la nostra màquina virtual, juntament
 amb quants de nuclis volem posar. Sempre seguint els requisits mínims que ens demana la documentació oficlal.
+
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/c8d9af39-81cf-4ed1-8c75-a5ce6abff082" />
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/3b8de964-8e64-418e-b752-0d86aad15398" />
 
+Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem, que en aquest cas serà l'ubuntu desde el fitxer on el teniem guardat
+
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
-Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem
+
+
 
 ## Instal·lació
 
@@ -43,18 +48,23 @@ Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/cd540697-7714-4385-b25c-50a9d1bec1ed" />
 
 Ara destinarem 13GB per al /home, que es on van guardats els teus fitxers.
+
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/97b35073-988e-4867-9d5b-b3936b8d86f1" />
 
 Destinem 2GB per al /swap, que bàsicament es la memòria d'intercanvi.
+
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/713eb178-ab58-414b-a295-1555ee132615" />
 
 Agreguem aqui 1GB per a la EFI per a guardar el sistema d'arrancada.
+
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/e9925874-f2b4-4700-9dff-8cdc2dd35f9b" />
 
 Aqui fem l'última partició d'1GB per al BIOS boot
+
 <img width="843" height="640" alt="image" src="https://github.com/user-attachments/assets/d3466d99-f3fe-4ba5-a556-e1fb692c969b" />
 
 Al haver creat totes les particions, li donem a instal·lar i escollirem el nostre usuari que personalitzarem escollint el nom que volem que sorti.
+
 <img width="843" height="640" alt="image" src="https://github.com/user-attachments/assets/2193e1c0-98d8-4985-9e3f-27fbbdec916d" />
 
 
