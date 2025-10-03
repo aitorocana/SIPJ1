@@ -92,6 +92,9 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 
 
 
+
+
+
 ## Particions i punts de restauració
 
 
