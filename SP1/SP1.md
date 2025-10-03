@@ -3,8 +3,8 @@ layout: default
 title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
 
-## Virtualització i instal·lació del SO Ubuntu
-> ## Virtualització
+> ## Virtualització i instal·lació del SO Ubuntu
+## Virtualització
 
 Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
