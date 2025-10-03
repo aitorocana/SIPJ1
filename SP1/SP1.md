@@ -100,6 +100,14 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/94446828-6c6e-49ab-a731-89e7f2a49f8b" />
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/d5af747c-93ec-4c09-87ba-437813bc3d71" />
 <img width="806" height="426" alt="image" src="https://github.com/user-attachments/assets/ed1e9d23-4ee3-4205-9439-c7ea08ae8406" />
+<img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/d30937d3-6c1e-47b3-962d-d26b0948e5b9" />
+<img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/c5d15e7d-44f1-479e-9597-013ccc5edace" />
+
+<img width="823" height="518" alt="image" src="https://github.com/user-attachments/assets/aa413ced-c20b-4bd9-ad78-0fe2188e6df5" />
+
+
+
+
 
 
 
