@@ -88,7 +88,15 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 
 
 
+
+
 ## Instal·lacions duals i gestors d'arrancada
+
+<img width="892" height="585" alt="image" src="https://github.com/user-attachments/assets/bf57659d-ba70-44be-a29d-b3365a813866" />
+<img width="892" height="585" alt="image" src="https://github.com/user-attachments/assets/6a20b696-bcb3-4277-85e2-ce2cb5d40518" />
+<img width="704" height="508" alt="image" src="https://github.com/user-attachments/assets/3eeddcd2-2d14-48d4-af4a-096f28a84dfa" />
+
+
 
 
 
