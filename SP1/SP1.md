@@ -93,15 +93,37 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 ## Instal·lacions duals i gestors d'arrancada
 
 <img width="892" height="585" alt="image" src="https://github.com/user-attachments/assets/bf57659d-ba70-44be-a29d-b3365a813866" />
+
+
 <img width="892" height="585" alt="image" src="https://github.com/user-attachments/assets/6a20b696-bcb3-4277-85e2-ce2cb5d40518" />
+
+
 <img width="704" height="508" alt="image" src="https://github.com/user-attachments/assets/3eeddcd2-2d14-48d4-af4a-096f28a84dfa" />
+
+
 <img width="875" height="556" alt="image" src="https://github.com/user-attachments/assets/9842beaf-981f-4fd4-9166-88c5a6d5d3dc" />
+
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/e0e99135-15c9-4c2c-8ac1-60e2895e0b59" />
+
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/94446828-6c6e-49ab-a731-89e7f2a49f8b" />
+
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/d5af747c-93ec-4c09-87ba-437813bc3d71" />
+
+
 <img width="806" height="426" alt="image" src="https://github.com/user-attachments/assets/ed1e9d23-4ee3-4205-9439-c7ea08ae8406" />
+
+
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/d30937d3-6c1e-47b3-962d-d26b0948e5b9" />
+
+
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/c5d15e7d-44f1-479e-9597-013ccc5edace" />
+
+
+<img width="595" height="216" alt="image" src="https://github.com/user-attachments/assets/9eef9635-a341-4f1e-a9a5-380a76584ec8" />
+
 
 <img width="823" height="518" alt="image" src="https://github.com/user-attachments/assets/aa413ced-c20b-4bd9-ad78-0fe2188e6df5" />
 
