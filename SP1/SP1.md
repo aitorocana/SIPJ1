@@ -101,6 +101,7 @@ Seleccionem la ISO de Windows que vam descarregar per determinar la partició qu
 <img width="892" height="585" alt="image" src="https://github.com/user-attachments/assets/6a20b696-bcb3-4277-85e2-ce2cb5d40518" />
 
 Aquí escollirem la opció avançada d'instal·lació de Windows per a elegir la partició i creem la de 40GB que serà la meitat que vam destinar per a aquesta partició.
+
 <img width="704" height="508" alt="image" src="https://github.com/user-attachments/assets/3eeddcd2-2d14-48d4-af4a-096f28a84dfa" />
 
 Després al acabar d'instalar-ho. Tancarem, anirem a paràmetres del client que hem creat del virtualbox d'ubuntu, i escollirem la iso del grub descarregada per a poder reparar el grub posteriorment.
