@@ -105,28 +105,39 @@ Aquí escollirem la opció avançada d'instal·lació de Windows per a elegir la
 <img width="704" height="508" alt="image" src="https://github.com/user-attachments/assets/3eeddcd2-2d14-48d4-af4a-096f28a84dfa" />
 
 Després al acabar d'instalar-ho. Tancarem, anirem a paràmetres del client que hem creat del virtualbox d'ubuntu, i escollirem la iso del grub descarregada per a poder reparar el grub posteriorment.
+
 <img width="875" height="556" alt="image" src="https://github.com/user-attachments/assets/9842beaf-981f-4fd4-9166-88c5a6d5d3dc" />
 
 Aquí executarem el client i li donarem varies vegades a la tecla "**ESC**" per a obrir la terminal de BIOS. Escollirem el BOOT Manager Menu i escollirem la següent ISO que es la del grub.
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/e0e99135-15c9-4c2c-8ac1-60e2895e0b59" />
 
 Després ens sortira aquest menú on escollirem l'opció "**Detect and show methods**".
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/94446828-6c6e-49ab-a731-89e7f2a49f8b" />
 
 Aquí escollirem el nostre línux que vam instal·lar per a procedir a reparar el grub.
+
 <img width="665" height="565" alt="image" src="https://github.com/user-attachments/assets/d5af747c-93ec-4c09-87ba-437813bc3d71" />
 
 En el moment d'entrar a ubuntu, obrim la terminal. Escriurem la commanda " **sudo su**". Instal·larem  el paquet amb "**apt install efibootmgr**", després instal·lem "**apt install grub-efi**", després farem "**apt install --reinstall grub-pc**", Després d'haver ja creat el grub després posarem la commanda "**mkdir /boot/efi**". Posteriorment reinstal·lem el Grub a la unitat " **grub-install /dev/sda**" i "**grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ubuntu**"
-Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem de fer varies coses per a acabar de restaurar el grub. Primer hem de comentar amb "**#**" el "**GRUB_TIMEOUT_STYLE=hidden**" i el "**GRUB_TIMEOUT=0**". Per últim descomentem treien "**#**" o si no ens surt escriure el text: "**GRUB_DISABLE_OS_PROBER=false**". Després tanquem i guardem.
+Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem de fer varies coses per a acabar de restaurar el grub. Primer hem de comentar amb "**#**" el "**GRUB_TIMEOUT_STYLE=hidden**" i el "**GRUB_TIMEOUT=0**". Per últim descomentem treien "**#**" o si no ens surt escriure el text: "**GRUB_DISABLE_OS_PROBER=false**". Tanquem i guardem.
+
 <img width="806" height="426" alt="image" src="https://github.com/user-attachments/assets/ed1e9d23-4ee3-4205-9439-c7ea08ae8406" />
+
+Aqí posarem la commanda "**update -grub**" per a tenir actualitzada la configuració que hem fet i poder veure que hem restaurat el grub. Però encara no hem acabat.
+
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/d30937d3-6c1e-47b3-962d-d26b0948e5b9" />
 
-Aquí obrim terminal una altra vegada per a que surti la posició de l'arranc que volem i compilar-la per a que ens surti al grub. Per tant, hem de compilar
+Aquí obrim terminal una altra vegada per a veure la posició d'arranc del grub que tenim configurada. Però aquesta la tenim que canviar per a posar per a que al iniciar el virtualbox ens sorti el gestor d'arranc del grub i així poder escollir el SO que volem iniciar, si Ubuntu o WIndows.
+
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/c5d15e7d-44f1-479e-9597-013ccc5edace" />
 
+Per a que surti la posició de l'arranc que volem i compilar-la per a que ens surti al grub, hem de canviar la posició dintre del "**BootOrder**", fent que ubuntu sigui primer en el procés d'arranc del grub, perque sinó sempre començara iniciant windows primer. Després en la segona posició posem la iso del client del virtualbox i després posem les altres restants, sempre posant-les totes per a que no ens doni ningun tipus d'error. Després ho guardarem i ho tancarem.
 
 <img width="595" height="216" alt="image" src="https://github.com/user-attachments/assets/9eef9635-a341-4f1e-a9a5-380a76584ec8" />
 
+Sí ho hem fet tot bé, al iniciar el client de virtual box ens tindria que sortir tal com la següent imatge.
 
 <img width="823" height="518" alt="image" src="https://github.com/user-attachments/assets/aa413ced-c20b-4bd9-ad78-0fe2188e6df5" />
 
