@@ -158,8 +158,11 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 <img width="717" height="220" alt="image" src="https://github.com/user-attachments/assets/af65e2af-79b9-4b60-bc3a-e995fdd2b858" />
 
-
 <img width="717" height="416" alt="image" src="https://github.com/user-attachments/assets/7cf85d00-ae75-438c-a0cc-65cf8cfbdc79" />
+
+<img width="742" height="461" alt="image" src="https://github.com/user-attachments/assets/c74c079d-0cc9-4542-ae7e-fb7fbbaf8b1e" />
+
+
 
 
 
