@@ -3,8 +3,8 @@ layout: default
 title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
 
-> ## Virtualització i instal·lació del SO Ubuntu
->>## Virtualització
+# Virtualització i instal·lació del SO Ubuntu
+## Virtualització
 
 Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
@@ -80,9 +80,7 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 
 
 
-
-> ## Llicenciament
-
+# Llicenciament
 
 
 
@@ -90,7 +88,8 @@ Al haver creat totes les particions, li donem a instal·lar i escollirem el nost
 
 
 
-> ## Instal·lacions duals i gestors d'arrancada
+
+## Instal·lacions duals i gestors d'arrancada
 
 Aqui seleccionem el disc òptic per seleccionar l'ordre d'arrancada, sempre posant la memòria que ens demana mínima per a executar-ho. Després a "**Extended Features**", hem de posar l'opció activa EFI per a que s'executi Ubuntu bé després.
 
@@ -157,16 +156,16 @@ Sí ho hem fet tot bé, al iniciar el client de virtual box ens tindria que sort
 
 
 
-> ## Particions i punts de restauració
+ # Particions i punts de restauració
 
 
 
 
-> ## Configuració bàsica de la xarxa
+ # Configuració bàsica de la xarxa
 
 
 
 
 
 
-## Comandes generals i instal·lació d'aplicacions
+# Comandes generals i instal·lació d'aplicacions
