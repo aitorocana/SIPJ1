@@ -141,13 +141,30 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 
  # Particions i punts de restauració instantània
- Primer anar a paràmetres del client creat d'Ubuntu, anar a emmagatzematge i crear un nou disc a la part dreta del controlador sata.
+ - Primer anar a paràmetres del client creat d'Ubuntu, anar a emmagatzematge i crear un nou disc a la part dreta del controlador sata.
  
 <img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/aa886bdc-c974-40b9-a79b-0fe58673699f" />
 
  - A Paràmetres canviem la xarxa a adaptador pont
 
 <img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/e423645c-da76-4304-b974-fe682e712984" />
+
+- Ara obrim terminal,posem sudo su.
+
+
+<img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/7e3313cd-1235-4047-adb6-6ddf38243aae" />
+
+<img width="833" height="585" alt="image" src="https://github.com/user-attachments/assets/43e77387-4b42-40a3-bb58-fe8bd3c1b397" />
+
+<img width="717" height="220" alt="image" src="https://github.com/user-attachments/assets/af65e2af-79b9-4b60-bc3a-e995fdd2b858" />
+
+
+<img width="717" height="416" alt="image" src="https://github.com/user-attachments/assets/7cf85d00-ae75-438c-a0cc-65cf8cfbdc79" />
+
+
+
+
+
 
 
  # Configuració bàsica de la xarxa
@@ -157,4 +174,4 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 
 
-# Comandes generals i instal·lació d'aplicacions
+ # Comandes generals i instal·lació d'aplicacions
