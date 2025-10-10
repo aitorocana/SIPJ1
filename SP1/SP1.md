@@ -184,7 +184,7 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 
 
-
+-
 
 
 
