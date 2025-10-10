@@ -4,7 +4,7 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 ---
 
 # Virtualització i instal·lació del SO Ubuntu
-<summary>## Virtualització</summary>
+## Virtualització
 
 Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
@@ -30,8 +30,7 @@ Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que vol
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
 
 
-
-> ## Instal·lació
+ ## Instal·lació
 
 En el moment de la instal·lació, ens demanarà l'idioma que volem escollir, després el tipus d'instal·lació que volem i el que ens interessa es l'opció de crear particions:
 
