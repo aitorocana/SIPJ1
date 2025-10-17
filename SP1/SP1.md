@@ -194,9 +194,11 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 - Primer comprovem la ip amb la commanda per terminal ubuntu ----> ip a.
 - Després procedirem a canviar la nostra ip.
   <img width="1182" height="784" alt="image" src="https://github.com/user-attachments/assets/8728199b-49df-4188-9ae4-ca66b2cac6f2" />
+  
   <img width="715" height="490" alt="image" src="https://github.com/user-attachments/assets/a101ce67-26be-4d13-be15-57919fcfab7c" />
 
   - Aquí amb el ping i un link d'internet veurem si s'ha aplicat bé la ip nova
+  - 
   <img width="726" height="276" alt="image" src="https://github.com/user-attachments/assets/52a3cdcd-08d6-4a35-84a1-292b40afd5e7" />
 
   - Aquí amb el ping i la DNS veurem si s'ha aplicat bé la DNS nova
@@ -215,20 +217,13 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
   <img width="788" height="467" alt="image" src="https://github.com/user-attachments/assets/2969a426-ae15-4cbc-abd1-b42c4b158be8" />
 
-  
-
-
-
-  
 
 
 
 
+ # Comandes generals i instal·lació de paquets
 
 
-
-
-
- # Comandes generals i instal·lació d'aplicacions
+ 
 
  
