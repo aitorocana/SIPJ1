@@ -206,6 +206,15 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
   - Deixem la configuració de red com avans amb el DHCP automàtic
 
   <img width="591" height="473" alt="image" src="https://github.com/user-attachments/assets/027b93ab-5cfd-4c4a-9844-c0032b71002b" />
+
+  - Fem el mateix pero mitjançant terminal
+
+  <img width="782" height="501" alt="image" src="https://github.com/user-attachments/assets/54c49660-8e59-4118-bf35-eaa6cce70d81" />
+
+  <img width="781" height="335" alt="image" src="https://github.com/user-attachments/assets/314a9e06-84e6-4d5d-abb7-4f8c90557cfc" />
+
+  <img width="788" height="467" alt="image" src="https://github.com/user-attachments/assets/2969a426-ae15-4cbc-abd1-b42c4b158be8" />
+
   
 
 
