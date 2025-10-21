@@ -216,12 +216,48 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
   <img width="781" height="335" alt="image" src="https://github.com/user-attachments/assets/314a9e06-84e6-4d5d-abb7-4f8c90557cfc" />
 
   <img width="788" height="467" alt="image" src="https://github.com/user-attachments/assets/2969a426-ae15-4cbc-abd1-b42c4b158be8" />
-
-
-
+  
 
 
  ## **Fase 7. Comandes generals i instal·lació de paquets**
+
+ - ### **Instal·lació amb el apt-get o apt**
+
+ **1.** Primer insta·laré amb el "apt-get install (paquet)" o "apt install (paquet)" el paquet "dia". Però avans sempre assegurar-se de posar-te com a super usuari per a tenir tots el persmissos per poder instal·lar-ho.`La commanda seria -----> sudo su.
+ 
+ <img width="1180" height="723" alt="image" src="https://github.com/user-attachments/assets/b61b711e-283f-449a-b2e2-33c8e2015c1c" />
+ 
+ **2.** Ara comprobem que efectivament ho hem instal·lat correctament visualitzant-ho al menu d'aplicacions i veurem com s'executa correctament.
+
+ <img width="209" height="179" alt="Captura de pantalla de 2025-10-21 12-03-24" src="https://github.com/user-attachments/assets/3232658e-c307-49e2-a191-80c382788651" />
+ 
+ <img width="567" height="475" alt="image" src="https://github.com/user-attachments/assets/cc8fbcc6-7aa7-4bd2-a3f6-3555b6cb708a" />
+
+ **3.** Al comprobar que ho hem instal·lat correctament, ara procediré a eliminar el paquet o desintal·lar-lo. Per a això utilitzarè la commanda ----> apt-get remove. Utiltizaré aquesta perqué si tingués alguna configuració, no la borrariem per si la volem instal·lar en un futur, com pasaria amb la commanda "apt-get purge"
+
+<img width="738" height="435" alt="image" src="https://github.com/user-attachments/assets/2be8528a-e7cf-4da6-a1c0-db3e99ae4513" />
+
+- ### **Instal·lació amb el aptitude**
+
+**1.** Primer instal·larem l'instal·lador aptitude amb la commanda ----> apt install aptitude.
+
+<img width="710" height="154" alt="image" src="https://github.com/user-attachments/assets/c7694325-3798-4c03-ad05-02c06c5abfc9" />
+
+**2.** Ara instal·larem el paquet Geany amb la comanda -----> aptitude install (paquet que volem instal·lar)
+
+<img width="891" height="475" alt="image" src="https://github.com/user-attachments/assets/f764d323-89dc-43fb-a1a4-d21bb99f4ec0" />
+
+**3.** Ara comprobem que efectivament ho hem instal·lat correctament visualitzant-ho al menu d'aplicacions i vuerem que s'executa correctament.
+
+<img width="174" height="139" alt="image" src="https://github.com/user-attachments/assets/5cee2f14-c1be-42c1-b00c-ac09cc8955a6" />
+
+<img width="904" height="639" alt="image" src="https://github.com/user-attachments/assets/17f0b0e0-07a9-4d95-aa8a-303ea941da5f" />
+
+**4.** Al comprobar que ho hem instal·lat correctament, ara procediré a eliminar el paquet o desintal·lar-lo. Per a això utilitzarè la commanda ----> aptitude remove.
+
+<img width="749" height="320" alt="image" src="https://github.com/user-attachments/assets/aae245e9-6fdc-403b-8056-70b5356e4e42" />
+
+
 
 
  
