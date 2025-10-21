@@ -3,8 +3,8 @@ layout: default
 title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius"
 ---
 
-# Virtualització i instal·lació del SO Ubuntu
-## Virtualització
+# **Virtualització i instal·lació del SO Ubuntu**
+## **Fase 1. Virtualització**
 
 **1.** Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
@@ -30,7 +30,7 @@ amb quants de nuclis volem posar. Sempre seguint els requisits mínims que ens d
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
 
 
- ## Instal·lació
+ ## **Fase 2. Instal·lació**
 
 - En el moment de la instal·lació, ens demanarà l'idioma que volem escollir, després el tipus d'instal·lació que volem i el que ens interessa es l'opció de crear particions:
 
@@ -79,7 +79,7 @@ Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i
 
 
 
-# Llicenciament
+## **Fase 3. Llicenciament**
 
 
 
@@ -88,7 +88,7 @@ Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i
 
 
 
-## Instal·lacions duals i gestors d'arrancada
+## **Fase 4. Instal·lacions duals i gestors d'arrancada**
 
 - Aqui seleccionem el disc òptic per seleccionar l'ordre d'arrancada, sempre posant la memòria que ens demana mínima per a executar-ho. Després a "**Extended Features**", hem de posar l'opció activa EFI per a que s'executi Ubuntu bé després.
 
@@ -140,7 +140,7 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 <img width="823" height="518" alt="image" src="https://github.com/user-attachments/assets/aa413ced-c20b-4bd9-ad78-0fe2188e6df5" />
 
 
- # Particions i punts de restauració instantània
+ ## **Fase 5. Particions i punts de restauració instantània**
  - Primer anar a paràmetres del client creat d'Ubuntu, anar a emmagatzematge i crear un nou disc a la part dreta del controlador sata.
  
 <img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/aa886bdc-c974-40b9-a79b-0fe58673699f" />
@@ -189,7 +189,7 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 
 
- # Configuració bàsica de la xarxa
+ ## **Fase 6. Configuració bàsica de la xarxa**
 
 - Primer comprovem la ip amb la commanda per terminal ubuntu ----> ip a.
 - Després procedirem a canviar la nostra ip.
@@ -221,7 +221,7 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 
 
- # Comandes generals i instal·lació de paquets
+ ## **Fase 7. Comandes generals i instal·lació de paquets**
 
 
  
