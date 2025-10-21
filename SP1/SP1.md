@@ -6,26 +6,26 @@ title: "SP1 Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Oper
 # Virtualització i instal·lació del SO Ubuntu
 ## Virtualització
 
-- Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
+**1.** Per a la vitualització, primer busquem els requisits mínims que demana UBuntu a la seva documentació oficial, per tal de saber més o menys el que hem de posar:
 
 <img width="922" height="555" alt="image" src="https://github.com/user-attachments/assets/9ebd2d0b-a558-4122-b85d-a03c8ea73f14" />
 
-- Per tant, com podem veure, ens demana segons la documentació, una RAM mínima d'uns 3GB i un almacenament mínim de 25GB per a que funcioni minimament.
+**2.** Per tant, com podem veure, ens demana segons la documentació, una RAM mínima d'uns 3GB i un almacenament mínim de 25GB per a que funcioni minimament.
 Nosaltres hem escollit, tal i com podem veure en la següent captura, una RAM de 4GB i hem assignat un almacenament de 80GB.
 
 <img width="1172" height="859" alt="image" src="https://github.com/user-attachments/assets/7fad345c-dd0d-49ef-aca7-9acbce5a4c42" />
 
-- En la següent imatge, començem a escollir la carpeta de destinatari de la nova màquina virtual, escollint el nom que es visualitzarà com a nova màquina virtual amb el seu sistema operatiu escollit. Però encara no triem la ISO. Ho farem després.
+**3.** En la següent imatge, començem a escollir la carpeta de destinatari de la nova màquina virtual, escollint el nom que es visualitzarà com a nova màquina virtual amb el seu sistema operatiu escollit. Però encara no triem la ISO. Ho farem després.
 
 <img width="871" height="473" alt="image" src="https://github.com/user-attachments/assets/9d2321fd-699a-4430-bed2-766afc7cb368" />
 
-- En aquesta part, el que fem es triar la destinació de memòria que li volem donar per a un funcionament correcte de la nostra màquina virtual, juntament
+**4.** En aquesta part, el que fem es triar la destinació de memòria que li volem donar per a un funcionament correcte de la nostra màquina virtual, juntament
 amb quants de nuclis volem posar. Sempre seguint els requisits mínims que ens demana la documentació oficlal.
 
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/c8d9af39-81cf-4ed1-8c75-a5ce6abff082" />
 <img width="879" height="476" alt="image" src="https://github.com/user-attachments/assets/3b8de964-8e64-418e-b752-0d86aad15398" />
 
-- Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem, que en aquest cas serà l'ubuntu desde el fitxer on el teniem guardat
+**5.** Aqui, dintre de paràmetres del client, a emmagatzematge escollim la ISO que volem, que en aquest cas serà l'ubuntu desde el fitxer on el teniem guardat
 
 <img width="873" height="580" alt="image" src="https://github.com/user-attachments/assets/34bb7107-b7bb-4573-80d1-669dad129bf8" />
 
