@@ -58,7 +58,7 @@ Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i
 
 <img width="862" height="649" alt="image" src="https://github.com/user-attachments/assets/e9925874-f2b4-4700-9dff-8cdc2dd35f9b" />
 
-**7.** Aqui fem l'última partició d'1GB per al BIOS boot
+**7.** Aqui fem l'última partició d'1GB per al BIOS boot.
 
 <img width="843" height="640" alt="image" src="https://github.com/user-attachments/assets/d3466d99-f3fe-4ba5-a556-e1fb692c969b" />
 
@@ -181,18 +181,17 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 <img width="766" height="651" alt="image" src="https://github.com/user-attachments/assets/745a95ed-6244-47ff-b41a-c88adcfc2f31" />
 
+**14.** Ara tornarem a comprovar si a la carpeta on haviem creat l'arxiu de prova ha sigut eliminat o no mirant si existeix. Efectivament tal i com veiem a la següent captura, l'hem eliminat correctament.
+
 <img width="766" height="543" alt="image" src="https://github.com/user-attachments/assets/8c32f363-dd21-4463-919b-22fc719257f5" />
+
+**15.** Ara tornarem al TImeshift, i utilitzarem l'opció de restauració i restaurarem els documents eliminats
 
 <img width="595" height="595" alt="image" src="https://github.com/user-attachments/assets/c4fbc6e2-4927-4f30-a7ca-059d51e6532b" />
 
+**16.** Tornarem a comprovar, mitjançant aquesta linia de commandes, si dintre de Documents (que es on haviem creat l'arxiu de prova al principi) apareix de nou l'arxiu eliminat. Finalment, podem comprovar que ens ha funcionat la restauració ja que torna a aparèixer.
+
 <img width="716" height="240" alt="image" src="https://github.com/user-attachments/assets/b3385b5a-ca0f-47ee-9614-386f2bebfd1b" />
-
-
-
--
-
-
-
 
  ## **Fase 6. Configuració bàsica de la xarxa**
 
@@ -201,19 +200,19 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
   
  <img width="715" height="490" alt="image" src="https://github.com/user-attachments/assets/a101ce67-26be-4d13-be15-57919fcfab7c" />
 
- **2.** Aquí amb el ping i un link d'internet veurem si s'ha aplicat bé la ip nova
+ **2.** Aquí amb el ping i un link d'internet veurem si s'ha aplicat bé la ip nova.
 
  <img width="726" height="276" alt="image" src="https://github.com/user-attachments/assets/52a3cdcd-08d6-4a35-84a1-292b40afd5e7" />
 
- **3.** Aquí amb el ping i la DNS veurem si s'ha aplicat bé la DNS nova
+ **3.** Aquí amb el ping i la DNS veurem si s'ha aplicat bé la DNS nova.
   
  <img width="725" height="226" alt="image" src="https://github.com/user-attachments/assets/ba2345d2-1fda-4234-8b44-0504bc0af0dc" />
 
- **4.** Deixem la configuració de red com avans amb el DHCP automàtic
+ **4.** Deixem la configuració de red com avans amb el DHCP automàtic.
 
  <img width="591" height="473" alt="image" src="https://github.com/user-attachments/assets/027b93ab-5cfd-4c4a-9844-c0032b71002b" />
 
- **5.** Fem el mateix pero mitjançant terminal
+ **5.** Fem el mateix pero mitjançant terminal.
 
  <img width="782" height="501" alt="image" src="https://github.com/user-attachments/assets/54c49660-8e59-4118-bf35-eaa6cce70d81" />
 
