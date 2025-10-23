@@ -114,15 +114,15 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/d30937d3-6c1e-47b3-962d-d26b0948e5b9" />
 
-**1.** Aquí obrim terminal una altra vegada per a veure la posició d'arranc del grub que tenim configurada. Però aquesta la tenim que canviar per a posar per a que al iniciar el virtualbox ens sorti el gestor d'arranc del grub i així poder escollir el SO que volem iniciar, si Ubuntu o WIndows.
+**10** Aquí obrim terminal una altra vegada per a veure la posició d'arranc del grub que tenim configurada. Però aquesta la tenim que canviar per a posar per a que al iniciar el virtualbox ens sorti el gestor d'arranc del grub i així poder escollir el SO que volem iniciar, si Ubuntu o WIndows.
 
 <img width="751" height="491" alt="image" src="https://github.com/user-attachments/assets/c5d15e7d-44f1-479e-9597-013ccc5edace" />
 
-**10.** Per a que surti la posició de l'arranc que volem i compilar-la per a que ens surti al grub, hem de canviar la posició dintre del "**BootOrder**", fent que ubuntu sigui primer en el procés d'arranc del grub, perque sinó sempre començara iniciant windows primer. Després en la segona posició posem la iso del client del virtualbox i després posem les altres restants, sempre posant-les totes per a que no ens doni ningun tipus d'error. Després ho guardarem i ho tancarem.
+**11.** Per a que surti la posició de l'arranc que volem i compilar-la per a que ens surti al grub, hem de canviar la posició dintre del "**BootOrder**", fent que ubuntu sigui primer en el procés d'arranc del grub, perque sinó sempre començara iniciant windows primer. Després en la segona posició posem la iso del client del virtualbox i després posem les altres restants, sempre posant-les totes per a que no ens doni ningun tipus d'error. Després ho guardarem i ho tancarem.
 
 <img width="595" height="216" alt="image" src="https://github.com/user-attachments/assets/9eef9635-a341-4f1e-a9a5-380a76584ec8" />
 
-**11.** Sí ho hem fet tot bé, al iniciar el client de virtual box ens tindria que sortir tal com la següent imatge.
+**12.** Sí ho hem fet tot bé, al iniciar el client de virtual box ens tindria que sortir tal com la següent imatge.
 
 <img width="823" height="518" alt="image" src="https://github.com/user-attachments/assets/aa413ced-c20b-4bd9-ad78-0fe2188e6df5" />
 
@@ -263,6 +263,26 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 <img width="748" height="39" alt="image" src="https://github.com/user-attachments/assets/513cbcc8-0fc1-4acb-ba2b-3f9e78383149" />
 
 - ### **Instal·lació amb els repositoris**
+
+**1.** Primer anirem a la pagina pkgs.org i anirem a l'apartat d'arxius .deb. En aquest cas escollirem el chrome.
+
+<img width="1101" height="659" alt="image" src="https://github.com/user-attachments/assets/54b11753-c664-4f36-99a5-ee0a19e0f8e0" />
+
+**2.** Ara descarguem el paquet .deb i nem mitjançant terminal al root de Descargues i fem un ls per veure que està baixat correctament
+
+<img width="622" height="172" alt="image" src="https://github.com/user-attachments/assets/f4c2d8e5-39d5-4656-87b4-fbd9e8b5afbd" />
+
+**3.** Procedim amb l'instal·lació amb la següent commanda:
+
+<img width="1218" height="701" alt="image" src="https://github.com/user-attachments/assets/8a52d638-9392-4883-acdc-ddc4d7fc86d5" />
+
+**4.** Ara comprobem que efectivament està instal·lat amb la commanda --version
+
+<img width="1204" height="55" alt="image" src="https://github.com/user-attachments/assets/fe0b99af-6b7e-4ed2-82c5-c981d508d55c" />
+
+**5.** Per últim, ara procediré amb el desinstal·lament amb la següent commanda:
+
+<img width="1014" height="421" alt="image" src="https://github.com/user-attachments/assets/be79e535-86a9-4949-924f-9a54d36b8d98" />
 
 
 
