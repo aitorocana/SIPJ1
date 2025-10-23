@@ -73,11 +73,6 @@ Tambè podem trobar destacades la GFDL i la LGPL que bàsicament també permeten
 
 <img width="589" height="136" alt="image" src="https://github.com/user-attachments/assets/ff469463-9d21-4ec5-bf6e-1bc164986dac" />
 
-
-
-
-
-
 ## **Fase 4. Instal·lacions duals i gestors d'arrancada**
 
 **1.** Aqui seleccionem el disc òptic per seleccionar l'ordre d'arrancada, sempre posant la memòria que ens demana mínima per a executar-ho. Després a "**Extended Features**", hem de posar l'opció activa EFI per a que s'executi Ubuntu bé després.
@@ -140,28 +135,47 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 <img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/e423645c-da76-4304-b974-fe682e712984" />
 
- **3.** Ara obrim terminal,posem sudo su.
-
+ **3.** Ara obrim terminal,posem sudo su. Ara entrarem al disc que hem creat sbd per a crear la partició.
 
 <img width="865" height="539" alt="image" src="https://github.com/user-attachments/assets/7e3313cd-1235-4047-adb6-6ddf38243aae" />
 
+**4.** Aquí crearem ja la partició.
+
 <img width="833" height="585" alt="image" src="https://github.com/user-attachments/assets/43e77387-4b42-40a3-bb58-fe8bd3c1b397" />
+
+**5.** Veurem la partició creada de la següent forma:
 
 <img width="717" height="220" alt="image" src="https://github.com/user-attachments/assets/af65e2af-79b9-4b60-bc3a-e995fdd2b858" />
 
+**6.** Aquí el que farem serà el formateig de la partició mitjançant la commanda ----> mkfs.ext4. AIxò crearà un nou sistema o estructura de fitxers.
+
 <img width="717" height="416" alt="image" src="https://github.com/user-attachments/assets/7cf85d00-ae75-438c-a0cc-65cf8cfbdc79" />
+
+**7.** En aquest pas instal·larem timeshift que ens servirà per a la recuperació d'arxius esborrats.
 
 <img width="742" height="461" alt="image" src="https://github.com/user-attachments/assets/c74c079d-0cc9-4542-ae7e-fb7fbbaf8b1e" />
 
+**8.** Amb la linia de commandes següents, crearem una carpeta de prova per a comprovar el funcionament del timeshift.
+
 <img width="577" height="253" alt="image" src="https://github.com/user-attachments/assets/a3238b6f-6a4e-4c46-9592-be7fa7c4817d" />
+
+**9.** Aquí començarem amb la configuració d'aquest programa.
 
 <img width="623" height="684" alt="image" src="https://github.com/user-attachments/assets/da64d79f-e5fc-4db8-9c8f-a31d6fad8840" />
 
+**10.** Tindrem que escollir la ubicació de la partició que hem creat i que volem utiltizar.
+
 <img width="623" height="684" alt="image" src="https://github.com/user-attachments/assets/fa2d5728-48f7-4d12-b082-bfef8c9604ff" />
+
+**11.** Seleccionarem el nivell d'arranc per a especificar els intervals de la creació de les instantànies.
 
 <img width="623" height="684" alt="image" src="https://github.com/user-attachments/assets/1142b780-0529-48ec-a961-7d92ffad69a9" />
 
+**12.** Escollirem els arxius que volem seleccionar per a incloure o no en el moment de la recuperació. Aquí triarem tots els arxius de l'arrel del sdb1.
+
 <img width="821" height="684" alt="image" src="https://github.com/user-attachments/assets/faab9a72-3f29-489b-926b-3c8179cde4ea" />
+
+**13.** Aquí triarem quins directoris volem incloure o excloure.
 
 <img width="777" height="694" alt="image" src="https://github.com/user-attachments/assets/81163cca-f731-4dbf-bee5-75c1ff45b85b" />
 
