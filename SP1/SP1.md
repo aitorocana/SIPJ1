@@ -68,8 +68,11 @@ Primer dividirem 25 GB, per a l'arrel que es on van instal·lats els programes i
 
 ## **Fase 3. Llicenciament**
 
-**1.** Per a comprobar lles llicències d'Ubuntu que tenim instal·lades, les mirarem mitjançant la commanda de la fotografia següent. La captura ens mostra les llicències que utilitza Ubuntu, entre elles destacariem la de GPL. Aquesta es una llicència que permet compartir, usar i modificar el software, fent-lo d'ús lliure. Però, aplicant aquesta llicència dona una protecció dels drets dels usuaris que vulguin utiltizar aquesta distro.
+Per a comprobar lles llicències d'Ubuntu que tenim instal·lades, les mirarem mitjançant la commanda de la fotografia següent. La captura ens mostra les llicències que utilitza Ubuntu, entre elles destacariem la de GPL. Aquesta es una llicència que permet compartir, usar i modificar el software, fent-lo d'ús lliure. Però, aplicant aquesta llicència dona una protecció dels drets dels usuaris que vulguin utiltizar aquesta distro.
 Tambè podem trobar destacades la GFDL i la LGPL que bàsicament també permeten la lliure distribució basant-se amb la llicència GPL que es una mica més restrictiva.
+
+**Però perqué té tantes llicències Ubuntu?**
+Es degut a que al ser una distribució de linux, i al ser una distro d'ús lliure, doncs utiltiza molts paquets i programes diferents que el composen. Tot aquest programa que forma Ubuntu, té la seva pròpia llicència. Però UBuntu tambè està protegida per la seva propia llicència. Ubuntu esta baix la protecció de la llicència de Creative Commons ShareAlike 4.0 License (CC-BY-SA).
 
 <img width="589" height="136" alt="image" src="https://github.com/user-attachments/assets/ff469463-9d21-4ec5-bf6e-1bc164986dac" />
 
