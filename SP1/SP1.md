@@ -292,9 +292,12 @@ Aqui ara com veurem , mitjançant la commanda "**nano /etc/default/grub**", hem 
 
 <img width="1218" height="701" alt="image" src="https://github.com/user-attachments/assets/8a52d638-9392-4883-acdc-ddc4d7fc86d5" />
 
-**4.** Ara comprobem que efectivament està instal·lat amb la commanda --version
+**4.** Ara comprobem que efectivament està instal·lat amb la commanda --version i mirem tambè on tenim el repositori.
 
 <img width="1204" height="55" alt="image" src="https://github.com/user-attachments/assets/fe0b99af-6b7e-4ed2-82c5-c981d508d55c" />
+
+<img width="750" height="131" alt="image" src="https://github.com/user-attachments/assets/44ffa68b-3156-4bb0-b459-9779d21830ba" />
+
 
 **5.** Per últim, ara procediré amb el desinstal·lament amb la següent commanda:
 
