@@ -57,6 +57,10 @@ Una partició bàsicament es una divisió que fem al disc per a separar-ho en pa
 Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
 
 * ### GPARTED
+  
+<img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/843977b2-0dcf-4ebb-939e-66367e32c272" />
+
+  
 * ### Comandes
 
 
