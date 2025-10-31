@@ -50,10 +50,12 @@ Si utilitzem el sistema de fitxer de ntfs, ho podrem utilitzar per a windos i ub
 - Mig nivell: No es borren els arxius ensi en aquest formateig, sinò que es borra el sistema de fitxers, però també va mirant els sectors a nivell de disc i els marca si hi ha algun defectuos.
 - Baix nivell: Amb aquest si que borraries tots els arxius i tot, però sol es pot fer amb programes específics.
 
-
-
-
 ## **1.7.** Particions/volums
+
+Una partició bàsicament es una divisió que fem al disc per a separar-ho en parts a nivell físic.
+
+Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
+
 * ### GPARTED
 * ### Comandes
 
