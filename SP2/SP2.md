@@ -42,7 +42,14 @@ Amb aquesta començaria a desfragmentar ----> e4defrag /dev/sdb2
 
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/e5f98be7-585a-4bc4-a6ad-2486e181504b" />
 
+Si utilitzem el sistema de fitxer de ntfs, ho podrem utilitzar per a windos i ubuntu jutnament. Els més coneguts a part, som fat32 i ntfs. d'altra banda estirà el ntfs.
+
 ## **1.6.** Tipus de formateig
+
+- Alt nivell: No es borren els arxius ensi en aquest formateig, sinò que es borra el sistema de fitxers. Per tant sempre es podria recuperar les dades.
+- Mig nivell: No es borren els arxius ensi en aquest formateig, sinò que es borra el sistema de fitxers, però també va mirant els sectors a nivell de disc i els marca si hi ha algun defectuos.
+- Baix nivell: Amb aquest si que borraries tots els arxius i tot, però sol es pot fer amb programes específics.
+
 
 
 
