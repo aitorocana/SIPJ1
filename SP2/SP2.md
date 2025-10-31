@@ -60,6 +60,10 @@ Un volum es com una capa d'abstracció lògica que es posa per damunt de les par
   
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/843977b2-0dcf-4ebb-939e-66367e32c272" />
 
+COmprovem el disk que hem posat de 10GB
+
+<img width="660" height="138" alt="image" src="https://github.com/user-attachments/assets/823f0d69-8075-4126-95cb-f5494ac19015" />
+
   
 * ### Comandes
 
