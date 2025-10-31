@@ -9,6 +9,9 @@ title:**Sprint 2: Gestió de la Informació del Sistema i Administració**
 ## Fragmentació interna
 ## Fragmentació externa
 ## TIpus de formateig
+## Particions/volums
+* ### GPARTED
+* ### Comandes
 
 
 
