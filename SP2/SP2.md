@@ -14,8 +14,14 @@ Per a saber la mida del sector fem a terminal la comanda fdisk -l
 ## **1.3.** Mida del block:
 Es la unitat minima lògica de com se guarden les dades a nivell de sistema operatiu. Per defecte son 4096 bytes (Sí es modificable aquesta mida quan formatem la partició). Equivaldria a 8 sectors.
 
-Aquí localitzem la aprtició:
+Aquí localitzem la partició:
+
 <img width="725" height="125" alt="image" src="https://github.com/user-attachments/assets/07e62e14-f7dd-4790-8e07-c014edeef5a0" />
+
+i ara mirarem la mida de la nostra partició:
+
+<img width="758" height="128" alt="image" src="https://github.com/user-attachments/assets/b980d1a6-da1e-4565-a3ae-ab27601d46ed" />
+
 
 
 ## **1.4.** Fragmentació interna
