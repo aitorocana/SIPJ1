@@ -34,6 +34,13 @@ Es tot aquell espai desaprofitat de disc dels blocs que no estem usant. Per tant
 
 Es quan a mesura que anem treballant amb el SO, ya els arxius no queden guardats en blocs continuos de memòria i el rendiment llavors baixa. Amb el desfragmentador de discs (amb WIndows) podem reduir aquesta fragmentació externa. En linux diuen que el seu sitema de fitxers es tan bo que no caldria un desfragmentador de fitxers.
 
+Amb aquesta commanda veurem si necessito desfragmentar ----> e4defrag -c /dev/sdb2
+
+<img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/276ee9b8-dbcf-499f-a798-10aa572a7569" />
+
+Amb aquesta començaria a desfragmentar ----> e4defrag /dev/sdb2
+
+<img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/e5f98be7-585a-4bc4-a6ad-2486e181504b" />
 
 
 ## **1.6.** TIpus de formateig
