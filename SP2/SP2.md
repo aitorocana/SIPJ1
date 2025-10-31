@@ -42,8 +42,10 @@ Amb aquesta començaria a desfragmentar ----> e4defrag /dev/sdb2
 
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/e5f98be7-585a-4bc4-a6ad-2486e181504b" />
 
+## **1.6.** Tipus de formateig
 
-## **1.6.** TIpus de formateig
+
+
 ## **1.7.** Particions/volums
 * ### GPARTED
 * ### Comandes
