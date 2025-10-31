@@ -57,6 +57,42 @@ Una partició bàsicament es una divisió que fem al disc per a separar-ho en pa
 Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
 
 * ### GPARTED
+
+ Així elegim el sistema de fitxers per a la partició que ens faltaba formatar
+  
+<img width="1222" height="784" alt="image" src="https://github.com/user-attachments/assets/98dfb279-f2f7-4ccc-babe-990a5b94e1bd" />
+
+<img width="876" height="602" alt="image" src="https://github.com/user-attachments/assets/52b5f861-7802-4d23-986e-6acfffb1dc87" />
+
+comprovem el tamany del block
+
+<img width="714" height="110" alt="image" src="https://github.com/user-attachments/assets/32599a26-af83-4478-86d8-ec6476a30df8" />
+
+Ara hem fet que la carpeta creada estigui apuntant a la particio1
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/8f858771-1bf6-4c3c-8d4d-1c9deebdc68a" />
+
+Ara creo un nou arxiu:
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/a47b6fbc-e069-4fac-9fae-b0b5d5c09bf0" />
+
+Fem un reboot i comprovem que passa:
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/b67a4dad-b4ab-41e8-bf0b-e3f72d96aacb" />
+
+<img width="737" height="404" alt="image" src="https://github.com/user-attachments/assets/ec032033-36c3-40c2-b5ae-5f96266796e0" />
+
+<img width="682" height="174" alt="image" src="https://github.com/user-attachments/assets/07bd438b-a086-4cd2-8109-ac338d41e229" />
+
+
+
+
+
+
+
+  
+* ### Comandes
+
   
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/843977b2-0dcf-4ebb-939e-66367e32c272" />
 
@@ -64,8 +100,20 @@ COmprovem el disk que hem posat de 10GB
 
 <img width="660" height="138" alt="image" src="https://github.com/user-attachments/assets/823f0d69-8075-4126-95cb-f5494ac19015" />
 
-  
-* ### Comandes
+<img width="745" height="514" alt="image" src="https://github.com/user-attachments/assets/f8f2b1d4-f05a-47d5-b16a-bd0caccffeb6" />
+
+<img width="846" height="535" alt="image" src="https://github.com/user-attachments/assets/cbfb7359-bd77-4460-b5c6-0affcebeff65" />
+
+Per a guardar posar w a la terminal.
+
+Comprovarem les particions creades amb la commanda --->fdisk -l
+
+<img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/f8308758-e407-4fb3-b14a-5b980f234cb1" />
+
+Farem el block
+
+<img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/4368500d-0b26-42d1-b423-0130c17bc66a" />
+
 
 
 
