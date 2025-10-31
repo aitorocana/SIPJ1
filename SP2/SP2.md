@@ -82,6 +82,8 @@ Fem un reboot i comprovem que passa:
 
 <img width="737" height="404" alt="image" src="https://github.com/user-attachments/assets/ec032033-36c3-40c2-b5ae-5f96266796e0" />
 
+Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
+
 <img width="682" height="174" alt="image" src="https://github.com/user-attachments/assets/07bd438b-a086-4cd2-8109-ac338d41e229" />
 
 
