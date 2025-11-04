@@ -98,7 +98,7 @@ Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
   
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/843977b2-0dcf-4ebb-939e-66367e32c272" />
 
-COmprovem el disk que hem posat de 10GB
+Comprovem el disk que hem posat de 10GB
 
 <img width="660" height="138" alt="image" src="https://github.com/user-attachments/assets/823f0d69-8075-4126-95cb-f5494ac19015" />
 
@@ -138,11 +138,20 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 
 **3.2** Comandes bàsiques
--Fer del adduser per a crear un nou usuari
+- Fer ----> adduser per a crear un nou usuari
+- 
 <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/295568da-1dad-4657-beac-abc749da1c60" />
 
 - Entrar dintre del usuari creat nou "ginas" per a accedir gràficament i comprovar-ho amb un ls ginas/
+  
   <img width="657" height="133" alt="image" src="https://github.com/user-attachments/assets/2f770d35-48f9-4456-b613-3375e4256a5c" />
+
+- Crear usuari amb el ---> usermod (de manera més manual al adduser). 
+  
+  <img width="747" height="452" alt="image" src="https://github.com/user-attachments/assets/9e859646-520c-4b77-9bf6-dfaa80875e86" />
+
+- Comprovo que finalment hem pogut accedir graficament desde el menu de la home d'usuaris, ens apareix l'usuari vesper i, després ho comprovo amb un ls i ls vesper/
+  <img width="694" height="117" alt="image" src="https://github.com/user-attachments/assets/5986b2dc-f3c0-448a-9fdc-b36b707a79e7" />
 
 
 
