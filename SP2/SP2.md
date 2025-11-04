@@ -139,7 +139,7 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 **3.2** Comandes bàsiques
 - Fer ----> adduser per a crear un nou usuari
-- 
+  
 <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/295568da-1dad-4657-beac-abc749da1c60" />
 
 - Entrar dintre del usuari creat nou "ginas" per a accedir gràficament i comprovar-ho amb un ls ginas/
