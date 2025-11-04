@@ -117,9 +117,36 @@ Farem el block
 <img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/4368500d-0b26-42d1-b423-0130c17bc66a" />
 
 
-
-
-
 # **2.** Còpies de seguretat i automatització de tasques**1.**
+
+
 # **3.** Gestió d'usuaris, grups i permisos
+
+**3.1** Fitxer implicats (en trobarem 4): 
+
+Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despres fem aixó---->nano passwd (primer fitxer implicat)
+<img width="750" height="395" alt="image" src="https://github.com/user-attachments/assets/f928f9a0-43b6-4ac1-8549-b862038d0b47" />
+
+- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup
+ <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/9201be1d-18df-4d0e-bc31-7c52b0af35c1" />
+
+- nano shadow: Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes
+  <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/c480a490-c719-49c3-9b16-32eb5605ffc0" />
+
+- nano gshadow: tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup
+  <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/201615a4-59ee-44b7-8162-f71125328a66" />
+
+
+**3.2** Comandes bàsiques
+-Fer del adduser per a crear un nou usuari
+<img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/295568da-1dad-4657-beac-abc749da1c60" />
+
+- Entrar dintre del usuari creat nou "ginas" per a accedir gràficament i comprovar-ho amb un ls ginas/
+  <img width="657" height="133" alt="image" src="https://github.com/user-attachments/assets/2f770d35-48f9-4456-b613-3375e4256a5c" />
+
+
+
+
+**3.3** Personalització de comandes
+
 # **4.** Gestió de procesos
