@@ -201,6 +201,8 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 - si vull canviar caducitats de contrasenyes de adduser i useradd:
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/e810c3b9-c8d7-4e54-bf33-fdff13dc6837" />
 
+
+- Amb axò canvio a bash
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/f2398664-0e72-40d1-986d-71f5aa1e28f1" />
 
 proves de que han funcionat les modificacions anteriors amb la creació d'un usuari adduser
@@ -215,20 +217,10 @@ proves de que han funcionat les modificacions anteriors amb la creació d'un usu
 
 
 
+-------
+FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EXEMPLE, OSIGUE BORRAR LES PROVES ANTERIORS PER A POSAR EL MEU EXEMPLE.
 
-
-
-
-
-
-
-
-
-
-
-
-
-EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA, després d'haver creat les modificacions del usuari, doncs canviar coses amb el nano.profile, nano.bashrc, nano .bash_logout i també  desde ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que haurie modificat com a home, si surten les modificacions del nano que acabo de nombrar.:
+**EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA**, després d'haver creat les modificacions del usuari (REPLICANT TOT LO ANTERIOR), doncs canviar coses amb el nano.profile, nano.bashrc, nano .bash_logout i també  desde ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que haurie modificat com a home, si surten les modificacions del nano que acabo de nombrar.:
 
 <img width="1035" height="760" alt="image" src="https://github.com/user-attachments/assets/311b95a5-3eb9-4540-ba12-8b52d5bdbfcd" />
 
