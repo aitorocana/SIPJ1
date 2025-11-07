@@ -86,12 +86,6 @@ Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
 
 <img width="682" height="174" alt="image" src="https://github.com/user-attachments/assets/07bd438b-a086-4cd2-8109-ac338d41e229" />
 
-
-
-
-
-
-
   
 * ### Comandes
 
@@ -124,20 +118,21 @@ Farem el block
 
 **3.1** Fitxer implicats (en trobarem 4): 
 
-Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despres fem aixó---->nano passwd (primer fitxer implicat)
+Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despres fem aixó---->nano passwd (primer fitxer implicat), que trobarem tots els usuaris que hi han. el "1000", es el usuari i el segon 1000, es el gitnumber que es el grub que s'ha assignat a 'usuari, i aquest sera el grup principal. 
 <img width="750" height="395" alt="image" src="https://github.com/user-attachments/assets/f928f9a0-43b6-4ac1-8549-b862038d0b47" />
 
-- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup
+- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup . 
  <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/9201be1d-18df-4d0e-bc31-7c52b0af35c1" />
 
-- nano shadow: Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes
+- nano shadow: Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes. *IMPORTANT*"""BUSCAR UNA MICA CADA CAMP Q ERA"""
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/c480a490-c719-49c3-9b16-32eb5605ffc0" />
 
-- nano gshadow: tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup
+- nano gshadow: tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup, on s'indica el (cdrom:*)
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/201615a4-59ee-44b7-8162-f71125328a66" />
 
 
 **3.2** Comandes bàsiques
+
 - Fer ----> adduser per a crear un nou usuari
   
 <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/295568da-1dad-4657-beac-abc749da1c60" />
@@ -153,9 +148,33 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 - Comprovo que finalment hem pogut accedir graficament desde el menu de la home d'usuaris, ens apareix l'usuari vesper i, després ho comprovo amb un ls i ls vesper/
   <img width="694" height="117" alt="image" src="https://github.com/user-attachments/assets/5986b2dc-f3c0-448a-9fdc-b36b707a79e7" />
 
+- Creem 4 usuaris i procedirem a borrar-los de dues formes. La primera:
+  
+<img width="501" height="120" alt="image" src="https://github.com/user-attachments/assets/4471304c-c5b5-4a86-ac06-cafc0d453dba" />
+
+- La segona forma. Borrem amb userdel -l
+
+- Per a bloqueijar un usuari:
+
+-<img width="734" height="127" alt="image" src="https://github.com/user-attachments/assets/a9309458-8c74-4b6a-8cce-edc453600d17" />
+
+- Per a desblocarlo:
+
+<img width="944" height="99" alt="image" src="https://github.com/user-attachments/assets/aec824c3-7a26-4620-8ef3-3164fd321fc7" />
+
+- Ara crearem un grup de usuaris:
+  
+<img width="929" height="239" alt="image" src="https://github.com/user-attachments/assets/dd251ea1-5f63-49cb-87be-35441e673d89" />
+
+* 3 maneres de agregar usuaris al grup:
+
+<img width="930" height="201" alt="image" src="https://github.com/user-attachments/assets/de36b53e-e7ee-4bc0-bfd0-2525e542b7fe" />
+
+
 
 
 
 **3.3** Personalització de comandes
+- 
 
 # **4.** Gestió de procesos
