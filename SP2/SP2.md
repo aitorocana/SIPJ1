@@ -221,8 +221,11 @@ proves de que han funcionat les modificacions anteriors amb la creació d'un usu
 
 
 
-EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA i també crear desde ubuntu server amb el control dret +f5, una modifi:
+EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA, després d'haver creat les modificacions del usuari, doncs canviar coses amb el nano.profile, nano.bashrc, nano .bash_logout i també  desde ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que haurie modificat com a home, si surten les modificacions del nano que acabo de nombrar.:
 
+<img width="1035" height="760" alt="image" src="https://github.com/user-attachments/assets/311b95a5-3eb9-4540-ba12-8b52d5bdbfcd" />
+
+- Per ultim entrarem a la carpeta Imágenes o la que haurem dit, amb cd Imágenes/, crear una carpeta buida amb touch i el nom de la carpeta, comprovar amb ls si la hem creada, fer exit de la terminal, i control dret + f2 per a sortir.
   
 
 
