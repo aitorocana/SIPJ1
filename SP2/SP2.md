@@ -189,7 +189,14 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 - <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
 
-- si vull modificar la commanda adduser
+- si vull modificar la commanda adduser, canviar el DHOME, per la q vulguesem això seria el nostre home per a aquest usuari i, canviar el first UID I GID que es per a canviar l'assignacio del nostre usuari
+
+ <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/251ac437-dd37-4179-bec7-d30267aacc37" />
+
+
+ <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/2d82c125-8ce2-49f8-a407-6a4ac3ee0e26" />
+
+
 
 - si vull canviar caducitats de contrasenyes de adduser i useradd:
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/e810c3b9-c8d7-4e54-bf33-fdff13dc6837" />
