@@ -170,8 +170,42 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 <img width="930" height="201" alt="image" src="https://github.com/user-attachments/assets/de36b53e-e7ee-4bc0-bfd0-2525e542b7fe" />
 
+- ara voldrem borrar usuaris del grup:
+
+<img width="934" height="138" alt="image" src="https://github.com/user-attachments/assets/3497738a-fd22-4362-8f8b-bf94d156f3f1" />
+
+- Amb la comanda -g serveix per a modificar el grup principal de l'usuari. 
+  
+<img width="924" height="118" alt="image" src="https://github.com/user-attachments/assets/80f6a9ac-e6fe-41dc-92ca-7f884ca30506" />
+
+- Amb això veurem a quins grups pertany l'usuari
+
+<img width="919" height="99" alt="image" src="https://github.com/user-attachments/assets/29c6b3ea-540a-48b2-a4f1-d5146079c434" />
+
+- Ara borrarem el grup, pero observem que tenim un grup principal, cosa que haurem de borrar que sigui el grup primari o principal i després ja podrem borrar el grup.
+
+<img width="922" height="115" alt="image" src="https://github.com/user-attachments/assets/83b46e44-ef3f-4978-afdb-4fa6f6c9f7b3" />
 
 
+
+- <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
+
+- si vull modificar la commanda adduser
+
+- si vull canviar caducitats de contrasenyes de adduser i useradd:
+<img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/e810c3b9-c8d7-4e54-bf33-fdff13dc6837" />
+
+<img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/f2398664-0e72-40d1-986d-71f5aa1e28f1" />
+
+proves de que han funcionat les modificacions anteriors:
+
+<img width="878" height="630" alt="image" src="https://github.com/user-attachments/assets/98dbc21e-54dc-45bf-9e46-3ecb7fe3db4a" />
+
+
+
+
+
+  
 
 
 **3.3** Personalització de comandes
