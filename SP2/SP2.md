@@ -187,7 +187,6 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 <img width="922" height="115" alt="image" src="https://github.com/user-attachments/assets/83b46e44-ef3f-4978-afdb-4fa6f6c9f7b3" />
 
 
-
 - <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
 
 - si vull modificar la commanda adduser
@@ -197,13 +196,32 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/f2398664-0e72-40d1-986d-71f5aa1e28f1" />
 
-proves de que han funcionat les modificacions anteriors:
-
+proves de que han funcionat les modificacions anteriors amb la creació d'un usuari adduser
 <img width="878" height="630" alt="image" src="https://github.com/user-attachments/assets/98dbc21e-54dc-45bf-9e46-3ecb7fe3db4a" />
 
+- Ara comprovem useradd
+  
+<img width="877" height="119" alt="image" src="https://github.com/user-attachments/assets/b91d873a-1808-45c2-a5a5-532689501ff8" />
+
+
+- fer ls -la i fer una prova
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA i també crear desde ubuntu server amb el control dret +f5, una modifi:
 
   
 
