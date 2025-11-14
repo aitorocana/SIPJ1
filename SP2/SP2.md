@@ -216,7 +216,9 @@ proves de que han funcionat les modificacions anteriors amb la creació d'un usu
 - fer ls -la i fer una prova
 
 
-
+EXEMPLE MEU
+EXEMPLE MEU
+EXEMPLE MEU
 -------
 FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EXEMPLE, OSIGUE BORRAR LES PROVES ANTERIORS PER A POSAR EL MEU EXEMPLE.
 
@@ -226,7 +228,12 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
 
 - Per ultim entrarem a la carpeta Imágenes o la que haurem dit, amb cd Imágenes/, crear una carpeta buida amb touch i el nom de la carpeta, comprovar amb ls si la hem creada, fer exit de la terminal, i control dret + f2 per a sortir.
   
+- Fer ----> adduser per a crear un nou usuari
 
+ <img width="736" height="317" alt="image" src="https://github.com/user-attachments/assets/31b41c55-bb70-447d-bbb8-b67c5afeb117" />
+
+- Entrar dintre del usuari creat nou "ocanya" per a accedir gràficament i comprovar-ho amb un ls ocanya/
+ 
 
 **3.3** Personalització de comandes
 - 
