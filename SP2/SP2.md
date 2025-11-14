@@ -299,7 +299,9 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
 
 <img width="708" height="258" alt="image" src="https://github.com/user-attachments/assets/b8f9ed23-0e42-4c82-b807-753f8fbf6ce4" />
 
+---------------------
 
+- Ara el que voldrem serà modificar la comanda skel que va associada al que fa la commanda adduser.
 
 
 
