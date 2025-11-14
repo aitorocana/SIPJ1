@@ -232,7 +232,23 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
 
  <img width="736" height="317" alt="image" src="https://github.com/user-attachments/assets/31b41c55-bb70-447d-bbb8-b67c5afeb117" />
 
-- Entrar dintre del usuari creat nou "ocanya" per a accedir gràficament i comprovar-ho amb un ls ocanya/
+- Entrar dintre del usuari creat nou "ocanya" per a accedir gràficament i comprovar-ho amb un ls ocanya/. Però com vam canviar la home per var, doncs tindrem que accedir als usuaris a partir de la root var ---> cd var/
+
+<img width="737" height="193" alt="image" src="https://github.com/user-attachments/assets/af63a999-22ea-4c07-9536-2dba19231da3" />
+
+- Crear usuari amb el ---> useradd (de manera més manual al adduser). Amb les commandes següents modificariem el shell i li creariem la carpeta home. Per últim amb el chown li pasarem els permisos root al usuari.
+  
+<img width="652" height="173" alt="image" src="https://github.com/user-attachments/assets/e32bcb7d-58eb-49bc-b531-f415c2a61835" />
+
+- COmprovariem amb un ls a la root que vam declarar var/ si s'ha creat l'usuari abril.
+
+<img width="651" height="92" alt="image" src="https://github.com/user-attachments/assets/0f918907-c5f5-43db-80a2-1744fe8731b2" />
+
+
+
+useradd vesper (comanda larga o paso a paso)ponerle contraseña,crear carpeta home(si la creamo como root le pasamos permisos"chown". .tiene que aparecer usuario nuevo y la comprobacion en terminal//usermod. 
+  
+
  
 
 **3.3** Personalització de comandes
