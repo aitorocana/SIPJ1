@@ -240,14 +240,71 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
   
 <img width="652" height="173" alt="image" src="https://github.com/user-attachments/assets/e32bcb7d-58eb-49bc-b531-f415c2a61835" />
 
-- COmprovariem amb un ls a la root que vam declarar var/ si s'ha creat l'usuari abril.
+<img width="651" height="77" alt="image" src="https://github.com/user-attachments/assets/bc406508-284a-4874-9605-645a91700268" />
+
+
+- Comprovariem amb un ls a la root que vam declarar var/ si s'ha creat l'usuari abril.
 
 <img width="651" height="92" alt="image" src="https://github.com/user-attachments/assets/0f918907-c5f5-43db-80a2-1744fe8731b2" />
 
+------------------------
+
+- Ara procedirem a veure com es borren usuaris. Primer crearem 4 usuaris i els borrarem de dues formes. Els usuaris seran ocanya 1,2,3 i 4.
+
+- 1. borrar amb deluser:
+
+     <img width="687" height="76" alt="image" src="https://github.com/user-attachments/assets/7af3d33a-3297-4fcb-861b-fcf8710b75a2" />
 
 
-useradd vesper (comanda larga o paso a paso)ponerle contraseña,crear carpeta home(si la creamo como root le pasamos permisos"chown". .tiene que aparecer usuario nuevo y la comprobacion en terminal//usermod. 
+- 2. borrar amb uderdel -l: 
+
+     <img width="456" height="27" alt="image" src="https://github.com/user-attachments/assets/eff2877c-71ca-4c11-a8af-82425ffd4e3a" />
+     
+----------------------------------
+
+- Per a bloqueijar un usuari ----> usermod -L (usuari):
+
+  <img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/15edc76b-6374-464d-8ce2-14b6789127df" />
+
+- Per a desblocarlo ----> usermod -U (usuari):
+
+  <img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/08674a8c-8f2d-4ba3-bd1f-0de65b110a05" />
   
+------------------------------
+
+- Ara crearem un grup de usuaris:
+
+<img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/ced3a8c0-d32d-4bb3-b8e9-37b27a88e466" />
+
+<img width="734" height="115" alt="image" src="https://github.com/user-attachments/assets/5b804887-7590-4246-97bd-acb57dbaf61b" />
+
+
+- Hi han 3 maneres de agregar usuaris al grup que acabo de crear, tot aixó havent creat nous usuars anteriorment:
+  
+<img width="761" height="233" alt="image" src="https://github.com/user-attachments/assets/13aac96a-53d9-4433-86c6-44181fe326fc" />
+
+- ara voldrem borrar usuaris del grup:
+  
+<img width="748" height="144" alt="image" src="https://github.com/user-attachments/assets/05fa5a57-20fe-4f0b-9fcf-1f205bcc5b90" />
+
+- Amb la comanda -g serveix per a modificar el grup principal de l'usuari.
+
+<img width="752" height="159" alt="image" src="https://github.com/user-attachments/assets/2293075b-b72f-4284-9868-9c5a65ee393b" />
+
+- Amb això veurem a quins grups pertany l'usuari
+  
+<img width="727" height="97" alt="image" src="https://github.com/user-attachments/assets/160c48f1-5027-493a-9927-bd2aa576475e" />
+
+- Ara borrarem el grup, pero observem que tenim un grup principal, cosa que haurem de borrar que sigui el grup primari o principal i després ja podrem borrar el grup.
+
+<img width="708" height="258" alt="image" src="https://github.com/user-attachments/assets/b8f9ed23-0e42-4c82-b807-753f8fbf6ce4" />
+
+
+
+
+
+
+
 
  
 
