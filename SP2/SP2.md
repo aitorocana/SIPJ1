@@ -210,16 +210,26 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
 
-Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuaris, aquests apareixen comprovant-ho. (proves de que ha funcionat la creació dels fitxers anteriors amb la creació d'un usuari adduser:)
+Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuaris, aquests apareixen comprovant-ho mostrant l'usuari. (proves de que ha funcionat la creació dels fitxers anteriors amb la creació d'un usuari adduser:)
 
 <img width="878" height="630" alt="image" src="https://github.com/user-attachments/assets/98dbc21e-54dc-45bf-9e46-3ecb7fe3db4a" />
 
 ---------------------------------------------------------------------------------------------
 
+**3.3** Personalització de comandes
 
-- si vull modificar la commanda adduser, canviar el DHOME, per la q vulguesem això seria el nostre home per a aquest usuari i, canviar el first UID I GID que es per a canviar l'assignacio del nostre usuari
+- Primer que tot si vull modificar la commanda adduser ----> entrariem amb "sudo nano /etc/adduser.conf", Aqui podem canviar el DHOME, per la que volessim. Aquesta modificació seria el nostre home per a un nou usuari creat. Per tant, canviarem el DHOME /var i el tornarem a ficar /home. Després, canviem el first UID I GID que es per a canviar l'assignacio del nostre usuari.
+
+DHOME=/var
 
  <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/251ac437-dd37-4179-bec7-d30267aacc37" />
+
+DHOME=/var ---> transformat o canviat a /home
+
+<img width="743" height="403" alt="image" src="https://github.com/user-attachments/assets/109d5353-f0ff-46c0-bc05-662c38095038" />
+
+
+
 
 
  <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/2d82c125-8ce2-49f8-a407-6a4ac3ee0e26" />
@@ -259,7 +269,7 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
 
  
 
-**3.3** Personalització de comandes
+
 - 
 
 # **4.** Gestió de procesos
