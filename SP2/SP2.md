@@ -220,15 +220,21 @@ Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuar
 
 - Primer que tot si vull modificar la commanda adduser ----> entrariem amb "sudo nano /etc/adduser.conf", Aqui podem canviar el DHOME, per la que volessim. Aquesta modificació seria el nostre home per a un nou usuari creat. Per tant, canviarem el DHOME /var i el tornarem a ficar /home. Després, canviem el first UID I GID que es per a canviar l'assignacio del nostre usuari.
 
-DHOME=/var
+* DHOME=/var
 
  <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/251ac437-dd37-4179-bec7-d30267aacc37" />
 
-DHOME=/var ---> transformat o canviat a /home
+* DHOME=/var ---> transformat o canviat a /home
 
 <img width="743" height="403" alt="image" src="https://github.com/user-attachments/assets/109d5353-f0ff-46c0-bc05-662c38095038" />
 
+- Creació del nou usuari per a comprovar la modificació del home.
 
+<img width="696" height="332" alt="image" src="https://github.com/user-attachments/assets/329d1857-3b15-462d-b801-58c0d091aca2" />
+
+- Accedim al home, i veiem el nou usuari creat "aitoreta"
+
+<img width="665" height="139" alt="image" src="https://github.com/user-attachments/assets/d36c1a01-ecaf-4a27-b978-85f554299683" />
 
 
 
