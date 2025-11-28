@@ -206,11 +206,16 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 --------------------- 
 
-- Ara el que voldrem serà modificar la comanda skel que va associada al que fa la commanda adduser.
+- Ara el que voldrem serà modificar la comanda skel que va associada al que fa la commanda adduser. Primer que tot hem de crear dintre del directori SKEL, dos fitxers: acces_directe i fitxer_compartit
 
+<img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
 
+Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuaris, aquests apareixen comprovant-ho. (proves de que ha funcionat la creació dels fitxers anteriors amb la creació d'un usuari adduser:)
 
-- <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/c15bb3a6-fed4-424d-83b8-66ea5708d6cd" />
+<img width="878" height="630" alt="image" src="https://github.com/user-attachments/assets/98dbc21e-54dc-45bf-9e46-3ecb7fe3db4a" />
+
+---------------------------------------------------------------------------------------------
+
 
 - si vull modificar la commanda adduser, canviar el DHOME, per la q vulguesem això seria el nostre home per a aquest usuari i, canviar el first UID I GID que es per a canviar l'assignacio del nostre usuari
 
@@ -228,8 +233,7 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 - Amb axò canvio a bash
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/f2398664-0e72-40d1-986d-71f5aa1e28f1" />
 
-proves de que han funcionat les modificacions anteriors amb la creació d'un usuari adduser
-<img width="878" height="630" alt="image" src="https://github.com/user-attachments/assets/98dbc21e-54dc-45bf-9e46-3ecb7fe3db4a" />
+
 
 - Ara comprovem useradd
   
@@ -250,84 +254,6 @@ FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EX
 <img width="1035" height="760" alt="image" src="https://github.com/user-attachments/assets/311b95a5-3eb9-4540-ba12-8b52d5bdbfcd" />
 
 - Per ultim entrarem a la carpeta Imágenes o la que haurem dit, amb cd Imágenes/, crear una carpeta buida amb touch i el nom de la carpeta, comprovar amb ls si la hem creada, fer exit de la terminal, i control dret + f2 per a sortir.
-  
-- Fer ----> adduser per a crear un nou usuari
-
- <img width="736" height="317" alt="image" src="https://github.com/user-attachments/assets/31b41c55-bb70-447d-bbb8-b67c5afeb117" />
-
-- Entrar dintre del usuari creat nou "ocanya" per a accedir gràficament i comprovar-ho amb un ls ocanya/. Però com vam canviar la home per var, doncs tindrem que accedir als usuaris a partir de la root var ---> cd var/
-
-<img width="737" height="193" alt="image" src="https://github.com/user-attachments/assets/af63a999-22ea-4c07-9536-2dba19231da3" />
-
-- Crear usuari amb el ---> useradd (de manera més manual al adduser). Amb les commandes següents modificariem el shell i li creariem la carpeta home. Per últim amb el chown li pasarem els permisos root al usuari.
-  
-<img width="652" height="173" alt="image" src="https://github.com/user-attachments/assets/e32bcb7d-58eb-49bc-b531-f415c2a61835" />
-
-<img width="651" height="77" alt="image" src="https://github.com/user-attachments/assets/bc406508-284a-4874-9605-645a91700268" />
-
-
-- Comprovariem amb un ls a la root que vam declarar var/ si s'ha creat l'usuari abril.
-
-<img width="651" height="92" alt="image" src="https://github.com/user-attachments/assets/0f918907-c5f5-43db-80a2-1744fe8731b2" />
-
-------------------------
-
-- Ara procedirem a veure com es borren usuaris. Primer crearem 4 usuaris i els borrarem de dues formes. Els usuaris seran ocanya 1,2,3 i 4.
-
-- 1. borrar amb deluser:
-
-     <img width="687" height="76" alt="image" src="https://github.com/user-attachments/assets/7af3d33a-3297-4fcb-861b-fcf8710b75a2" />
-
-
-- 2. borrar amb uderdel -l: 
-
-     <img width="456" height="27" alt="image" src="https://github.com/user-attachments/assets/eff2877c-71ca-4c11-a8af-82425ffd4e3a" />
-     
-----------------------------------
-
-- Per a bloqueijar un usuari ----> usermod -L (usuari):
-
-  <img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/15edc76b-6374-464d-8ce2-14b6789127df" />
-
-- Per a desblocarlo ----> usermod -U (usuari):
-
-  <img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/08674a8c-8f2d-4ba3-bd1f-0de65b110a05" />
-  
-------------------------------
-
-- Ara crearem un grup de usuaris:
-
-<img width="739" height="78" alt="image" src="https://github.com/user-attachments/assets/ced3a8c0-d32d-4bb3-b8e9-37b27a88e466" />
-
-<img width="734" height="115" alt="image" src="https://github.com/user-attachments/assets/5b804887-7590-4246-97bd-acb57dbaf61b" />
-
-
-- Hi han 3 maneres de agregar usuaris al grup que acabo de crear, tot aixó havent creat nous usuars anteriorment:
-  
-<img width="761" height="233" alt="image" src="https://github.com/user-attachments/assets/13aac96a-53d9-4433-86c6-44181fe326fc" />
-
-- ara voldrem borrar usuaris del grup:
-  
-<img width="748" height="144" alt="image" src="https://github.com/user-attachments/assets/05fa5a57-20fe-4f0b-9fcf-1f205bcc5b90" />
-
-- Amb la comanda -g serveix per a modificar el grup principal de l'usuari.
-
-<img width="752" height="159" alt="image" src="https://github.com/user-attachments/assets/2293075b-b72f-4284-9868-9c5a65ee393b" />
-
-- Amb això veurem a quins grups pertany l'usuari
-  
-<img width="727" height="97" alt="image" src="https://github.com/user-attachments/assets/160c48f1-5027-493a-9927-bd2aa576475e" />
-
-- Ara borrarem el grup, pero observem que tenim un grup principal, cosa que haurem de borrar que sigui el grup primari o principal i després ja podrem borrar el grup.
-
-<img width="708" height="258" alt="image" src="https://github.com/user-attachments/assets/b8f9ed23-0e42-4c82-b807-753f8fbf6ce4" />
-
---------------------- 
-
-
-
-
-
 
 
 
