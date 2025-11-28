@@ -9,6 +9,7 @@ title:**Sprint 2: Gestió de la Informació del Sistema i Administració**
 Un sector es la unitat minima física on se guarden les dades en un disc. Per defecte son 512 bytes (en principi no es modificable aquesta mida).
 
 Per a saber la mida del sector fem a terminal la comanda fdisk -l
+
 <img width="764" height="226" alt="image" src="https://github.com/user-attachments/assets/e60dd484-035f-4ee1-81ae-876b97c9f68c" />
 
 ## **1.3.** Mida del block:
@@ -58,7 +59,7 @@ Un volum es com una capa d'abstracció lògica que es posa per damunt de les par
 
 * ### GPARTED
 
- Així elegim el sistema de fitxers per a la partició que ens faltaba formatar
+Així elegim el sistema de fitxers per a la partició que ens faltaba formatar
   
 <img width="1222" height="784" alt="image" src="https://github.com/user-attachments/assets/98dfb279-f2f7-4ccc-babe-990a5b94e1bd" />
 
@@ -222,11 +223,13 @@ Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuar
 
 * DHOME=/var
 
- <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/251ac437-dd37-4179-bec7-d30267aacc37" />
+<img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/251ac437-dd37-4179-bec7-d30267aacc37" />
 
-* DHOME=/var ---> transformat o canviat a /home
+* DHOME=/var ---> transformat o canviat a /home + canvi del first UID I GID que es per a canviar l'assignacio del nostre usuari
 
 <img width="743" height="403" alt="image" src="https://github.com/user-attachments/assets/109d5353-f0ff-46c0-bc05-662c38095038" />
+
+<img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/2d82c125-8ce2-49f8-a407-6a4ac3ee0e26" />
 
 - Creació del nou usuari per a comprovar la modificació del home.
 
@@ -236,27 +239,22 @@ Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuar
 
 <img width="665" height="139" alt="image" src="https://github.com/user-attachments/assets/d36c1a01-ecaf-4a27-b978-85f554299683" />
 
+- si vull canviar caducitats de contrasenyes ----> sudo nano /etc/login.defs:
+  
+<img width="732" height="442" alt="image" src="https://github.com/user-attachments/assets/bc764535-b9c8-42e4-94cd-67e4d7c374fb" />
 
-
- <img width="817" height="496" alt="image" src="https://github.com/user-attachments/assets/2d82c125-8ce2-49f8-a407-6a4ac3ee0e26" />
-
-
-
-- si vull canviar caducitats de contrasenyes de adduser i useradd:
-<img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/e810c3b9-c8d7-4e54-bf33-fdff13dc6837" />
-
-
-- Amb axò canvio a bash
+- Si vull canviar o assignar un shell per defecte, amb la commanda ----> sudo nano /etc/useradd.conf
+  
 <img width="873" height="605" alt="image" src="https://github.com/user-attachments/assets/f2398664-0e72-40d1-986d-71f5aa1e28f1" />
 
-
-
-- Ara comprovem useradd
+* Comprovem aquesta assignació del SHELL creant un nou usuari
   
-<img width="877" height="119" alt="image" src="https://github.com/user-attachments/assets/b91d873a-1808-45c2-a5a5-532689501ff8" />
+<img width="748" height="103" alt="image" src="https://github.com/user-attachments/assets/1ca6d91a-b9f9-4e31-8d7c-a9f2a7b97e04" />
+
+----------------------
+Ara pasem a la edició del /etc/skel/.profile per a que cada vegada que entresim des de la terminal a l'usuari creat nou, ens mostri un missatge personalitzat
 
 
-- fer ls -la i fer una prova
 
 
 EXEMPLE MEU
