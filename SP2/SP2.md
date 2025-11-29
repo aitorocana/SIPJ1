@@ -120,15 +120,19 @@ Farem el block
 **3.1** Fitxer implicats (en trobarem 4): 
 
 Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despres fem aixó---->nano passwd (primer fitxer implicat), que trobarem tots els usuaris que hi han. el "1000", es el usuari i el segon 1000, es el gitnumber que es el grub que s'ha assignat a 'usuari, i aquest sera el grup principal. 
+
 <img width="750" height="395" alt="image" src="https://github.com/user-attachments/assets/f928f9a0-43b6-4ac1-8549-b862038d0b47" />
 
-- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup . 
+- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup .
+  
  <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/9201be1d-18df-4d0e-bc31-7c52b0af35c1" />
 
 - nano shadow: Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes. *IMPORTANT*"""BUSCAR UNA MICA CADA CAMP Q ERA"""
+  
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/c480a490-c719-49c3-9b16-32eb5605ffc0" />
 
 - nano gshadow: tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup, on s'indica el (cdrom:*)
+  
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/201615a4-59ee-44b7-8162-f71125328a66" />
 
 
