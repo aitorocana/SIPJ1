@@ -297,7 +297,7 @@ Comprovació:
 <img width="721" height="440" alt="image" src="https://github.com/user-attachments/assets/78b4ad15-c8de-4c9d-a486-c24233eac465" />
 
 -------
-* **Ubuntu server**
+**Ubuntu server**
   
 - Des d'ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que hauré modificat com a home, aqui veurem si el usuari nou, ha agarrat tots els arxius editats al skel. Veiem que a partir de la creació d'aquest nou usuari, s'han passat totes les modificacions del .profile, .bashrc i del .bashlogout:
 
@@ -306,10 +306,5 @@ Comprovació:
 - Per ultim entrarem a la carpeta Imágenes o la que haurem dit, amb cd Imágenes/, crear una carpeta buida amb touch i el nom de la carpeta, comprovar amb ls si la hem creada, fer exit de la terminal, i control dret + f2 per a sortir.
 
 
-
- 
-
-
-- 
 
 # **4.** Gestió de procesos
