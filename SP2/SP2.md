@@ -5,6 +5,17 @@ title:**Sprint 2: Gestió de la Informació del Sistema i Administració**
 
 # **1.** Sistemes de fitxer i particions**
 
+- **Tipus de sistemes de fitxers** 
+
+  **FAT:** Es compatible amb la majoria de OS degut a la seva simplicitat. Solen utilitzar-se a sistemes antics i usb's. No soporta permisos ni característiques avançades de seguretat. EL tamany màxim dels arxius FAT32 són 4B i el tamany màxim de les particions son de 2TB.
+
+  **NTFS:** Es el sistema de fitxers que utiltiza windows. A diferència de l'anterior si que soporta particions molt més grans (16TB inclús  més) i permet xifrats de seguretat i permisos de seguretat per als arxius.
+
+  **HFS+ / APFS:** EL HFS, era el sistema antic del OS de mac, però ara utilitzen el APFS. Una de les seves característiques es que està molt ben optimitzat per a les SSD i soporta xifrat natiu i clonació d'arxius
+
+  **ext:** Es el sistema de fitxer que utilitza linux. La seva variant ext4 permet un major rendiment, un major tamany d'axius i de particions (fins a 16TB). Es compatible a linux de manera nativa i es caracteritza per la seva eficiencia.
+
+
 ## **1.2.** Mida del sector:
 Un sector es la unitat minima física on se guarden les dades en un disc. Per defecte son 512 bytes (en principi no es modificable aquesta mida).
 
@@ -58,38 +69,10 @@ Una partició bàsicament es una divisió que fem al disc per a separar-ho en pa
 Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
 
 * ### GPARTED
-
-Així elegim el sistema de fitxers per a la partició que ens faltaba formatar
-  
-<img width="1222" height="784" alt="image" src="https://github.com/user-attachments/assets/98dfb279-f2f7-4ccc-babe-990a5b94e1bd" />
-
-<img width="876" height="602" alt="image" src="https://github.com/user-attachments/assets/52b5f861-7802-4d23-986e-6acfffb1dc87" />
-
-comprovem el tamany del block
-
-<img width="714" height="110" alt="image" src="https://github.com/user-attachments/assets/32599a26-af83-4478-86d8-ec6476a30df8" />
-
-Ara hem fet que la carpeta creada estigui apuntant a la particio1
-
-<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/8f858771-1bf6-4c3c-8d4d-1c9deebdc68a" />
-
-Ara creo un nou arxiu:
-
-<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/a47b6fbc-e069-4fac-9fae-b0b5d5c09bf0" />
-
-Fem un reboot i comprovem que passa:
-
-<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/b67a4dad-b4ab-41e8-bf0b-e3f72d96aacb" />
-
-<img width="737" height="404" alt="image" src="https://github.com/user-attachments/assets/ec032033-36c3-40c2-b5ae-5f96266796e0" />
-
-Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
-
-<img width="682" height="174" alt="image" src="https://github.com/user-attachments/assets/07bd438b-a086-4cd2-8109-ac338d41e229" />
-
   
 * ### Comandes
-
+  
+Hem agregat una iso de 10GB
   
 <img width="807" height="534" alt="image" src="https://github.com/user-attachments/assets/843977b2-0dcf-4ebb-939e-66367e32c272" />
 
@@ -97,20 +80,53 @@ Comprovem el disk que hem posat de 10GB
 
 <img width="660" height="138" alt="image" src="https://github.com/user-attachments/assets/823f0d69-8075-4126-95cb-f5494ac19015" />
 
+- Creem una partició de 4,8GB a /sdc1 
+
 <img width="745" height="514" alt="image" src="https://github.com/user-attachments/assets/f8f2b1d4-f05a-47d5-b16a-bd0caccffeb6" />
+
+- Partició de 5,2GB en /sdc2
 
 <img width="846" height="535" alt="image" src="https://github.com/user-attachments/assets/cbfb7359-bd77-4460-b5c6-0affcebeff65" />
 
 Per a guardar posar w a la terminal.
 
-Comprovarem les particions creades amb la commanda --->fdisk -l
+- Comprovarem les particions creades amb la commanda --->fdisk -l
 
 <img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/f8308758-e407-4fb3-b14a-5b980f234cb1" />
 
-Farem el block
+Farem el block formateant la partició per a obtenir un tamany del block que no sigui el que ve per defecte.
 
 <img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/4368500d-0b26-42d1-b423-0130c17bc66a" />
 
+- Ara comprovem el tamany del block modificat a 2048
+
+<img width="714" height="110" alt="image" src="https://github.com/user-attachments/assets/32599a26-af83-4478-86d8-ec6476a30df8" />
+
+* Ara amb el programa GParted que ja tenim instal·lat, elegim el sistema de fitxers per a la partició que ens faltaba formatar, es a dir la /sdc2.
+  
+<img width="1222" height="784" alt="image" src="https://github.com/user-attachments/assets/98dfb279-f2f7-4ccc-babe-990a5b94e1bd" />
+
+<img width="876" height="602" alt="image" src="https://github.com/user-attachments/assets/52b5f861-7802-4d23-986e-6acfffb1dc87" />
+
+- Creem un directori per a que la carpeta creada estigui apuntant a la particio1
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/8f858771-1bf6-4c3c-8d4d-1c9deebdc68a" />
+
+Ara creo un nou arxiu:
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/a47b6fbc-e069-4fac-9fae-b0b5d5c09bf0" />
+
+Fem un reboot i comprovem que passa. Com veiem, si introduim la commanda /mnt/particio1/ encara no estarà montada la partició. Per tant, a partir de la commanda ---> mount -t ext4 /dev/sdc1 /mnt/particio1/, ja estariem montant el sistema de fitxers dintre de la partició. Per aixó amb un ls dintre de la particio 1 ---> cd particio1/, si ens surt els següents fitxers, voldria dir que ja tenim montada correctament la partició.
+
+<img width="744" height="256" alt="image" src="https://github.com/user-attachments/assets/b67a4dad-b4ab-41e8-bf0b-e3f72d96aacb" />
+
+- El que hem fet aquí es agregar una linia al final de tot, especificant que la partició /sdc1 es monta de manera automàtica a ---> /mnt/particio1 amb el sistema de fitxers ext4.
+
+<img width="737" height="404" alt="image" src="https://github.com/user-attachments/assets/ec032033-36c3-40c2-b5ae-5f96266796e0" />
+
+Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
+
+<img width="682" height="174" alt="image" src="https://github.com/user-attachments/assets/07bd438b-a086-4cd2-8109-ac338d41e229" />
 
 # **2.** Còpies de seguretat i automatització de tasques
 
