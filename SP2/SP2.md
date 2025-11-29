@@ -1,9 +1,9 @@
 ---
 layout: default
-title:**Sprint 2: Gestió de la Informació del Sistema i Administració**
+title:**Sprint 2: Gestió de la Informació del Sistema i Administració
 ---
 
-# **1.** Sistemes de fitxer i particions**
+# **1.** Sistemes de fitxer i particions
 
 - **Tipus de sistemes de fitxers** 
 
@@ -67,10 +67,8 @@ Si utilitzem el sistema de fitxer de ntfs, ho podrem utilitzar per a windos i ub
 Una partició bàsicament es una divisió que fem al disc per a separar-ho en parts a nivell físic.
 
 Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
-
-* ### GPARTED
   
-* ### Comandes
+* ### Comandes bàsiques per al formateig
   
 Hem agregat una iso de 10GB
   
@@ -101,6 +99,8 @@ Farem el block formateant la partició per a obtenir un tamany del block que no 
 - Ara comprovem el tamany del block modificat a 2048
 
 <img width="714" height="110" alt="image" src="https://github.com/user-attachments/assets/32599a26-af83-4478-86d8-ec6476a30df8" />
+
+* ### GPARTED
 
 * Ara amb el programa GParted que ja tenim instal·lat, elegim el sistema de fitxers per a la partició que ens faltaba formatar, es a dir la /sdc2.
   
