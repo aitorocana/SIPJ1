@@ -112,7 +112,7 @@ Farem el block
 <img width="840" height="264" alt="image" src="https://github.com/user-attachments/assets/4368500d-0b26-42d1-b423-0130c17bc66a" />
 
 
-# **2.** Còpies de seguretat i automatització de tasques**1.**
+# **2.** Còpies de seguretat i automatització de tasques
 
 
 # **3.** Gestió d'usuaris, grups i permisos
@@ -256,7 +256,15 @@ Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuar
 <img width="748" height="103" alt="image" src="https://github.com/user-attachments/assets/1ca6d91a-b9f9-4e31-8d7c-a9f2a7b97e04" />
 
 ----------------------
-Ara pasem a la edició del /etc/skel/.profile per a que cada vegada que entresim des de la terminal a l'usuari creat nou, ens mostri un missatge personalitzat
+- Ara pasem a la edició del /etc/skel/.profile per a que cada vegada que entresim des de la terminal a l'usuari creat nou, ens mostri un missatge personalitzat
+
+<img width="684" height="439" alt="image" src="https://github.com/user-attachments/assets/3775f1d5-5ee0-412e-8d6d-2dbf60bad28a" />
+
+Comprovacio:
+
+<img width="706" height="180" alt="image" src="https://github.com/user-attachments/assets/44146a52-1a0b-4886-9ef6-9dc5d9db8b63" />
+
+- Ara editarem el bash, per a tenir-ho personalitzat.
 
 
 
