@@ -264,14 +264,16 @@ Comprovació:
 
 <img width="706" height="180" alt="image" src="https://github.com/user-attachments/assets/44146a52-1a0b-4886-9ef6-9dc5d9db8b63" />
 
-- Ara editarem el bash, per a tenir-ho personalitzat.
+- Ara editarem el bash a /etc/skel/.bashrc , per a tenir-ho personalitzat inclus per als nous usuaris.
 
-<img width="650" height="387" alt="image" src="https://github.com/user-attachments/assets/64d9b58d-63d2-4d37-9db3-5af5045aba0a" />
+<img width="745" height="383" alt="image" src="https://github.com/user-attachments/assets/a76da8e0-0b7a-4ae4-8d08-c0a3e13bf3b4" />
 
 Comprovació:
 
-<img width="600" height="225" alt="image" src="https://github.com/user-attachments/assets/e93816d2-c4f7-4d8d-83cf-13be9fdc1c07" />
+<img width="745" height="383" alt="image" src="https://github.com/user-attachments/assets/293715c4-fc71-488f-9767-ec5245c5d1a0" />
 
+
+- Ara editarem el
 
 
 
