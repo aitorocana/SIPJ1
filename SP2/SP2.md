@@ -280,16 +280,10 @@ Comprovació:
 
 <img width="721" height="440" alt="image" src="https://github.com/user-attachments/assets/78b4ad15-c8de-4c9d-a486-c24233eac465" />
 
-
-
-
-EXEMPLE MEU
-EXEMPLE MEU
-EXEMPLE MEU
 -------
-FER AIXÓ SEGÜENT I BORRAR LO QUE PERTANY A AIXÒ DE LES PROVES ANTERIORS DE EXEMPLE, OSIGUE BORRAR LES PROVES ANTERIORS PER A POSAR EL MEU EXEMPLE.
-
-**EXERCICI PROVA ADDUSER I USERADD EN UNA PROVA FETA PROPIA**, després d'haver creat les modificacions del usuari (REPLICANT TOT LO ANTERIOR), doncs canviar coses amb el nano.profile, nano.bashrc, nano .bash_logout i també  desde ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que haurie modificat com a home, si surten les modificacions del nano que acabo de nombrar.:
+* **Ubuntu server**
+  
+- Des d'ubuntu server amb el control dret +f5, comprovar l'usuari creat nou amb la carpeta que hauré modificat com a home, aqui veurem si el usuari nou, ha agarrat tots els arxius editats al skel. Veiem que a partir de la creació d'aquest nou usuari, s'han passat totes les modificacions del .profile, .bashrc i del .bashlogout:
 
 <img width="1035" height="760" alt="image" src="https://github.com/user-attachments/assets/311b95a5-3eb9-4540-ba12-8b52d5bdbfcd" />
 
