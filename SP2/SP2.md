@@ -272,8 +272,14 @@ Comprovació:
 
 <img width="745" height="383" alt="image" src="https://github.com/user-attachments/assets/293715c4-fc71-488f-9767-ec5245c5d1a0" />
 
+- Ara editarem el /etc/skel/.bash_logout, per a que ens mostri un missatge personalitzat a l'hora de surtir de la sessió oberta.
 
-- Ara editarem el
+<img width="745" height="383" alt="image" src="https://github.com/user-attachments/assets/e130d847-d928-48ba-8a39-e71c9236e14d" />
+
+Comprovació:
+
+<img width="721" height="440" alt="image" src="https://github.com/user-attachments/assets/78b4ad15-c8de-4c9d-a486-c24233eac465" />
+
 
 
 
