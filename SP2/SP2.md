@@ -258,13 +258,19 @@ Ara que tenim creats aquests fitxers, hauriem de comprovar si per als nous usuar
 ----------------------
 - Ara pasem a la edició del /etc/skel/.profile per a que cada vegada que entresim des de la terminal a l'usuari creat nou, ens mostri un missatge personalitzat
 
-<img width="684" height="439" alt="image" src="https://github.com/user-attachments/assets/3775f1d5-5ee0-412e-8d6d-2dbf60bad28a" />
+<img width="668" height="149" alt="image" src="https://github.com/user-attachments/assets/25e26eea-c1bc-4cf6-9d58-84376f19fa79" />
 
-Comprovacio:
+Comprovació:
 
 <img width="706" height="180" alt="image" src="https://github.com/user-attachments/assets/44146a52-1a0b-4886-9ef6-9dc5d9db8b63" />
 
 - Ara editarem el bash, per a tenir-ho personalitzat.
+
+<img width="650" height="387" alt="image" src="https://github.com/user-attachments/assets/64d9b58d-63d2-4d37-9db3-5af5045aba0a" />
+
+Comprovació:
+
+<img width="600" height="225" alt="image" src="https://github.com/user-attachments/assets/e93816d2-c4f7-4d8d-83cf-13be9fdc1c07" />
 
 
 
