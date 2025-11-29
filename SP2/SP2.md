@@ -68,7 +68,7 @@ Una partició bàsicament es una divisió que fem al disc per a separar-ho en pa
 
 Un volum es com una capa d'abstracció lògica que es posa per damunt de les particions que agrupa les particions i/o discs.
   
-* ### Comandes bàsiques per al formateig
+### Comandes bàsiques per al formateig
   
 Hem agregat una iso de 10GB
   
@@ -100,7 +100,7 @@ Farem el block formateant la partició per a obtenir un tamany del block que no 
 
 <img width="714" height="110" alt="image" src="https://github.com/user-attachments/assets/32599a26-af83-4478-86d8-ec6476a30df8" />
 
-* ### GPARTED
+### GPARTED
 
 * Ara amb el programa GParted que ja tenim instal·lat, elegim el sistema de fitxers per a la partició que ens faltaba formatar, es a dir la /sdc2.
   
@@ -139,15 +139,15 @@ Primer que tot ens fiquem amb el sudo su, a la carpeta etc ---> cd /etc i despre
 
 <img width="750" height="395" alt="image" src="https://github.com/user-attachments/assets/f928f9a0-43b6-4ac1-8549-b862038d0b47" />
 
-- Després amb el nano group: Veiem tots els usuaris que formen part d'un grup .
+- Després amb el **nano group:** Veiem tots els usuaris que formen part d'un grup.
   
  <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/9201be1d-18df-4d0e-bc31-7c52b0af35c1" />
 
-- nano shadow: Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes. *IMPORTANT*"""BUSCAR UNA MICA CADA CAMP Q ERA"""
+-**nano shadow:** Veurem lo referent a lo que son contrasenyes i caducitats de les contrasenyes. EL que podem veure exactament referent a la caducitat de les contrasenyes, es que a cada camp es pot observar el màxim de dies avans de que s'expiri la contrasenya (99999) seguit amb els dies d'avís avans d'expirar aquesta (7). 
   
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/c480a490-c719-49c3-9b16-32eb5605ffc0" />
 
-- nano gshadow: tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup, on s'indica el (cdrom:*)
+- **nano gshadow:** tambe veurem els usuaris que formen part d'un grup, pero es diferència amb el grup en que podem veure qui es l'usuari administrador del grup, on s'indica el (cdrom:*)
   
   <img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/201615a4-59ee-44b7-8162-f71125328a66" />
 
