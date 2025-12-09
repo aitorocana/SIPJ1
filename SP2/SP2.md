@@ -307,4 +307,87 @@ Comprovació:
 
 
 
-# **4.** Gestió de procesos
+# **4.** Gestió de permissos
+
+**1. UOG**
+
+- Creem una carpeta i un arxiu. ELs permissos es veuen a l'esquerra, en un arxiu rw vol dir que l'usuari pot accedir, borrar, etc.
+
+<img width="741" height="496" alt="image" src="https://github.com/user-attachments/assets/1d7d7ca2-9556-49c0-adda-4b3fc111b7e1" />
+
+- Volem modificar permisos. Primer creem 4 usuaris.
+
+<img width="743" height="126" alt="image" src="https://github.com/user-attachments/assets/c3234ff5-598e-44a7-b29e-09fd501cc424" />
+
+- Creem un grup i posem dintre del grup dos usuaris.
+
+<img width="745" height="227" alt="image" src="https://github.com/user-attachments/assets/b65cbff9-7e34-4c43-95df-18889cd61701" />
+
+- Creem
+
+<img width="692" height="264" alt="image" src="https://github.com/user-attachments/assets/9f40a045-b14a-497e-be61-d072f92c78c9" />
+
+<img width="685" height="52" alt="image" src="https://github.com/user-attachments/assets/6d62e76d-5c16-4c8b-b7e6-7c4028fbb0d4" />
+
+- Cambiem el propietari a groc, el que volem es que lo usuari que resta dels 4 creats que ni es propietari ni forma aprt del grup no pugui accedir. Amb el sistema octal, cambiem els permisos per a que el usuari que resta no pugui ni accedir.
+
+<img width="668" height="239" alt="image" src="https://github.com/user-attachments/assets/d7ec0d33-6cb2-4327-aaea-e606732fbe19" />
+
+-**Proves dels permisos:** Primer provem que groc te tots els permisos.
+
+<img width="680" height="251" alt="image" src="https://github.com/user-attachments/assets/0c609d98-0693-4e9f-b43d-3051775abb20" />
+
+- Provo permisos de un usuari del grup creat, i observem que no podem ni entrar ni borrar
+
+<img width="718" height="303" alt="image" src="https://github.com/user-attachments/assets/36610eca-65a9-482c-b7e6-0687586695e4" />
+
+- Provo permisos del verd que es qui no te permisos teoricament (com podem veure s'ha denegat tot).
+
+<img width="702" height="246" alt="image" src="https://github.com/user-attachments/assets/c5487675-238c-4c22-b779-9b0be83b09ff" />
+
+**2. ACL (llistes de control d'accés)**
+
+- Ara creo un altre usuari... Morat. volem crear una llista d'exepcio per a que aquest usuari tingui permisos excepcionalment
+
+<img width="699" height="171" alt="image" src="https://github.com/user-attachments/assets/04a8b34a-f3dd-4896-bef4-ff269a76c9d4" />
+
+- Ara crearem la exepcio modificant els permissos sol per a aquest usuari. Veiem que amb el simbol + després dels permisos ---, la exepcio ha sigut creada.
+
+<img width="729" height="261" alt="image" src="https://github.com/user-attachments/assets/e31b1db3-7c2b-4edd-a6ef-36388d8992a4" />
+
+- Prova del usuari morat que te tots els permisos
+
+<img width="725" height="261" alt="image" src="https://github.com/user-attachments/assets/c15dcfe1-7a7e-4d14-a301-89a1d691e958" />
+
+- Ara crearé una exepció però denegant que un del usuari del grup, no pugui accedir ni res, traent-li tots els permissos
+
+<img width="740" height="236" alt="image" src="https://github.com/user-attachments/assets/4d0ca9fe-9483-4769-b7ca-6a67af3e06f5" />
+
+- Ara ho provem. Veiem que funciona.
+
+<img width="731" height="204" alt="image" src="https://github.com/user-attachments/assets/0895dc8e-9c36-439e-ba3c-c46aad37b1ac" />
+
+- Volem reestablir les exepcions netejant les que hem creat.
+  
+<img width="733" height="218" alt="image" src="https://github.com/user-attachments/assets/79eeff20-b946-48d4-8f48-5a64f61b3a76" />
+
+- Ara vull fer una carpeta compartida per a tots. Primer farem que per al root, tots els usuaris creats tinguin tot els permisos
+
+<img width="733" height="218" alt="image" src="https://github.com/user-attachments/assets/b537ef45-b99a-4c1e-9720-c7f8fdad3c89" />
+
+- Veiem que blau te tots els permisos, tant ell com els altres també els tindran
+
+<img width="750" height="378" alt="image" src="https://github.com/user-attachments/assets/8efc1d92-1541-479a-8214-d4e70240cef1" />
+
+- Però el que tindria que fer cada usuari, es poder fer de tot pero solament borrar lo referit a les seves propies carpetes. Amb això es fara un permis especial amb el sticky. Aqui cambiem la x de others per la t
+
+<img width="737" height="127" alt="image" src="https://github.com/user-attachments/assets/996253d1-0e6f-4356-ad43-c170bac309d2" />
+
+- Comprovació:
+
+<img width="740" height="346" alt="image" src="https://github.com/user-attachments/assets/1e8d8ff9-2b4e-4a12-9b31-fb411b05262d" />
+
+
+
+
+
