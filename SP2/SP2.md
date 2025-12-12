@@ -130,6 +130,26 @@ Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
 
 # **2.** Còpies de seguretat i automatització de tasques
 
+- Primer que tot afegir dos discs de 1 gb cada un.
+
+**1. Teoria còpies de Seguretat**
+**2. Teoria comandes Backups**
+   - Cp
+   - rsync
+   - dd
+   
+**3. Pràctica comandes Backups**
+   - cp
+   - rsync
+   - dd
+**4. Pràctica programes Backups**
+   - Deja-Dup
+   - Duplicity
+**5. Teoria automatització scripts, cron i anacron**
+**6. Pràctica automatització**
+   - cron
+   - anacron
+
 
 # **3.** Gestió d'usuaris, grups i permisos
 
@@ -387,7 +407,7 @@ Comprovació:
 
 <img width="740" height="346" alt="image" src="https://github.com/user-attachments/assets/1e8d8ff9-2b4e-4a12-9b31-fb411b05262d" />
 
-
+5. Gestió de processos
 
 
 
