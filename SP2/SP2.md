@@ -134,22 +134,53 @@ Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
 
 **1. Teoria còpies de Seguretat**
 
+- Una còpia de seguretat
+  diferents tipus: completa, diferencial i incremental
+
+Una copia completa, es aquella que copia tot el disco, arxius, etc. L'inconvenient es que ocupen molt i son més lentes. Una copia diferencial, es aquella copia feta a partir de la diferencia de la completa, es a dir si faig una completa lo dilluns, i una diferencial lo dimarts, los arxius que es guardaran son els canviats de la diferencia entre el dilluns i dimarts. La copia incremental es la diferencia de la ultima incremental, es a dir, diluns creo una completa, lo dimarts tinc una incremental i, el dimecres si faig una altra, aquesta copia guardaria la diferencia de la copia del dimarts.
+
+| **Tipus de còpia**    | **Què copia?**                                                                        | **Avantatges**                                                                                 | **Inconvenients**                                                           |
+| --------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Còpia completa**    | Totes les dades del sistema: discs, arxius, carpetes, etc.                            | Molt fiable; còpia independent; restauració molt ràpida.                                       | Ocupa molt espai; temps de còpia més lent.                                  |
+| **Còpia diferencial** | Copia tots els canvis respecte l'última còpia completa.                               | Més ràpida i ligera que la completa; restauració ràpida (només completa + última diferencial). | Cada dia ocupa més espai perquè acumula tots els canvis des de la completa. |
+| **Còpia incremental** | Copia únicament els canvis respecte l'última còpia (ja sigui completa o incremental). | Ocupa molt poc espai; molt ràpida de crear.                                                    | Restauració més lenta (cal la completa + totes les incrementals).           |
+
+
 **2. Teoria comandes Backups**
-   - Cp
-   - rsync
-   - dd
+   - cp: es una copia simple, no intel·ligent i nomes s'utilitza en sistemes locals
+   - rsync: es per a sincronitzar carpetes i es intel·ligent, permet fer copies en local o en remot via ssh
+   - dd: no es per a fer copies, es per a clonar particions o discos. No es intel·ligent.
    
 **3. Pràctica comandes Backups**
 
-   - cp
-   - rsync
-   - dd
+- Montem els disc amb fdisk /dev/sdd i el sde. Després formatem amb mkfs.ext4 /dev/sdd1 i sde1 (particions). 
+
+<img width="617" height="415" alt="image" src="https://github.com/user-attachments/assets/3e8d2693-7d96-4ff9-9c7f-20d245514e1b" />
+
+- Ara acabem de montar un disc:
+
+<img width="805" height="433" alt="image" src="https://github.com/user-attachments/assets/1ecdf431-7745-4df2-b86d-d886790d6ffe" />
+
+
+**- cp:**
+     
+<img width="918" height="690" alt="image" src="https://github.com/user-attachments/assets/2846b295-29c7-4805-a65c-6fcffd2c79e2" />
+
+**- rsync:**
+
+ <img width="933" height="502" alt="image" src="https://github.com/user-attachments/assets/07884d7f-b4a4-409d-8135-98b9e1a824b1" />
+
+**- dd:**
+
+<img width="933" height="502" alt="image" src="https://github.com/user-attachments/assets/c991ed11-2495-4067-bdad-0c5c7e967fb7" />
+
+
      
 **4. Pràctica programes Backups**
 
    - Deja-Dup
    - Duplicity
-   - 
+     
 **5. Teoria automatització scripts, cron i anacron**
      
 **6. Pràctica automatització**
