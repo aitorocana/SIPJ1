@@ -133,20 +133,27 @@ Guardem lo d'avans i reboot per a comprovar si ens apareix la carpeta prova
 - Primer que tot afegir dos discs de 1 gb cada un.
 
 **1. Teoria còpies de Seguretat**
+
 **2. Teoria comandes Backups**
    - Cp
    - rsync
    - dd
    
 **3. Pràctica comandes Backups**
+
    - cp
    - rsync
    - dd
+     
 **4. Pràctica programes Backups**
+
    - Deja-Dup
    - Duplicity
+   - 
 **5. Teoria automatització scripts, cron i anacron**
+     
 **6. Pràctica automatització**
+
    - cron
    - anacron
 
