@@ -161,32 +161,89 @@ Una copia completa, es aquella que copia tot el disco, arxius, etc. L'inconvenie
 
 <img width="805" height="433" alt="image" src="https://github.com/user-attachments/assets/1ecdf431-7745-4df2-b86d-d886790d6ffe" />
 
+------------------------------
 
 **- cp:**
      
 <img width="918" height="690" alt="image" src="https://github.com/user-attachments/assets/2846b295-29c7-4805-a65c-6fcffd2c79e2" />
 
+------------------------------
+
 **- rsync:**
 
  <img width="933" height="502" alt="image" src="https://github.com/user-attachments/assets/07884d7f-b4a4-409d-8135-98b9e1a824b1" />
+
+ ------------------------------
 
 **- dd:**
 
 <img width="933" height="502" alt="image" src="https://github.com/user-attachments/assets/c991ed11-2495-4067-bdad-0c5c7e967fb7" />
 
+------------------------------
+
 
      
-**4. Pràctica programes Backups**
+**4. Pràctica programes Backups** /////////FER-HO  A CASA, INSTAL·LAR UN PROGRAMA DE BACKUPS I FER ELS TIPUS DE COPIA DE SEGURETAT ---> NORMAL, INCREMENTAL, DIFERENCIAL
 
    - Deja-Dup
    - Duplicity
      
 **5. Teoria automatització scripts, cron i anacron**
+
+scripts, que es i para que serveis. Es un fitxer executable que serveix per a fer moltes tasques. Es poden utilitzar amb diferents llenguatges
+
+cron: Serveixen per a programar la temporització dels Scripts, es a dir, per a decidir quan s'executen els scripts. El cron s'utilitza normalment per a automatitzar tasques per a usuaris particulars en una data i una hora concrets i, si en aquell moment que la tasca esta programada, l'ordenador esta tancat, la tasca es perd.
+
+anacron: Serveix per al mateix, pero es diferencia perque la tasca no es perd perque quan s'encen l'ordenador anacron recupera aquestes tasques.
+
+Antigament anaven per separat, però ara ja treballen conjuntament.
+
+- FItxers importants per a configurar cron i anacron:
+
+  <img width="933" height="502" alt="image" src="https://github.com/user-attachments/assets/fbab62a0-8737-48b3-8c9a-fa5dbd44a7b1" />
+
+  <img width="874" height="288" alt="image" src="https://github.com/user-attachments/assets/61695852-e9d6-469d-a450-aab38ad35d4c" />
+
+  <img width="874" height="288" alt="image" src="https://github.com/user-attachments/assets/c1b437b6-7b4b-4d07-9f6c-8918d0170e25" />
+
+  <img width="874" height="288" alt="image" src="https://github.com/user-attachments/assets/51f6c37e-457e-4672-bd05-e9a8b67e69b1" />
+
      
 **6. Pràctica automatització**
 
    - cron
+
+<img width="874" height="288" alt="image" src="https://github.com/user-attachments/assets/bb5b487b-f6c6-41b9-bec6-5c4d61f9a799" />
+
+<img width="846" height="611" alt="image" src="https://github.com/user-attachments/assets/2bc3ae65-c8c1-4e55-a71c-63be3c1d7c93" />
+
+<img width="943" height="582" alt="image" src="https://github.com/user-attachments/assets/4f818f37-29b4-488e-80cc-876aefdd8986" />
+
+<img width="147" height="150" alt="image" src="https://github.com/user-attachments/assets/cb057b39-3ceb-4d41-9140-cd6489458590" />
+
+<img width="608" height="430" alt="image" src="https://github.com/user-attachments/assets/0ddeb610-24ae-4804-af45-ed5e8f98b8d4" />
+
+
    - anacron
+
+COmento la ultima linia
+
+<img width="941" height="443" alt="image" src="https://github.com/user-attachments/assets/001e4ca6-2c23-44e9-824a-e32c6e5c0363" />
+
+<img width="938" height="188" alt="image" src="https://github.com/user-attachments/assets/80a2c888-6937-4423-a2fd-f2c3a58465f5" />
+
+<img width="962" height="336" alt="image" src="https://github.com/user-attachments/assets/09dd6d70-e8b0-4c03-ba45-e7d69e00b113" />
+
+<img width="962" height="336" alt="image" src="https://github.com/user-attachments/assets/be492704-c4c7-496e-b34b-383158e2b570" />
+
+<img width="962" height="336" alt="image" src="https://github.com/user-attachments/assets/91d8dc00-5e1a-4eb8-bead-e766c2b1e0b7" />
+
+Borrem el tar que teniem al escriptori, reiniciem la màquina i veurem que ens apareix el tar sol en 1 min ja que es el que hem modificat al anacron.
+
+<img width="1203" height="615" alt="image" src="https://github.com/user-attachments/assets/9338a156-6d6f-415f-84f6-67c60e251796" />
+
+
+
 
 
 # **3.** Gestió d'usuaris, grups i permisos
