@@ -183,7 +183,7 @@ Una copia completa, es aquella que copia tot el disco, arxius, etc. L'inconvenie
 
 
      
-**4. Pràctica programes Backups** /////////FER-HO  A CASA, INSTAL·LAR UN PROGRAMA DE BACKUPS I FER ELS TIPUS DE COPIA DE SEGURETAT ---> NORMAL, INCREMENTAL, DIFERENCIAL
+**4. Pràctica programes Backups** 
 
    **- Duplicity**: El primer pas, es instal·lar el programa i comprovar que s'ha instal·lat correctament.
    
