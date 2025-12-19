@@ -185,12 +185,40 @@ Una copia completa, es aquella que copia tot el disco, arxius, etc. L'inconvenie
      
 **4. Pràctica programes Backups** /////////FER-HO  A CASA, INSTAL·LAR UN PROGRAMA DE BACKUPS I FER ELS TIPUS DE COPIA DE SEGURETAT ---> NORMAL, INCREMENTAL, DIFERENCIAL
 
-   - Deja-Dup
-   - Duplicity
-     
+   **- Duplicity**: El primer pas, es instal·lar el programa i comprovar que s'ha instal·lat correctament.
+   
+   <img width="722" height="190" alt="image" src="https://github.com/user-attachments/assets/f0547cdd-d812-4a95-864e-b0de5e7e7d0e" />
+
+   **4.1 Còpia normal**
+
+- Ara que el tenim instal·lat, el que s'ha de fer es crear un directori, per a guardar les copies de seguretat. A més, crearem un directori i un arxiu buit dintre d'ell, per a poder fer un exemple de còpia complet. Després es procedeix en copiar completament el directori dintre del directori destinat per a les còpies de seguretat. 
+
+<img width="918" height="499" alt="image" src="https://github.com/user-attachments/assets/072a4ddd-2684-4dc1-bb0a-7d2615fca4b7" />
+
+   **4.2 Còpia incremental**
+
+- Ara crearé un altre arxiu per a poder provar la còpia incremental. Però ara, en el moment de crear la còpia de seguretat del directori que he creat, es fa amb la mateixa commanda de la còpia normal, però sense el full.
+
+<img width="918" height="499" alt="image" src="https://github.com/user-attachments/assets/20dbd9a4-8c32-4ba5-8219-30b100e6faf8" />
+
+- Per a comprovar que s'han fet correctament, fariem la següent commanda:
+
+<img width="914" height="353" alt="image" src="https://github.com/user-attachments/assets/3b187b23-9b57-4dd7-9a8f-4397585cd71e" />
+
+   **4.3 Còpia diferencial**
+
+- Per a fer una còpia diferencial, modificaré o crearé algo de text a algun arxiu que he creat, a banda dels arxius que ja tinc creats. Mitnjançant aquest tipus de còpia, se guardaran els canvis que s'han det des de la última còpia COMPLETA o normal. Per tant, se guardaran els fitxers canviats.
+
+<img width="1014" height="559" alt="image" src="https://github.com/user-attachments/assets/914017fd-b28a-47fd-8458-f281a2bf7be4" />
+
+- Ara ho comprovem, i veiem que ens surt una altra còpia incremental, però realment es la diferencial, l´unic que la aplicació sol coneix dos tipus de backups, el complet i el incremental. Però al ús es una còpia diferencial.
+
+<img width="921" height="370" alt="image" src="https://github.com/user-attachments/assets/dc11ea02-a81d-41de-ab8a-e5aee26b39f0" />
+
+
 **5. Teoria automatització scripts, cron i anacron**
 
-scripts, que es i para que serveis. Es un fitxer executable que serveix per a fer moltes tasques. Es poden utilitzar amb diferents llenguatges
+scripts, que es i para que serveix: Es un fitxer executable que serveix per a fer moltes tasques. Es poden utilitzar amb diferents llenguatges
 
 cron: Serveixen per a programar la temporització dels Scripts, es a dir, per a decidir quan s'executen els scripts. El cron s'utilitza normalment per a automatitzar tasques per a usuaris particulars en una data i una hora concrets i, si en aquell moment que la tasca esta programada, l'ordenador esta tancat, la tasca es perd.
 
