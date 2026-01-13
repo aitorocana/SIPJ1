@@ -123,10 +123,11 @@ Ara configurarem el primer fitxer:
 
 <img width="846" height="59" alt="image" src="https://github.com/user-attachments/assets/2f6b612e-f8fd-4089-8776-0a83156153a0" />
 
-<img width="872" height="471" alt="image" src="https://github.com/user-attachments/assets/fc52ffb5-719e-4e77-8b1d-82207daf508e" />
-
 <img width="984" height="110" alt="image" src="https://github.com/user-attachments/assets/9c0a37fc-70fa-4689-abca-38e99b5a643a" />
 
 Ara reinicio i miro si puc accedir a usuari alu1 contra igual
+
+<img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/25583eca-5207-4cac-b363-559ff0f7d6e3" />
+
 
 
