@@ -77,6 +77,8 @@ Posar el teu domini:
 
 <img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/d76867c4-24a8-4bc1-a660-cdc309ae4bbc" />
 
+<img width="979" height="461" alt="image" src="https://github.com/user-attachments/assets/10237faa-1c0d-4279-b41f-a36cd1cdec0a" />
+
 HO deixem per defecte
 
 <img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/31e3bc6f-4274-4254-9891-caf19b091f8e" />
@@ -91,7 +93,7 @@ HO deixem per defecte
 
 Posar contra i despres canviar aixó:
 
-<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/89586d59-1333-484c-a654-4d371017f4f8" />
+<img width="987" height="47" alt="image" src="https://github.com/user-attachments/assets/9d380a8d-df1c-481a-aacd-fdfa1b85d70a" />
 
 Per si necesitem reconfigurar algo:
 
@@ -117,14 +119,14 @@ Ara configurarem el primer fitxer:
 
 <img width="855" height="625" alt="image" src="https://github.com/user-attachments/assets/d343d2c0-9d0d-439a-bfe7-d8d06fc1c5a1" />
 
-- tindrem que fer un grup
+- tindrem que fer un grep de alu1 i veure si ens apareix
 
 <img width="846" height="59" alt="image" src="https://github.com/user-attachments/assets/2f6b612e-f8fd-4089-8776-0a83156153a0" />
 
 <img width="872" height="471" alt="image" src="https://github.com/user-attachments/assets/fc52ffb5-719e-4e77-8b1d-82207daf508e" />
 
-<img width="979" height="461" alt="image" src="https://github.com/user-attachments/assets/10237faa-1c0d-4279-b41f-a36cd1cdec0a" />
+<img width="984" height="110" alt="image" src="https://github.com/user-attachments/assets/9c0a37fc-70fa-4689-abca-38e99b5a643a" />
 
-<img width="987" height="47" alt="image" src="https://github.com/user-attachments/assets/9d380a8d-df1c-481a-aacd-fdfa1b85d70a" />
+Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 
