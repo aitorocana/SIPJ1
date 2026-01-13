@@ -65,6 +65,66 @@ Descarreguem arxius.zip del moodle i fer:
 
 <img width="941" height="435" alt="image" src="https://github.com/user-attachments/assets/8802462a-587f-4f7b-bbb9-3fae5e67086b" />
 
+- fer aquesta commanda per isntal·lar paquets de validacio de client
 
+<img width="936" height="27" alt="image" src="https://github.com/user-attachments/assets/019b3872-4b7a-4320-9c5d-45813b6a25b6" />
+
+Aqui treure una barra / i la i:
+
+<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/67f49a5e-7a09-4ffe-ab80-aaf93bd9e28d" />
+
+Posar el teu domini:
+
+<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/d76867c4-24a8-4bc1-a660-cdc309ae4bbc" />
+
+HO deixem per defecte
+
+<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/31e3bc6f-4274-4254-9891-caf19b091f8e" />
+
+HO deixem per defecte
+
+<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/8938b9be-0c4e-4a35-bda9-d0c37157a3da" />
+
+ cambiem a si
+
+ <img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/cbaa1088-8f75-4662-b718-d160e90f4ebd" />
+
+Posar contra i despres canviar aixó:
+
+<img width="978" height="600" alt="image" src="https://github.com/user-attachments/assets/89586d59-1333-484c-a654-4d371017f4f8" />
+
+Per si necesitem reconfigurar algo:
+
+<img width="996" height="51" alt="image" src="https://github.com/user-attachments/assets/0966ee81-749e-4d31-8d44-9cecb0e79e01" />
+
+Ara configurarem el primer fitxer:
+
+<img width="988" height="35" alt="image" src="https://github.com/user-attachments/assets/b4ba539e-0c30-4842-804e-339047627891" />
+
+- Agregar a les 4 ldap compat
+
+<img width="845" height="435" alt="image" src="https://github.com/user-attachments/assets/9d91dac9-4a94-4ec3-945e-064e6166ba4a" />
+
+- Ara un altre arxiu i anirem al final de tot i agreguem aquesta linia :
+
+<img width="855" height="625" alt="image" src="https://github.com/user-attachments/assets/c6af230a-c1dc-4526-bbb7-7aa99602962e" />
+
+- Ara amb la password i borrem use_authock als 3
+
+<img width="855" height="625" alt="image" src="https://github.com/user-attachments/assets/9182cfda-812a-48b6-9705-9109633cf251" />
+
+- Ara per ultim:
+
+<img width="855" height="625" alt="image" src="https://github.com/user-attachments/assets/d343d2c0-9d0d-439a-bfe7-d8d06fc1c5a1" />
+
+- tindrem que fer un grup
+
+<img width="846" height="59" alt="image" src="https://github.com/user-attachments/assets/2f6b612e-f8fd-4089-8776-0a83156153a0" />
+
+<img width="872" height="471" alt="image" src="https://github.com/user-attachments/assets/fc52ffb5-719e-4e77-8b1d-82207daf508e" />
+
+<img width="979" height="461" alt="image" src="https://github.com/user-attachments/assets/10237faa-1c0d-4279-b41f-a36cd1cdec0a" />
+
+<img width="987" height="47" alt="image" src="https://github.com/user-attachments/assets/9d380a8d-df1c-481a-aacd-fdfa1b85d70a" />
 
 
