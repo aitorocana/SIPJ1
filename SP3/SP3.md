@@ -186,6 +186,31 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 <img width="982" height="305" alt="image" src="https://github.com/user-attachments/assets/b34dd67b-5709-457c-b66f-abdac3fdac95" />
 
+- colem modificar el lloc dels professors, volem mourel de la unitat organitzativa "ou" al domini  (copiem la primera linia
+
+<img width="982" height="305" alt="image" src="https://github.com/user-attachments/assets/d3a22ccb-4388-4a5c-839a-073c2e748156" />
+
+- HO agreguem amb el ldapmodify i ho comprovem amb un slapcat
+
+<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/c1fb0088-fed3-4b5f-8bb7-66a7a366987e" />
+
+<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/0f5dadad-4d7e-428a-80ba-ff5442c16be7" />
+
+- Ara modificarem el dn si volem canviar algo (en aquest cas li treiem un espai a Joel Javier)
+
+<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/9b7100f3-12c5-4f4b-905c-13c96f6fc79f" />
+
+- HO agreguem amb el modify i comprovem amb slapcat
+
+<img width="936" height="77" alt="image" src="https://github.com/user-attachments/assets/92e85fed-2b52-4780-92fa-5ba0e44fddee" />
+
+<img width="936" height="77" alt="image" src="https://github.com/user-attachments/assets/28add404-bfc2-4353-8122-eb7d26011a8b" />
+
+
+
+
+
+
 
 
 
