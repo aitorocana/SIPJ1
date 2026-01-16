@@ -164,6 +164,19 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 <img width="974" height="346" alt="image" src="https://github.com/user-attachments/assets/9d9f7a6b-7edc-4e26-9858-69ac908f71da" />
 
+- SI VULL CANVIAR EL MAIL PQ HE EQUIVOCAT FER NANO PROVES.LDIF I FER AIXO:
+
+<img width="985" height="115" alt="image" src="https://github.com/user-attachments/assets/0484cfab-99c2-4202-9a19-cb4de714f6ef" />
+
+<img width="969" height="99" alt="image" src="https://github.com/user-attachments/assets/3f3d9315-8746-4bdb-8bc7-795d22e93dfc" />
+
+- i ho comprovo amb la condició de ldapsearch & per veure si s'ha modificat correctament:
+
+<img width="986" height="33" alt="image" src="https://github.com/user-attachments/assets/c8dfdc01-40b4-4650-b71c-ab0bf0c36536" />
+
+
+
+
 
 
 
