@@ -206,6 +206,13 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 <img width="936" height="77" alt="image" src="https://github.com/user-attachments/assets/28add404-bfc2-4353-8122-eb7d26011a8b" />
 
+---------------------------------------
+
+FER LO MATEIX O MODIFICAR ALGUN ATRIBUT DIFERENT PER A L'EXEMPLE DEL MOODLE (dades_github.ldif)
+
+<img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/131a200b-86b0-4b64-9a90-b9cfcef6e999" />
+
+
 
 
 
