@@ -129,5 +129,21 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 <img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/25583eca-5207-4cac-b363-559ff0f7d6e3" />
 
+---------------------------------------------------------
+**DISCLAIMEEEER::::** S'HAURA DE FER AQUESTS PASSOS PER A LA FAENA QUE ENS MANE MIREIA.
+
+-Descarreguem dades.ldif del moodle. Hem de fer un slapcat i el que volem es buidar les dades del dpkg reconfigure del del atre dia i fem un slapcat per comprovarho
+
+<img width="813" height="81" alt="image" src="https://github.com/user-attachments/assets/5c3a4169-fc86-4c29-8d08-c9d71537dad3" />
+
+- (Primer get dades.ldif o document nou)cerca i reemplaça amb els copiats els dos seleccionats i fer aixo:
+
+ <img width="1216" height="718" alt="image" src="https://github.com/user-attachments/assets/714936f2-5a2b-4629-910f-42e089e69177" />
+
+- ldapadd:
+
+  <img width="836" height="493" alt="image" src="https://github.com/user-attachments/assets/1975c175-3397-41b1-b7b7-f19887816114" />
+
+- 
 
 
