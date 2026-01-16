@@ -174,6 +174,21 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 <img width="986" height="33" alt="image" src="https://github.com/user-attachments/assets/c8dfdc01-40b4-4650-b71c-ab0bf0c36536" />
 
+- torno a editar nano prova.ldif per a borrar i no sustituir el mail ho modifiquem aixi:
+
+<img width="954" height="116" alt="image" src="https://github.com/user-attachments/assets/4b745ad3-bb1d-4f7e-a1cc-54fbcf47c587" />
+
+<img width="954" height="116" alt="image" src="https://github.com/user-attachments/assets/ba3468b7-1451-4da8-bf50-1234c9387b5b" />
+
+- Per a esborrar lusuari creat i comprovem amb el search que utiltizabem per buscar el usuari amb mail:
+
+<img width="990" height="81" alt="image" src="https://github.com/user-attachments/assets/51686471-1ab2-45fa-a5db-58d13f8793ba" />
+
+<img width="982" height="305" alt="image" src="https://github.com/user-attachments/assets/b34dd67b-5709-457c-b66f-abdac3fdac95" />
+
+
+
+
 
 
 
