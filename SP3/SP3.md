@@ -140,10 +140,34 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
  <img width="1216" height="718" alt="image" src="https://github.com/user-attachments/assets/714936f2-5a2b-4629-910f-42e089e69177" />
 
-- ldapadd:
+- ldapadd---> per a posar el usuari que hem canviat al get dades.ldif i al reconfigure:
 
   <img width="836" height="493" alt="image" src="https://github.com/user-attachments/assets/1975c175-3397-41b1-b7b7-f19887816114" />
 
-- 
+- Exemple de cerca amb ldapsearchs
+
+<img width="977" height="172" alt="image" src="https://github.com/user-attachments/assets/be606e2b-9e6f-474a-a6c1-d2a902792c7c" />
+
+<img width="977" height="172" alt="image" src="https://github.com/user-attachments/assets/20ce982b-79c8-496a-9b1b-0bf85091f5ea" />
+
+- si comensa per la M o te mail si cambio | per & doncs buscaria si te les dos condicions:
+
+<img width="973" height="279" alt="image" src="https://github.com/user-attachments/assets/4dde790b-4952-47bf-bfc4-5e997c83eac6" />
+
+- fer un get.dades ldif i copiar un usuari i fer un de nou amb un gedit prova.ldif (prova es el nom del nou arxiu.ldif que he creat per a ficar el nou usuari):
+
+<img width="1476" height="616" alt="image" src="https://github.com/user-attachments/assets/5ddced23-5d82-4e1b-9e14-82b355d028f8" />
+
+- agreguem el nou ldif amb l'usuari i comprovo la condicio del mail per a veure com funciona
+
+<img width="972" height="106" alt="image" src="https://github.com/user-attachments/assets/6c2c37dd-a73e-4c56-b5eb-825fe2d3dd80" />
+
+<img width="974" height="346" alt="image" src="https://github.com/user-attachments/assets/9d9f7a6b-7edc-4e26-9858-69ac908f71da" />
+
+
+
+
+
+
 
 
