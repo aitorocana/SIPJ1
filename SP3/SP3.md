@@ -251,6 +251,19 @@ domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
 
 <img width="730" height="130" alt="image" src="https://github.com/user-attachments/assets/f532a5f1-c68b-4dd9-84a5-fa1506f9cc45" />
 
+<img width="741" height="402" alt="image" src="https://github.com/user-attachments/assets/859f22f9-8110-4ba7-bb10-3fbc219190a0" />
+
+- **Exercici 4:** Fem un ldapsearch per veure quantes unitats organitzatives (uo) hi han. Ens surten 3, departaments, rrhh i la que hem creat nosaltres, nomines.
+
+<img width="750" height="41" alt="image" src="https://github.com/user-attachments/assets/74fe0a4f-bd31-4630-a31b-dab799c5bcd7" />
+
+<img width="340" height="151" alt="image" src="https://github.com/user-attachments/assets/9f305801-711b-4952-877e-02c432d8ea80" />
+
+- **Exercici 5:** Ara el que farem es Afegir l’usuari que has creat dintre d’un dels grups del domini amb ldapmodify. Utilitzem un dels arxius creats d'avans, borro lo anterior i fem aixó per a afegir l'usuari creat dintre d'un dels grups.
+
+<img width="830" height="150" alt="image" src="https://github.com/user-attachments/assets/698f244f-d9c8-4aa9-9de9-7dd8295c2248" />
+
+
 
 
 
