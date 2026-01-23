@@ -210,7 +210,11 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 
 FER LO MATEIX O MODIFICAR ALGUN ATRIBUT DIFERENT PER A L'EXEMPLE DEL MOODLE (dades_github.ldif)
 
-<img width="534" height="65" alt="image" src="https://github.com/user-attachments/assets/131a200b-86b0-4b64-9a90-b9cfcef6e999" />
+- Primer que tot, ens baixem dades_github.ldif i fem un dpkg-reconfigure slapd al servidor per tal de deixar la base de dades buida i només amb el
+domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
+
+
+
 
 
 
