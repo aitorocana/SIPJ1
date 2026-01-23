@@ -213,6 +213,54 @@ FER LO MATEIX O MODIFICAR ALGUN ATRIBUT DIFERENT PER A L'EXEMPLE DEL MOODLE (dad
 - Primer que tot, ens baixem dades_github.ldif i fem un dpkg-reconfigure slapd al servidor per tal de deixar la base de dades buida i només amb el
 domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
 
+<img width="1090" height="574" alt="image" src="https://github.com/user-attachments/assets/5e378679-c11b-4e51-b683-d438a7c899a7" />
+
+- Ara que tenim la base de dades buida, fem un gedit dades_github.ldif (nom del arxiu ldif) i canviar el domini vesper pel meu. En aquest cas, es gina. Per a fer-ho ràpid, selecciono el que vull canviar (dc) i faig un cerca i reemplaça canviant el domini per gina i ho desem.
+  
+<img width="1141" height="672" alt="image" src="https://github.com/user-attachments/assets/4909336b-7072-4ce5-aa55-2596cd6a10ed" />
+
+- ldapadd---> per a posar el domini que hem canviat al gedit dades_github.ldif i al reconfigure:
+
+<img width="1071" height="304" alt="image" src="https://github.com/user-attachments/assets/03e5d2d3-8957-417d-9b15-8628ae4c0682" />
+
+- Comprovem que s'ha efectuat el canvi amb un slapcat.
+  
+<img width="1048" height="559" alt="image" src="https://github.com/user-attachments/assets/144cb4f7-5fe3-4bfb-934a-1a3339a236f2" />
+
+- **Exercici 1:** Ara copiem un usuari i en crearem un de nou. Primer creem un nou arxiu.ldif i peguem el usuari de la base de dades que ja tenim. Després caviem nom i uid, per a que no sigui igual que la del usuari anterior, aixi creant-ne un de nou. Desem i tanquem i fem un altre ldapadd per agregar el nou canvi.
+
+<img width="864" height="553" alt="image" src="https://github.com/user-attachments/assets/0608c3a8-dcb9-48c9-8431-278b1dac3ff8" />
+
+- Comprovació amb slapcat:
+
+<img width="760" height="435" alt="image" src="https://github.com/user-attachments/assets/b3575fab-cbdc-45c2-b0c5-b69e6e24283c" />
+
+- **Exercici 2:** Ara crearem una uo. Basicament hem de fer els mateixos pasos, creació d'un arxiu buit, fer un gedit del arxiu posar la nova uo guardar i ldapadd.
+
+<img width="760" height="435" alt="image" src="https://github.com/user-attachments/assets/1a148875-ff69-42ba-be63-47ec8e30de0e" />
+
+<img width="755" height="123" alt="image" src="https://github.com/user-attachments/assets/743e63ab-ec26-4cd0-9d06-816588cba7d5" />
+
+<img width="689" height="197" alt="image" src="https://github.com/user-attachments/assets/1f2a0ee8-be5d-487e-934b-7630469d4526" />
+
+- **Exercici 3:** Ara mourem l'usuari Aitor que he creat a la nova uo. Utilitzem un dels arxius creats d'avans, borro lo anterior i fem aixó per a modificar el dn amb el que volem modificar.
+
+<img width="689" height="197" alt="image" src="https://github.com/user-attachments/assets/b7e23c43-ede0-4177-92dd-1c2d780ba116" />
+
+- Per últim fem un ldapmodify:
+
+<img width="730" height="130" alt="image" src="https://github.com/user-attachments/assets/f532a5f1-c68b-4dd9-84a5-fa1506f9cc45" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
