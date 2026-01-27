@@ -310,11 +310,17 @@ FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordin
 
 - fer un ip a i fer un ping al server
 
-- Nem a fitxer i altres ubicacions ---->
+- Nem a fitxer i altres ubicacions ----> fiquem la ip del server i l'arrel del fitxer entrem ens connectem i creem un fitxer per veure que tenim permisos
   
-<img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/65bb2c26-4794-426b-ab00-8e37f2abf712" />
+<img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/f80f9e29-f6e3-4659-acb8-f4c0d7c3929f" />
+
+- Ara provem entrant igual pero posant usuari registrat els colors que haviem creat per veure si funciona 
 
 <img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/276b8074-3204-4dbd-a368-58a52c82a2a0" />
+
+-------------------------------------
+
+EXERCICI ES ACABAR LO DEL LDAP DEL ATRE DIA I DONAR PERMISOS ALS USUARIS ESTOS QUE ASTIC FENT AL EXERCICI PER A QUE A ALTRE UBICACIONS FICANT EL PING AL SERVER PUGUESIM ENTRAR AMB ELS USUARIS AMB ELS PERMISOS ADEQUATS I TAL A L'AXIU SAMBA
 
 
 
