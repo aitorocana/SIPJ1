@@ -266,21 +266,55 @@ domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
 
 
 
+------------------------------------------------------------------
 
+Teoria servidor samba i fns: 
 
+Els SAMBA serveixen per a compartir arxius, recursos... a mes a mes SAMBA us permet compartir impresores i fer l'autenticació a través de un ldap (no es prescindible).
 
+FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordinador que té aquesta ip, però també serveix per a compartir arxius.
 
+**1. PART SERVIDOR**
 
+- **instal·lem SAMBA al ubuntu server que vam fer**:
 
+<img width="639" height="372" alt="image" src="https://github.com/user-attachments/assets/98aeeec8-d992-4ab5-8ccd-e8797e372385" />
 
+- Anem a l'arrel, creem carpeta i fitxer, donem permisos
 
+<img width="602" height="195" alt="image" src="https://github.com/user-attachments/assets/8b03a994-4e4a-46c3-b72f-e8ce60e6e884" />
 
+- Creem usuaris i un grup. pero no volem usuaris que puguin entrar per interficie gràfica sino per SAMBA.
 
+<img width="636" height="383" alt="image" src="https://github.com/user-attachments/assets/c79fb777-3c69-4ecd-a21b-3b5c506d76eb" />
 
+-  Creem el grup i despres assignem a groc i roig dintre del grup colors creat.
 
+<img width="636" height="383" alt="image" src="https://github.com/user-attachments/assets/fac491cf-dfd8-4e9d-bf93-db5232f5d633" />
 
+- Entrem al arxiu de configuracio de samba i anem baix de tot, i definim qui pot accedir, qui pot llegir, escriure, etc...
 
+<img width="643" height="409" alt="image" src="https://github.com/user-attachments/assets/451bceeb-6e78-469a-b272-6d37257aa500" />
 
+- Per a comprovar hem de reiniciar systemctl restart i comprovar-ho amb l'estatus
+
+<img width="510" height="42" alt="image" src="https://github.com/user-attachments/assets/01eeb8bb-8527-4b04-b71d-17cd68243e30" />
+
+<img width="647" height="417" alt="image" src="https://github.com/user-attachments/assets/db0b4292-d687-4ace-b94e-36e827161876" />
+
+**2. PART CLIENT**
+
+- instal·lem smbclient
+
+<img width="633" height="40" alt="image" src="https://github.com/user-attachments/assets/f74059e1-ee32-459b-affb-c223f0919274" />
+
+- fer un ip a i fer un ping al server
+
+- Nem a fitxer i altres ubicacions ---->
+  
+<img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/65bb2c26-4794-426b-ab00-8e37f2abf712" />
+
+<img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/276b8074-3204-4dbd-a368-58a52c82a2a0" />
 
 
 
