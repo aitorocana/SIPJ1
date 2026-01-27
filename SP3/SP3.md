@@ -318,6 +318,11 @@ FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordin
 
 <img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/276b8074-3204-4dbd-a368-58a52c82a2a0" />
 
+- En l'usuari roig, sera l'unic que no ens deixarà ni accedir, amb els altres no es sortira aquesta pestanya:
+
+<img width="873" height="654" alt="image" src="https://github.com/user-attachments/assets/7ef24095-46db-4936-bb7d-8758945597d4" />
+
+
 -------------------------------------
 
 EXERCICI ES ACABAR LO DEL LDAP DEL ATRE DIA I DONAR PERMISOS ALS USUARIS ESTOS QUE ASTIC FENT AL EXERCICI PER A QUE A ALTRE UBICACIONS FICANT EL PING AL SERVER PUGUESIM ENTRAR AMB ELS USUARIS AMB ELS PERMISOS ADEQUATS I TAL A L'AXIU SAMBA
