@@ -259,9 +259,14 @@ domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
 
 <img width="340" height="151" alt="image" src="https://github.com/user-attachments/assets/9f305801-711b-4952-877e-02c432d8ea80" />
 
-- **Exercici 5:** Ara el que farem es Afegir l’usuari que has creat dintre d’un dels grups del domini amb ldapmodify. Utilitzem un dels arxius creats d'avans, borro lo anterior i fem aixó per a afegir l'usuari creat dintre d'un dels grups.
+- **Exercici 5:** Ara el que farem es Afegir l’usuari que has creat dintre d’un dels grups del domini amb ldapmodify. Utilitzem un dels arxius creats d'avans, borro lo anterior i fem aixó per a afegir l'usuari creat dintre d'un dels grups de domini.
 
-<img width="830" height="150" alt="image" src="https://github.com/user-attachments/assets/698f244f-d9c8-4aa9-9de9-7dd8295c2248" />
+<img width="637" height="154" alt="image" src="https://github.com/user-attachments/assets/f1530f65-5916-4fc2-a2d4-4287f4f97021" />
+
+<img width="725" height="106" alt="image" src="https://github.com/user-attachments/assets/31498d61-2ca6-4e42-9cad-2a0de4c0d0c3" />
+
+<img width="690" height="493" alt="image" src="https://github.com/user-attachments/assets/c22d87c0-864f-41d2-99f2-a67416f6bdc5" />
+
 
 
 
