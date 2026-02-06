@@ -267,6 +267,20 @@ domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
 
 <img width="690" height="493" alt="image" src="https://github.com/user-attachments/assets/c22d87c0-864f-41d2-99f2-a67416f6bdc5" />
 
+- **Exercici 6:** D’un sol cop: Afegeix un nou atribut opcional a l’usuari sergi, modifica el cognom de l’usuari sergi al
+valor Pallarés
+
+<img width="658" height="507" alt="image" src="https://github.com/user-attachments/assets/c71a381e-6c30-4b0e-b160-4345fec067c2" />
+
+- **Exercici 7:** Quants usuaris hi ha dintre de la uo rrhh? Quins són?
+
+- Farem un ldapsearch en aquest cas. Podem observar que avans d'agregar el meu usuari a la rrhh, teniem els usuaris, sergi, enric i xavier. Per tnat, originalment n'hi havien 3
+
+<img width="710" height="202" alt="image" src="https://github.com/user-attachments/assets/742cb82e-ee14-4d17-a1a4-3e97bca316ad" />
+
+- **Exercici 8:** Esborra el gidNumber del grup informàtica
+
+No es podria esborrar el gidnumber del grup d'informàtica degut a que l'atribut gidNumber es obligatori per a que funcioni el grup
 
 
 
