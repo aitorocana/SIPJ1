@@ -282,6 +282,8 @@ valor Pallarés
 
 No es podria esborrar el gidnumber del grup d'informàtica degut a que l'atribut gidNumber es obligatori per a que funcioni el grup
 
+- **Exercici 9:** Quantes uos hi ha al domini vesper.cat?
+
 
 
 
@@ -348,6 +350,73 @@ FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordin
 -------------------------------------
 
 EXERCICI ES ACABAR LO DEL LDAP DEL ATRE DIA I DONAR PERMISOS ALS USUARIS ESTOS QUE ASTIC FENT AL EXERCICI PER A QUE A ALTRE UBICACIONS FICANT EL PING AL SERVER PUGUESIM ENTRAR AMB ELS USUARIS AMB ELS PERMISOS ADEQUATS I TAL A L'AXIU SAMBA
+
+
+---------------------------------------
+
+
+- NFS: serveix per a compartir carpetes dintre d'una xarxa interna pero la autentificació es a nivell de hosts. FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordinador que té aquesta ip, però també serveix per a compartir arxius.
+
+**1. PART SERVIDOR**
+
+**Apt update sempre avans que res**
+
+- instal·lem nfs-kernel-server al servidor:
+
+<img width="719" height="308" alt="image" src="https://github.com/user-attachments/assets/d43c9f91-f3a8-44d4-99f2-c25fb43b4566" />
+
+- comprovem que estigui actiu:
+
+<img width="729" height="189" alt="image" src="https://github.com/user-attachments/assets/b9299f4c-0f5a-4a1a-9312-f33a15dcd0fa" />
+
+- Des de l'arrel creem un nou arxiu
+
+<img width="726" height="124" alt="image" src="https://github.com/user-attachments/assets/3b868eba-bbd1-45c5-adce-00e080617c30" />
+
+- entrem a l'arxiu nano /etc/exports i creem permisos de la carpeta (lo asterisc diu que serveix per a que tinguin permis tots els ordenadors (*)):
+
+<img width="690" height="472" alt="image" src="https://github.com/user-attachments/assets/df299726-5681-4d8c-b0f9-fc28e2e95afc" />
+
+- reiniciem el nfs-kernel-server
+  
+<img width="603" height="105" alt="image" src="https://github.com/user-attachments/assets/d78489ed-90b2-4984-a539-7d1a505e88d6" />
+
+- fem un ip a i mirem la nostra ip del server
+
+**2. PART CLIENT**
+
+**Apt update sempre avans que res**
+
+- instal·lem uns paquets ---> nfs-common rpcbind :
+
+<img width="719" height="330" alt="image" src="https://github.com/user-attachments/assets/291ba082-4d81-4d61-bcc5-411dd19130d8" />
+
+- la carpeta del server que tenim, es monti automaticament a la que creem del client:
+
+<img width="699" height="140" alt="image" src="https://github.com/user-attachments/assets/480ab50b-e61e-4297-9fe8-5ebe8f8579a5" />
+
+- entrem al fstab ---> nano /etc/fstab per al fer el muntatge
+
+<img width="1088" height="346" alt="image" src="https://github.com/user-attachments/assets/99201a2d-f45a-4f52-8b12-639d718e172f" />
+
+i fem un reboot al client
+
+
+3. **COMPROVAVIONS**
+
+- Ara al server a la carpeta provesnfs creem un arxiu:
+  
+<img width="684" height="134" alt="image" src="https://github.com/user-attachments/assets/4cd55b3c-4102-426c-816f-d2864a103c47" />
+
+- entrem al client a la carpeta divendres i fem un ls i ens surt l'arxiu creat al server. Per últim crearem l'arxiu adeu, per veure si ho capta el servidor desde la carpeta provesnfs
+
+<img width="737" height="168" alt="image" src="https://github.com/user-attachments/assets/97159405-d0a3-4c62-a6cd-15990371e7fc" />
+
+- Comprovació del servidor que ens surt l'arxiu adeu:
+
+<img width="737" height="95" alt="image" src="https://github.com/user-attachments/assets/76e9d7cc-d00c-4385-9b32-df1adb603b1d" />
+
+- Podem veure que la carpeta provesnfs del servidor apunta al client i al revés.
 
 
 
