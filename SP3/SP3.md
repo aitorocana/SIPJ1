@@ -438,7 +438,7 @@ mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per
 
 <img width="708" height="206" alt="image" src="https://github.com/user-attachments/assets/4aa7018b-eab5-4451-a190-2bc8aa240be4" />
 
-- fem un gedit /etc/exports i copiem i peguem lultima linia i fiquem l'arrel del arxiu
+- fem un gedit /etc/exports i copiem i peguem l'ultima linia i fiquem l'arrel del arxiu
 
 <img width="702" height="333" alt="image" src="https://github.com/user-attachments/assets/6590b1d6-339c-40c1-bc6f-9368f92363d8" />
 
@@ -450,12 +450,13 @@ mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per
 
 - Modifiquem el usu.ldif per a que sigui el home directory perfils i trec la uo: users
 
-<img width="724" height="467" alt="image" src="https://github.com/user-attachments/assets/03251811-7a62-4b53-a30e-8dfbc0591c2f" />
+<img width="724" height="467" alt="image" src="https://github.com/user-attachments/assets/8535eb15-e2fb-4429-ba6a-622f40b66016" />
 
 **part client**
 
-- anem al client i entrem amb l'usuari alu2 alu2
+- anem al client i entrem amb l'usuari alu3 alu3 i hem pogut entrar correctament.
 
+<img width="941" height="632" alt="image" src="https://github.com/user-attachments/assets/dd80ca35-eb02-4c25-99c2-0853e2bf60bc" />
 
 
 
