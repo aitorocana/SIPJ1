@@ -404,25 +404,57 @@ i fem un reboot al client
 
 3. **COMPROVAVIONS**
 
-- Ara al server a la carpeta provesnfs creem un arxiu:
+- Ara al **server** a la carpeta provesnfs creem un arxiu:
   
 <img width="684" height="134" alt="image" src="https://github.com/user-attachments/assets/4cd55b3c-4102-426c-816f-d2864a103c47" />
 
-- entrem al client a la carpeta divendres i fem un ls i ens surt l'arxiu creat al server. Per últim crearem l'arxiu adeu, per veure si ho capta el servidor desde la carpeta provesnfs
+- entrem al **client** a la carpeta divendres i fem un ls i ens surt l'arxiu creat al server. Per últim crearem l'arxiu adeu, per veure si ho capta el **servidor** desde la carpeta provesnfs
 
 <img width="737" height="168" alt="image" src="https://github.com/user-attachments/assets/97159405-d0a3-4c62-a6cd-15990371e7fc" />
 
-- Comprovació del servidor que ens surt l'arxiu adeu:
+- Comprovació del **servidor** que ens surt l'arxiu adeu:
 
 <img width="737" height="95" alt="image" src="https://github.com/user-attachments/assets/76e9d7cc-d00c-4385-9b32-df1adb603b1d" />
 
 - Podem veure que la carpeta provesnfs del servidor apunta al client i al revés.
 
+--------------
 
+mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per nfs a panel de control a servicios NFS i fer un check a la casella, reiniciar, i desde xarxa a ver si es veu el client server nfs
 
+----------
 
+- Creem un ariu perfils li donem permisos i fem un gedit /etc/fstab
 
+<img width="759" height="117" alt="image" src="https://github.com/user-attachments/assets/1c94d12f-f96e-4747-94d9-c9200cbc9898" />
 
+- copiem la ultima linia del gedit la peguem baix seva i canviem l'arrel de l'arxiu divendres al nou creat perfils.
+
+<img width="1100" height="319" alt="image" src="https://github.com/user-attachments/assets/79e9de6f-c614-4d6d-b666-0dfe4f5f0c16" />
+
+**Part server**
+
+- creem el mateix arxiu que al client i li donem permisos i comprovem
+
+<img width="708" height="206" alt="image" src="https://github.com/user-attachments/assets/4aa7018b-eab5-4451-a190-2bc8aa240be4" />
+
+- fem un gedit /etc/exports i copiem i peguem lultima linia i fiquem l'arrel del arxiu
+
+<img width="702" height="333" alt="image" src="https://github.com/user-attachments/assets/6590b1d6-339c-40c1-bc6f-9368f92363d8" />
+
+- fem un restart del nfs-kernel-server
+
+<img width="758" height="46" alt="image" src="https://github.com/user-attachments/assets/4a70f91c-4d02-4bd8-9bfb-2d14a18043a5" />
+
+- fem un slapcat dintre de baixades per veure el ldap que tenim, i ens quedem amb un grup de posixgroups i amb el domini, informatica i gina i cat i el numero gid 1001
+
+- Modifiquem el usu.ldif per a que sigui el home directory perfils i trec la uo: users
+
+<img width="724" height="467" alt="image" src="https://github.com/user-attachments/assets/03251811-7a62-4b53-a30e-8dfbc0591c2f" />
+
+**part client**
+
+- anem al client i entrem amb l'usuari alu2 alu2
 
 
 
