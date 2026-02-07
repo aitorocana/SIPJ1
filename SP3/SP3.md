@@ -130,85 +130,8 @@ Ara reinicio i miro si puc accedir a usuari alu1 contra igual
 <img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/25583eca-5207-4cac-b363-559ff0f7d6e3" />
 
 ---------------------------------------------------------
-**DISCLAIMEEEER::::** S'HAURA DE FER AQUESTS PASSOS PER A LA FAENA QUE ENS MANE MIREIA.
 
--Descarreguem dades.ldif del moodle. Hem de fer un slapcat i el que volem es buidar les dades del dpkg reconfigure del del atre dia i fem un slapcat per comprovarho
-
-<img width="813" height="81" alt="image" src="https://github.com/user-attachments/assets/5c3a4169-fc86-4c29-8d08-c9d71537dad3" />
-
-- (Primer get dades.ldif o document nou)cerca i reemplaça amb els copiats els dos seleccionats i fer aixo:
-
- <img width="1216" height="718" alt="image" src="https://github.com/user-attachments/assets/714936f2-5a2b-4629-910f-42e089e69177" />
-
-- ldapadd---> per a posar el usuari que hem canviat al get dades.ldif i al reconfigure:
-
-  <img width="836" height="493" alt="image" src="https://github.com/user-attachments/assets/1975c175-3397-41b1-b7b7-f19887816114" />
-
-- Exemple de cerca amb ldapsearchs
-
-<img width="977" height="172" alt="image" src="https://github.com/user-attachments/assets/be606e2b-9e6f-474a-a6c1-d2a902792c7c" />
-
-<img width="977" height="172" alt="image" src="https://github.com/user-attachments/assets/20ce982b-79c8-496a-9b1b-0bf85091f5ea" />
-
-- si comensa per la M o te mail si cambio | per & doncs buscaria si te les dos condicions:
-
-<img width="973" height="279" alt="image" src="https://github.com/user-attachments/assets/4dde790b-4952-47bf-bfc4-5e997c83eac6" />
-
-- fer un get.dades ldif i copiar un usuari i fer un de nou amb un gedit prova.ldif (prova es el nom del nou arxiu.ldif que he creat per a ficar el nou usuari):
-
-<img width="1476" height="616" alt="image" src="https://github.com/user-attachments/assets/5ddced23-5d82-4e1b-9e14-82b355d028f8" />
-
-- agreguem el nou ldif amb l'usuari i comprovo la condicio del mail per a veure com funciona
-
-<img width="972" height="106" alt="image" src="https://github.com/user-attachments/assets/6c2c37dd-a73e-4c56-b5eb-825fe2d3dd80" />
-
-<img width="974" height="346" alt="image" src="https://github.com/user-attachments/assets/9d9f7a6b-7edc-4e26-9858-69ac908f71da" />
-
-- SI VULL CANVIAR EL MAIL PQ HE EQUIVOCAT FER NANO PROVES.LDIF I FER AIXO:
-
-<img width="985" height="115" alt="image" src="https://github.com/user-attachments/assets/0484cfab-99c2-4202-9a19-cb4de714f6ef" />
-
-<img width="969" height="99" alt="image" src="https://github.com/user-attachments/assets/3f3d9315-8746-4bdb-8bc7-795d22e93dfc" />
-
-- i ho comprovo amb la condició de ldapsearch & per veure si s'ha modificat correctament:
-
-<img width="986" height="33" alt="image" src="https://github.com/user-attachments/assets/c8dfdc01-40b4-4650-b71c-ab0bf0c36536" />
-
-- torno a editar nano prova.ldif per a borrar i no sustituir el mail ho modifiquem aixi:
-
-<img width="954" height="116" alt="image" src="https://github.com/user-attachments/assets/4b745ad3-bb1d-4f7e-a1cc-54fbcf47c587" />
-
-<img width="954" height="116" alt="image" src="https://github.com/user-attachments/assets/ba3468b7-1451-4da8-bf50-1234c9387b5b" />
-
-- Per a esborrar lusuari creat i comprovem amb el search que utiltizabem per buscar el usuari amb mail:
-
-<img width="990" height="81" alt="image" src="https://github.com/user-attachments/assets/51686471-1ab2-45fa-a5db-58d13f8793ba" />
-
-<img width="982" height="305" alt="image" src="https://github.com/user-attachments/assets/b34dd67b-5709-457c-b66f-abdac3fdac95" />
-
-- colem modificar el lloc dels professors, volem mourel de la unitat organitzativa "ou" al domini  (copiem la primera linia
-
-<img width="982" height="305" alt="image" src="https://github.com/user-attachments/assets/d3a22ccb-4388-4a5c-839a-073c2e748156" />
-
-- HO agreguem amb el ldapmodify i ho comprovem amb un slapcat
-
-<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/c1fb0088-fed3-4b5f-8bb7-66a7a366987e" />
-
-<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/0f5dadad-4d7e-428a-80ba-ff5442c16be7" />
-
-- Ara modificarem el dn si volem canviar algo (en aquest cas li treiem un espai a Joel Javier)
-
-<img width="977" height="115" alt="image" src="https://github.com/user-attachments/assets/9b7100f3-12c5-4f4b-905c-13c96f6fc79f" />
-
-- HO agreguem amb el modify i comprovem amb slapcat
-
-<img width="936" height="77" alt="image" src="https://github.com/user-attachments/assets/92e85fed-2b52-4780-92fa-5ba0e44fddee" />
-
-<img width="936" height="77" alt="image" src="https://github.com/user-attachments/assets/28add404-bfc2-4353-8122-eb7d26011a8b" />
-
----------------------------------------
-
-FER LO MATEIX O MODIFICAR ALGUN ATRIBUT DIFERENT PER A L'EXEMPLE DEL MOODLE (dades_github.ldif)
+**EXERCICI**
 
 - Primer que tot, ens baixem dades_github.ldif i fem un dpkg-reconfigure slapd al servidor per tal de deixar la base de dades buida i només amb el
 domini i l’usuari admin creat. Després ho comprovarem amb un slapcat.
@@ -282,7 +205,52 @@ valor Pallarés
 
 No es podria esborrar el gidnumber del grup d'informàtica degut a que l'atribut gidNumber es obligatori per a que funcioni el grup
 
-- **Exercici 9:** Quantes uos hi ha al domini vesper.cat?
+- **Exercici 9:** Quantes uos hi ha al domini vesper.cat? (gina en aquest cas)
+
+<img width="921" height="476" alt="image" src="https://github.com/user-attachments/assets/16748ee7-0acc-4c70-a506-bb1a7dc979e3" />
+
+- **Exercici 10:**  Modifica el cn de Xavier per Francesc Xavier
+
+<img width="693" height="454" alt="image" src="https://github.com/user-attachments/assets/b07218c2-5753-428e-8383-5be797a30fb0" />
+
+<img width="702" height="135" alt="image" src="https://github.com/user-attachments/assets/2eb80a6b-b7e7-44c7-b9da-32419757fa03" />
+
+- comprovacio:
+
+<img width="702" height="135" alt="image" src="https://github.com/user-attachments/assets/bebe18ba-07e3-4764-89c0-fc8aa06673c1" />
+
+- **Exercici 11:**  Esborra la uo nòmines
+
+- Faig la comanda ldapdelete, amb la uo que vull eliminar:
+
+<img width="689" height="56" alt="image" src="https://github.com/user-attachments/assets/578fbf36-75a2-441e-8e13-cde9811e7467" />
+
+<img width="749" height="291" alt="image" src="https://github.com/user-attachments/assets/024e083e-3d95-41ef-bbcc-fa9164c7c370" />
+
+- **Exercici 12:**  Mostra els usuaris que tinguin com a grup principal el grup administració
+
+- Fem un slapcat i busquem el grup principal d'administració, veiem que té un gidnumber asociat, per tant haurem de filtrar amb aquest gidnumber per saber quins usuaris el tenen
+
+<img width="575" height="101" alt="image" src="https://github.com/user-attachments/assets/85f3f275-e352-41d2-9f2b-3ad158f6caa7" />
+
+<img width="694" height="741" alt="image" src="https://github.com/user-attachments/assets/6bc0222f-94f0-4a1a-9430-2de88b4ca4eb" />
+
+- **Exercici 13:**  Quin usuari té el uidNumber 1003?
+
+- Principalment, no hi havia cap usuari amb uidNumber 1003, però com vaig crear un usuari amb aquest uidNumber per a un excercici anterior, hem mostra aquest:
+
+<img width="696" height="579" alt="image" src="https://github.com/user-attachments/assets/79db1787-fdf2-440a-b2c9-f34f5c5ada9c" />
+
+- **Exercici 14:**  Mostra quins són els usuaris on el seu cognom comenci per R i el seu uidNumber sigui més gran que
+1003
+
+<img width="696" height="579" alt="image" src="https://github.com/user-attachments/assets/537e12f1-25a8-4592-8067-325bcd72beaf" />
+
+- **Exercici 14:**  Mostra quins usuaris formen part del grup informàtica o aquells usuaris que tinguis de cognom
+Pallarés
+
+
+
 
 
 
