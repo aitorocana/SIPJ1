@@ -249,11 +249,13 @@ No es podria esborrar el gidnumber del grup d'informàtica degut a que l'atribut
 - **Exercici 14:**  Mostra quins usuaris formen part del grup informàtica o aquells usuaris que tinguis de cognom
 Pallarés
 
+- Mirem els usuaris del grup informatica
 
+<img width="702" height="418" alt="image" src="https://github.com/user-attachments/assets/def44674-1310-4348-a035-039ee142b5ef" />
 
+- Mirem els usuaris de cognom pallares
 
-
-
+<img width="678" height="605" alt="image" src="https://github.com/user-attachments/assets/3366118b-b0d5-4e05-83bd-bd567c297d29" />
 
 
 
