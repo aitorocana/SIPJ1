@@ -321,6 +321,35 @@ FNS, funciona mes a nivell de host o de ip, pot accedir a aquest recurs el ordin
 
 EXERCICI ES ACABAR LO DEL LDAP DEL ATRE DIA I DONAR PERMISOS ALS USUARIS ESTOS QUE ASTIC FENT AL EXERCICI PER A QUE A ALTRE UBICACIONS FICANT EL PING AL SERVER PUGUESIM ENTRAR AMB ELS USUARIS AMB ELS PERMISOS ADEQUATS I TAL A L'AXIU SAMBA
 
+**EXERCICI PERMISOS USUARIS DE L'ANTERIOR LDAP MITJANÇANT SAMBA**
+
+- Utilitzaré els usuaris Francesc Xavier, Aitor, enric i sergi
+
+**1r Pas** començem configurant el arxiu common-session , nsswitch.conf i common-password
+
+<img width="675" height="496" alt="image" src="https://github.com/user-attachments/assets/edb9c742-4ac0-4767-b0ee-36052f9d92bc" />
+
+<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/c1f639f6-8d6b-4dff-acdb-d834082f66ad" />
+
+<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/fd37a11c-1c79-4213-af9c-948f0dbf1269" />
+
+<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/17ecacfb-6d9b-440c-839a-db22602e4c61" />
+
+
+
+
+**2n Pas** 
+
+
+
+
+
+
+
+
+
+
+
 
 ---------------------------------------
 
@@ -391,6 +420,15 @@ i fem un reboot al client
 --------------
 
 mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per nfs a panel de control a servicios NFS i fer un check a la casella, reiniciar, i desde xarxa a ver si es veu el client server nfs
+
+**EXERCICI NFS WINDOWS**
+
+- Primer obrim el panell de control de windows, anem a programes i característiques i a activar o desactivar las caracteristicas de Windows
+
+<img width="736" height="199" alt="image" src="https://github.com/user-attachments/assets/ea6793c7-0b89-4c83-98e0-e549dee02323" />
+
+- Una vegada a aqui
+
 
 ----------
 
