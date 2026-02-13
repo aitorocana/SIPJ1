@@ -421,21 +421,6 @@ i fem un reboot al client
 
 - Podem veure que la carpeta provesnfs del servidor apunta al client i al revés.
 
---------------
-
-mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per nfs a panel de control a servicios NFS i fer un check a la casella, reiniciar, i desde xarxa a ver si es veu el client server nfs
-
-**EXERCICI NFS WINDOWS**
-
-- Primer obrim el panell de control de windows, anem a programes i característiques i a activar o desactivar las caracteristicas de Windows
-
-<img width="736" height="199" alt="image" src="https://github.com/user-attachments/assets/ea6793c7-0b89-4c83-98e0-e549dee02323" />
-
-- Una vegada a aqui
-
-
-----------
-
 - Creem un ariu perfils li donem permisos i fem un gedit /etc/fstab
 
 <img width="759" height="117" alt="image" src="https://github.com/user-attachments/assets/1c94d12f-f96e-4747-94d9-c9200cbc9898" />
@@ -470,9 +455,20 @@ mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per
 
 <img width="941" height="632" alt="image" src="https://github.com/user-attachments/assets/dd80ca35-eb02-4c25-99c2-0853e2bf60bc" />
 
+--------------
+
+mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per nfs a panel de control a servicios NFS i fer un check a la casella, reiniciar, i desde xarxa a ver si es veu el client server nfs
+
+**EXERCICI NFS WINDOWS**
+
+- Primer obrim el panell de control de windows, anem a programes i característiques i a activar o desactivar las caracteristicas de Windows
+
+<img width="736" height="199" alt="image" src="https://github.com/user-attachments/assets/ea6793c7-0b89-4c83-98e0-e549dee02323" />
+
+- Una vegada a aqui
 
 
-
+----------
 
 
 
