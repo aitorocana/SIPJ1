@@ -325,27 +325,31 @@ EXERCICI ES ACABAR LO DEL LDAP DEL ATRE DIA I DONAR PERMISOS ALS USUARIS ESTOS Q
 
 - Utilitzaré els usuaris Francesc Xavier, Aitor, enric i sergi
 
-**1r Pas** començem configurant el arxiu common-session , nsswitch.conf i common-password
+**PART SERVIDOR**
 
-<img width="675" height="496" alt="image" src="https://github.com/user-attachments/assets/edb9c742-4ac0-4767-b0ee-36052f9d92bc" />
+**1r Pas** començem creant els usuaris , però primer, anem a l'arrel, creem carpeta i fitxer, i donem permisos.
 
-<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/c1f639f6-8d6b-4dff-acdb-d834082f66ad" />
+<img width="690" height="175" alt="image" src="https://github.com/user-attachments/assets/4ff0ef04-5d23-4807-b280-6a0299cd00f5" />
 
-<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/fd37a11c-1c79-4213-af9c-948f0dbf1269" />
+**2n Pas** Ara creem els usuaris i els hi assignem una contrasenya. per a que puguin accedir gràficament.
 
-<img width="702" height="612" alt="image" src="https://github.com/user-attachments/assets/17ecacfb-6d9b-440c-839a-db22602e4c61" />
+<img width="658" height="475" alt="image" src="https://github.com/user-attachments/assets/b6e9f60e-e48a-4965-98fb-fba385a6aed2" />
 
+- Creem el grup i assignem a xavier, enric i sergi dintre del grup...
 
+<img width="645" height="314" alt="image" src="https://github.com/user-attachments/assets/f40a92f4-c606-49b4-bf3e-b85e2a6ce1d2" />
 
+**3r Pas** Ara Entrem al arxiu de configuracio de samba per a definir qui pot accedir, qui pot llegir, escriure, etc... Simplement per assignar permissos a aquests usuaris de forma manual. Aqui farem que l'usuari Enrinc, per exemple, no pugui ni accedir des del client
 
-**2n Pas** 
+<img width="774" height="623" alt="image" src="https://github.com/user-attachments/assets/301b8e20-c7b9-4f5a-af0d-c5b73e6a89fc" />
 
+- Per a comprovar hem de reiniciar systemctl restart i comprovar-ho amb l'estatus
 
+<img width="775" height="518" alt="image" src="https://github.com/user-attachments/assets/7b3c1ce1-00b5-4b78-9301-e8d82cff2d3c" />
 
+**PART CLIENT**
 
-
-
-
+- S'instal·la smbclient si no el tenim.
 
 
 
