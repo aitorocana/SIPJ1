@@ -3,7 +3,13 @@
 
 ## **INSTAL·LACIÓ DOMINI LDAP I UNIR CLIENT AL DOMINI**
 
-- Mini teoria: redactar sobre abres i dominis
+**Que son els dominis?**
+
+- Els dominis son una forma de que una empresa tingui la capacitat de controlar usuaris i equips dintre del seu domini per a que aquests si es configuren sota el mateix mitjançant un servidor, els usuaris puguin accedir des de diferents ordinadors dintre del servidor de l'empresa.
+
+**arbre de dominis**:
+
+- Un arbre, si estem parlant sobre dominis, es un conjunt de dominis que comparteixen la mateixa jerarquia i l'arrel de domini, així si la empresa creix, sorgeixen branques del domini principal per poder organitzar millor departaments.
 
 Anar a fitxer, eines, network manager i crear NatNetwork. Després seguir els pasos següents, per al client i servidor d'ubuntu per a no tenir problemes amb la ip, establint  ala xarxa dels dos, la NatNetwork establerta. 
 
@@ -457,16 +463,16 @@ i fem un reboot al client
 
 --------------
 
-mini exercici: agafem un windows dintre de la mateixa XARXA NAT i conectarme per nfs a panel de control a servicios NFS i fer un check a la casella, reiniciar, i desde xarxa a ver si es veu el client server nfs
-
 **EXERCICI NFS WINDOWS**
 
 - Primer obrim el panell de control de windows, anem a programes i característiques i a activar o desactivar las caracteristicas de Windows
 
 <img width="736" height="199" alt="image" src="https://github.com/user-attachments/assets/ea6793c7-0b89-4c83-98e0-e549dee02323" />
 
-- Una vegada a aqui
+- Una vegada a aqui activem "client per a NFS", s'ha de tenir present que l'opció sol sortirà als Windows pro, o altres, el home no serveix ja que no disposa de totes les característiques del Windows.
+- Apliquem els canvis i reiniciem.
 
+<img width="1394" height="1046" alt="image" src="https://github.com/user-attachments/assets/7072bf87-fdbe-46ca-8889-76382fd7a043" />
 
 ----------
 
