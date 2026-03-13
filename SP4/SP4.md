@@ -9,13 +9,15 @@ logger -i -s -p mail.err Aturant el sistema
 
 Server.prioritat accio
 
+**- Serveis**
+  
 **auth**
 **mail**
 **lpr**
 **cron**
 **kern**
 
----------------
+**- Prioritats dels serveis**
 
 
 Prioritat de menos a més important, per exemple si posem Mail.alert ---> sera que la prioritat sera del nivell cap a dalt, soigue de alert a emerg,panic.
@@ -30,7 +32,9 @@ Si fiques Mail.=alert sera sol aquesta. SI fiquem *.crit es per a tots
 **alert**
 **emerg,panic**
 
-explicar una mica aixó la monitoritzacio i després entrar per exemple al firefox i mirar que consumeix, la prioritat, etc.
+-----------------------------------------------------------------------
+
+Explicar una mica aixó la monitoritzacio i després entrar per exemple al firefox i mirar que consumeix, la prioritat, etc.
 
 <img width="842" height="718" alt="image" src="https://github.com/user-attachments/assets/9df6f9c2-6475-4292-99fe-bd7cac0bacf8" />
 
