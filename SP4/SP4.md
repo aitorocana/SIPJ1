@@ -11,11 +11,11 @@ Server.prioritat accio
 
 **Serveis**
   
-**auth**
-**mail**
-**lpr**
-**cron**
-**kern**
+- **auth**
+- **mail**
+- **lpr**
+- **cron**
+- **kern**
 
 **Prioritats dels serveis**
 
@@ -23,14 +23,14 @@ Server.prioritat accio
 Prioritat de menos a més important, per exemple si posem Mail.alert ---> sera que la prioritat sera del nivell cap a dalt, soigue de alert a emerg,panic.
 Si fiques Mail.=alert sera sol aquesta. SI fiquem *.crit es per a tots
 
-**debug**
-**infor**
-**notice**
-**warning,warn**
-**err,error**
-**crit**
-**alert**
-**emerg,panic**
+- **debug**
+- **infor**
+- **notice**
+- **warning,warn**
+- **err,error**
+- **crit**
+- **alert**
+- **emerg,panic**
 
 -----------------------------------------------------------------------
 
