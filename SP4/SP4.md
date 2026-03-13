@@ -9,7 +9,7 @@ logger -i -s -p mail.err Aturant el sistema
 
 Server.prioritat accio
 
-**- Serveis**
+**Serveis**
   
 **auth**
 **mail**
@@ -17,7 +17,7 @@ Server.prioritat accio
 **cron**
 **kern**
 
-**- Prioritats dels serveis**
+**Prioritats dels serveis**
 
 
 Prioritat de menos a més important, per exemple si posem Mail.alert ---> sera que la prioritat sera del nivell cap a dalt, soigue de alert a emerg,panic.
