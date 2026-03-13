@@ -36,6 +36,12 @@ Si fiques Mail.=alert sera sol aquesta. SI fiquem *.crit es per a tots
 
 Explicar una mica aixó la monitoritzacio i després entrar per exemple al firefox i mirar que consumeix, la prioritat, etc.
 
+- El que veem en les següents imatges es la motorització dels processos del sistema en temps real. En la primera veiem tots els processos, aqui podem veure que es el que consumeixen, si un procés no respon, es pot matar. També podem veure la prioritat, per exemple si volem descarregar algo, li podem canviar la prioritat i destinar tots els recursos o no al procés.
+  
+- En la segona imatge, veiem cuanta RAM s'esta utilitzant, les xarxa d'internet, quantes dades envia i rep.
+
+- EN la última, veiem les particions que té els discs i el que ocupen.
+
 <img width="842" height="718" alt="image" src="https://github.com/user-attachments/assets/9df6f9c2-6475-4292-99fe-bd7cac0bacf8" />
 
 <img width="842" height="718" alt="image" src="https://github.com/user-attachments/assets/f3818018-fe5a-4c42-860e-cc6471a16928" />
@@ -44,11 +50,11 @@ Explicar una mica aixó la monitoritzacio i després entrar per exemple al firef
 
 **LOGS**
 
-- Entrar als LOGS ---> cd /var/log
+- Entrar als LOGS ---> cd /var/log i després un ls
 
-EXPLICAR QUE VEEM, logs que poden no estar tots aqui, pero estiran tots als syslog ja q queda tot a aquest arxiu:
+QUE VEIEM?
 
-
+- Aqui entrem al directori on contenen tots els tipus de logs del sistema, inclús errors i també la rotació de logs. Però, no es que es guardin tots els logs en general, sinó que es veuen diferents tipus de logs, per exemple també hi ha els logs d'instal·lació de paquets, intents d'autentificació, informació de l'arrancada del sistema. Però on realment es guarden tots tots els logs, es al syslog. Per tant, el que es fa aqui es tenir un registre de la monitorització del sistema, pero des del terminal.
 
 <img width="842" height="718" alt="image" src="https://github.com/user-attachments/assets/df2b32a4-686d-447b-b770-2dee90b9b3e5" />
 
