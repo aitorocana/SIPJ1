@@ -133,5 +133,60 @@ Aqui amb el *.* decidim que tot anirà al syslog
 
 <img width="1784" height="402" alt="image" src="https://github.com/user-attachments/assets/9baaff45-fedd-4ada-8ae7-5286d8ff26ed" />
 
+
+**CONNEXIÓ REMOTA**
+
+- Primer que tot, ens hem de descarregar aquests dos arxius de VNC VIEWER, un ens servirà per a la part client i l'altre per a la part servidor, però sinó fem apt install
+tightvncserver :
+
+<img width="763" height="231" alt="image" src="https://github.com/user-attachments/assets/c54fd68b-74ef-4fb9-ae74-ee3b570e3e8e" />
+
+**Part server**
+
+-Fem un sudo dpkg -i del arxiu de la part servidor:
+
+<img width="1033" height="445" alt="image" src="https://github.com/user-attachments/assets/e0a04f62-c7e4-4bc7-88d2-f8744781b3f0" />
+
+- Posem aquestes dues commandes: sudo systemctl enable vncserver-x11-serviced i sudo systemctl start vncserver-x11-serviced per tal d'activar el servidor
+
+<img width="751" height="94" alt="image" src="https://github.com/user-attachments/assets/10a2fe38-8354-4eab-999e-c82e0806c3d9" />
+
+**Part client**
+
+- ens hem de descarregar VNC VIEWER, que ens servirà per a la part client:
+
+<img width="760" height="184" alt="image" src="https://github.com/user-attachments/assets/ba09ae20-39f3-41b0-96a6-102b21b595c5" />
+
+---------------
+
+- Ara per a que funcioni desde la arxa NAT que tenim crearem una clau SSH al **servidor**, primer un update, després apt install openssh-server:
+
+<img width="761" height="265" alt="image" src="https://github.com/user-attachments/assets/5a0c9f11-5a31-43ca-a41c-5b90e85e54d9" />
+
+- Ara tenim que mirar la ip del nostre servidor amb ip a que es 10.0.2.15 i obrim el **client** i comprove que va un ping al server:
+
+<img width="881" height="173" alt="image" src="https://github.com/user-attachments/assets/19fb46f4-c710-4f35-a61f-b3bb97953347" />
+
+- A partir de que tenim una connexió fem: ssh aitor@10.0.2.15 per a que conegui i reconegui el servidor
+
+<img width="737" height="153" alt="image" src="https://github.com/user-attachments/assets/68947007-8d10-47d7-88f2-4fff85a8ee4d" />
+
+- Ara creem el tunel amb ssh:
+
+<img width="737" height="435" alt="image" src="https://github.com/user-attachments/assets/300661aa-e5d7-4f0e-9830-b9f63900d838" />
+
+- Per últim obrim VNC VIEWER al client i fem lo següent i tindria que funcionar:
+
+<img width="1065" height="683" alt="image" src="https://github.com/user-attachments/assets/e4bf7f74-cf06-4b36-963d-0947169376c6" />
+
+
+
+
+
+
+
+
+
+
   
 
