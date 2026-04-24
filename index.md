@@ -22,5 +22,5 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
 ## [SP4 Monitorització, connexió remota i llicenciament](SP4/SP4.md)
 
 ## [Unidad 2: Implementació i Gestió d’un Sistema Windows amb Tecnologia ABP](unidad2/unidad2.md) 
-## [Sprint 1: Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius](SP1_2/SP1_2.md)
+## [Sprint 1: Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius](SP5.md/SP5.md)
 
