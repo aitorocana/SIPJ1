@@ -175,10 +175,6 @@ tightvncserver :
 
 <img width="737" height="435" alt="image" src="https://github.com/user-attachments/assets/300661aa-e5d7-4f0e-9830-b9f63900d838" />
 
-- Per últim obrim VNC VIEWER al client i fem lo següent i tindria que funcionar:
-
-<img width="1065" height="683" alt="image" src="https://github.com/user-attachments/assets/e4bf7f74-cf06-4b36-963d-0947169376c6" />
-
 
 
 
