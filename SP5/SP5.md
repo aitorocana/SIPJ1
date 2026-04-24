@@ -51,83 +51,174 @@
 
 <img width="594" height="231" alt="image" src="https://github.com/user-attachments/assets/5ae0299b-2332-4f5f-83da-74e8521d360f" />
 
-<img width="935" height="776" alt="image" src="https://github.com/user-attachments/assets/289b8335-00b8-48c3-b230-2876b17a2b3d" />
+<img width="935" height="776" alt="image" src="https://github.com/user-attachments/assets/6323c421-3bb9-4be2-a175-eb73eb537f3b" />
 
 
+<img width="720" height="497" alt="image" src="https://github.com/user-attachments/assets/897e951b-13c2-42c7-8b23-a4c2d25d130d" />
+
+- No apareix el Mozilla instal·lat, però al restaurar sol esborres instal·lacions i programes, els documents no s'esborren.
+
+<img width="787" height="502" alt="image" src="https://github.com/user-attachments/assets/1aceb2ea-27af-4289-a351-331e6589eb78" />
 
 ---
 
 # Fase 3 – Llicències de Windows
 
-11. Obrir Configuració → Sistema → Activació  
-12. Veure si Windows està activat  
-13. Executar al cmd: `slmgr /xpr`  
-14. Esbrinar llicenciament Windows i explicar breument  
-15. Consultar preu aproximat d'una llicència Windows (web oficial o botigues)  
+11. Obrir Configuració → Sistema → Activació
+
+<img width="829" height="485" alt="image" src="https://github.com/user-attachments/assets/48202151-234d-4cbe-b49f-5dabebc3c6a9" />
+
+12. Veure si Windows està activat
+
+<img width="830" height="602" alt="image" src="https://github.com/user-attachments/assets/0290cf9e-7962-4abc-8cfa-79e47e791d34" />
+
+13. Executar al cmd: `slmgr /xpr`
+
+<img width="754" height="524" alt="image" src="https://github.com/user-attachments/assets/5ff1f0be-4065-425c-8485-b16ec9c3368e" />
+
+14. Esbrinar llicenciament Windows i explicar breument
+
+Aixó voldría dir que el sistema detecta que no hi ha llicència o està desactivada o expirada.
+
+15. Consultar preu aproximat d'una llicència Windows (web oficial o botigues)
+
+<img width="1814" height="950" alt="image" src="https://github.com/user-attachments/assets/1b625767-3507-457b-a01c-34de90d99d64" />
+
 
 ---
 
 # Fase 4 – Gestor d'arrencada
 
-16. Obrir Command Prompt com administrador  
-17. Executar `bcdedit`  
+16. Obrir Command Prompt com administrador
+
+<img width="804" height="685" alt="image" src="https://github.com/user-attachments/assets/df49fec1-ce31-45ef-97e6-144ebaa83e5e" />
+
+<img width="804" height="685" alt="image" src="https://github.com/user-attachments/assets/726cec73-ec87-4220-a34a-a0fac127c908" />
+
+ 
+17. Executar `bcdedit`
+
+<img width="804" height="685" alt="image" src="https://github.com/user-attachments/assets/b51aefec-08f3-44d2-a646-b630ed95311e" />
+ 
 18. Identificar els blocs:
    - Administrador de arranque de Windows (Boot Manager)
+
+<img width="578" height="225" alt="image" src="https://github.com/user-attachments/assets/3d121f8f-5e12-4c8f-a792-b48c0495976a" />
+
    - Cargador de arranque de Windows (Boot Loader)
+
+<img width="593" height="316" alt="image" src="https://github.com/user-attachments/assets/8cb3c4a0-1cd0-444e-9a0b-5e126ba2e55f" />
 
 19. Interpretar dades concretes
 
 ## Del bloc Boot Manager, identificar:
 
-- `default {current}` → sistema que arrenca per defecte  
-- `timeout 30` → temps d'espera abans d'arrencar  
+- `default {current}` → Quin sistema operatiu arrenca per defecte, es a dir, aquest.  
+- `timeout 30` → temps d'espera abans d'arrencar, 30 segons exactament.
 
 ## Del bloc Boot Loader, identificar:
 
-- `device partition=C:` → on està instal·lat Windows  
-- `path \Windows\system32\winload.efi` → fitxer que carrega el sistema  
-- `description Windows 11` → sistema operatiu  
+- `device partition=C:` → Partició del disc on està instal·lat Windows.  
+- `path \Windows\system32\winload.efi` → fitxer que carrega el sistema durant l'arranc del sistema .
+- `description Windows 11` → nom del sistema operatiu que surt al gestor d'arranc . 
 
 20. Respondre preguntes curtes:
-   - Quin sistema s'està arrencant
-   - A quin disc o partició està instal·lat
-   - Quant temps espera abans d'arrencar
-   - Quin fitxer inicia Windows
+   - Quin sistema s'està arrencant: S'està arrancant el Windows 11 
+   - A quin disc o partició està instal·lat: al partition=C:
+   - Quant temps espera abans d'arrencar: 30 segons espera
+   - Quin fitxer inicia Windows: el arxiu de winload.efi
 
 21. Interpretació final. *Explicar amb una frase:*
-   - Qui decideix l'arrencada (Boot Manager)
-   - Qui carrega el sistema (Boot Loader)
+   - Qui decideix l'arrencada (Boot Manager): Es el boot manager el que decideix quin sistema operatiu s'acaba iniciat 
+   - Qui carrega el sistema (Boot Loader): El Boot Loader carrega el sistema i s'encarrega també de carregar tots els fitxer que es necessiten per a iniciar tot el sistema.
 
 ---
 
 # Fase 5 – Xarxa bàsica
 
-22. Obrir configuració de xarxa  
-23. Consultar IP amb: `ipconfig`  
-24. Configurar IP dinàmica (DHCP automàtic)  
-25. Configurar IP fixa (manual: IP, màscara, gateway, DNS)  
-26. Comprovar connexió amb: `ping google.com`  
+22. Obrir configuració de xarxa
+
+<img width="892" height="704" alt="image" src="https://github.com/user-attachments/assets/b43914b6-ac87-4159-b622-129f8e540263" />
+   
+24. Consultar IP amb: `ipconfig`
+
+<img width="892" height="704" alt="image" src="https://github.com/user-attachments/assets/fd59e93a-70dc-4755-b0ee-9194fa7866b4" />
+
+    
+25. Configurar IP dinàmica (DHCP automàtic)
+
+<img width="777" height="305" alt="image" src="https://github.com/user-attachments/assets/1bab4829-0dec-4c27-92da-10dc797a2ba0" />
+
+<img width="777" height="305" alt="image" src="https://github.com/user-attachments/assets/05f3ffd9-9f50-487e-991e-6385679c172e" />
+
+
+26. Configurar IP fixa (manual: IP, màscara, gateway, DNS)+
+
+<img width="859" height="509" alt="image" src="https://github.com/user-attachments/assets/4a0d67e6-1fcb-48c0-8d8b-79c7ed9bdcfc" />
+
+<img width="845" height="506" alt="image" src="https://github.com/user-attachments/assets/b4493338-45e7-459c-9ffc-f6028cc8541c" />
+
+<img width="845" height="506" alt="image" src="https://github.com/user-attachments/assets/29b2ed7e-306b-41cb-b82d-106b75e5818b" />
+
+   
+27. Comprovar connexió amb: `ping google.com`  
+
+<img width="854" height="302" alt="image" src="https://github.com/user-attachments/assets/600995c7-5513-4118-9202-ccaae63e376f" />
 
 ---
 
 # Fase 6 – Comandes generals
 
-27. Obrir PowerShell  
-28. Diferenciar cmd i PowerShell:
+28. Obrir PowerShell
+
+<img width="1014" height="426" alt="image" src="https://github.com/user-attachments/assets/74b406f6-0ebd-45fa-8ae7-650a76030eb8" />
+
+29. Diferenciar cmd i PowerShell:
    - `cmd` → comandes bàsiques i clàssiques
+
+<img width="1014" height="426" alt="image" src="https://github.com/user-attachments/assets/cf0dd2f9-1832-4ece-84ec-bd4fd25fb783" />
+
    - `PowerShell` → més potent, permet treballar amb objectes i automatitzar tasques
 
-29. Comandes bàsiques (provar-les):
+<img width="1014" height="426" alt="image" src="https://github.com/user-attachments/assets/1a64edbd-1fa9-423d-a371-2f72b8ca182a" />
+
+
+30. Comandes bàsiques (provar-les):
    - `dir` → veure fitxers
+
+   <img width="602" height="540" alt="image" src="https://github.com/user-attachments/assets/d17b6800-2d01-4011-b40c-bd3179c423d4" />
+
    - `cd` → moure's per carpetes
+
+<img width="211" height="72" alt="image" src="https://github.com/user-attachments/assets/779a9352-57eb-4067-90ee-b5d5a78dd8c9" />
+
    - `mkdir prova` → crear carpeta
+
+<img width="684" height="346" alt="image" src="https://github.com/user-attachments/assets/4c65c2ed-1679-4922-a8e8-27c9a9afc3b3" />
+
+
    - `echo hola > fitxer.txt` → crear fitxer
+
+<img width="882" height="529" alt="image" src="https://github.com/user-attachments/assets/6a36e3f8-fb32-41f1-9c29-5d7a43599d2a" />
+
    - `del fitxer.txt` → eliminar fitxer
 
-30. Comandes útils del sistema:
+<img width="882" height="529" alt="image" src="https://github.com/user-attachments/assets/05dfb5d3-d400-496d-852c-b33b74d8320f" />
+
+
+31. Comandes útils del sistema:
    - `tasklist` → veure processos actius
+
+<img width="882" height="529" alt="image" src="https://github.com/user-attachments/assets/22c8bcf8-d550-4264-a4c9-7cba54c2d9b6" />
+
    - `taskkill /IM notepad.exe /F` → tancar un procés
+
+<img width="818" height="122" alt="image" src="https://github.com/user-attachments/assets/a24ed9d0-278a-4fc6-8cc8-65531e9b64d5" />
+   
    - `systeminfo` → informació completa del sistema
+
+<img width="981" height="604" alt="image" src="https://github.com/user-attachments/assets/1bdd8a4d-3b10-4802-86d4-e821bb42d1d2" />
+
    - `hostname` → nom de l'equip
    - `whoami` → usuari actual
 
