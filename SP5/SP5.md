@@ -220,23 +220,50 @@ Aixó voldría dir que el sistema detecta que no hi ha llicència o està desact
 <img width="981" height="604" alt="image" src="https://github.com/user-attachments/assets/1bdd8a4d-3b10-4802-86d4-e821bb42d1d2" />
 
    - `hostname` → nom de l'equip
+
+<img width="254" height="104" alt="image" src="https://github.com/user-attachments/assets/7ca20d3b-be38-460c-9196-1d7b27346aba" />
+
    - `whoami` → usuari actual
+     
+<img width="254" height="104" alt="image" src="https://github.com/user-attachments/assets/bb458dcf-3ce6-4047-b1a4-67acfbfd5afb" />
+
 
 31. Comandes de xarxa:
    - `ipconfig` → veure configuració IP
+     
+<img width="667" height="248" alt="image" src="https://github.com/user-attachments/assets/7bc330ad-8d6f-414a-8f57-565796f1a5f8" />
+
    - `ping google.com` → comprovar connexió
+
+<img width="678" height="270" alt="image" src="https://github.com/user-attachments/assets/e6af18ee-a9e0-4f1d-af48-93324ad0ac82" />
+
    - `netstat -an` → connexions obertes
+
+<img width="720" height="543" alt="image" src="https://github.com/user-attachments/assets/564f033f-3b4d-4d7c-a2c4-5e51b4f978cd" />
+
 
 32. Comandes interessants (una mica més avançades):
    - `tree` → veure estructura de carpetes
+
+ <img width="715" height="377" alt="image" src="https://github.com/user-attachments/assets/2702cf7d-2caa-4b90-9ca0-b2c6c156049b" />
+ 
    - `cls` → netejar pantalla
+
+<img width="715" height="377" alt="image" src="https://github.com/user-attachments/assets/ad293517-4067-4a6a-8505-936627f68330" />
+
    - `help` → veure ajuda
+
+<img width="746" height="554" alt="image" src="https://github.com/user-attachments/assets/260b58dd-6d95-47f2-8dac-c6b5d550d5f9" />
+
    - `shutdown /s /t 0` → apagar l'equip
 
+<img width="746" height="554" alt="image" src="https://github.com/user-attachments/assets/ca58f976-c931-4e2e-ac60-629ddf2bc5e3" />
+
+
 33. Mini interpretació:
-   - Indicar què mostra `tasklist`
-   - Indicar què mostra `ipconfig`
-   - Indicar què mostra `systeminfo`
+   - Indicar què mostra `tasklist`: mostra totes les aplicacions i serveis en curs, el tipic administrador de tasques
+   - Indicar què mostra `ipconfig`: mostra la Configuració de la xarxa, IP, DNS, IPv4
+   - Indicar què mostra `systeminfo`: mostra totes les característiques del sistema, cpu, recursos, processador...
 
 ---
 
