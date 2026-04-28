@@ -269,10 +269,40 @@ Aixó voldría dir que el sistema detecta que no hi ha llicència o està desact
 
 # Fase 7 – Instal·lació d'aplicacions
 
-34. Descarregar un programa des del navegador (ex: Chrome o VS Code)  
-35. Instal·lar-lo seguint l'assistent  
-36. Obrir-lo i comprovar que funciona  
-37. Instal·lar una aplicació des de Microsoft Store  
-38. Obrir-la i comprovar funcionament  
-39. Desinstal·lar una aplicació: *Configuració → Aplicacions → Desinstal·lar*  
-40. Verificació: *Comprovar que el programa ja no apareix al sistema* 
+34. Descarregar un programa des del navegador (ex: Chrome o VS Code)
+    
+<img width="1029" height="699" alt="image" src="https://github.com/user-attachments/assets/5c57c45d-9d0f-477a-952e-7ff869f22c5c" />
+  
+35. Instal·lar-lo seguint l'assistent
+
+<img width="1029" height="699" alt="image" src="https://github.com/user-attachments/assets/32744a89-13a5-42ed-982c-3afbe5f85f20" />
+
+36. Obrir-lo i comprovar que funciona
+
+<img width="1029" height="699" alt="image" src="https://github.com/user-attachments/assets/5ffc87b3-55ea-4e7f-a68c-d858a4c2b4c2" />
+
+<img width="1029" height="699" alt="image" src="https://github.com/user-attachments/assets/db28973a-e947-4d22-a347-56bdd741c8e9" />
+
+37. Instal·lar una aplicació des de Microsoft Store
+
+<img width="851" height="630" alt="image" src="https://github.com/user-attachments/assets/c4f9ac3b-e9cd-4793-baf5-bcf0c15c9556" />
+
+<img width="851" height="630" alt="image" src="https://github.com/user-attachments/assets/c77410ce-c1a6-4393-a455-10bf96bc4f90" />
+
+
+38. Obrir-la i comprovar funcionament
+
+<img width="1027" height="814" alt="image" src="https://github.com/user-attachments/assets/2fca0fc3-dd0f-4f9d-af14-7f98d3494428" />
+
+39. Desinstal·lar una aplicació: *Configuració → Aplicacions → Desinstal·lar*
+
+<img width="1027" height="814" alt="image" src="https://github.com/user-attachments/assets/cd7f2b83-28cf-4f72-999f-8bbd9c405d7e" />
+
+<img width="831" height="650" alt="image" src="https://github.com/user-attachments/assets/08108018-bdd9-41a9-acd0-2eec8ac78044" />
+
+<img width="831" height="650" alt="image" src="https://github.com/user-attachments/assets/819d6b0e-a61c-4894-a703-1cd0ec77b919" />
+
+40. Verificació: *Comprovar que el programa ja no apareix al sistema*
+
+<img width="831" height="650" alt="image" src="https://github.com/user-attachments/assets/40f45f23-d9d4-424e-89a1-4d20c119ce08" />
+
