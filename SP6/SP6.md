@@ -2,13 +2,70 @@
 
 ## Pas 1. Afegir un nou disc virtual a la màquina virtual
 
+- Primer anar a configuració i emmagatzemtage
+
+<img width="918" height="582" alt="image" src="https://github.com/user-attachments/assets/8f107533-9f16-4e57-83ca-a26de44ab08f" />
+
+- Afegir nou disc dur
+  
+<img width="918" height="582" alt="image" src="https://github.com/user-attachments/assets/c70d958a-39cc-4a89-a135-81ef49aae981" />
+
+<img width="918" height="582" alt="image" src="https://github.com/user-attachments/assets/c69aa9af-4576-4f8e-b6a5-ee0f9b096f0d" />
+
+<img width="918" height="582" alt="image" src="https://github.com/user-attachments/assets/b820a90d-ade7-4bfd-8e6c-796c5498ba7b" />
+
+<img width="841" height="524" alt="image" src="https://github.com/user-attachments/assets/705d7a10-2168-403d-b6b8-f1b5c0bc0be2" />
+
 ## Pas 2. Iniciar Windows i obrir Gestió de discs
 
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/b66b4b5a-05d6-4205-a20b-064bf6c5815a" />
+
+
 ## Pas 3. Inicialitzar el disc i crear dues particions
+
+
 - Una anomenada `Dades`
+  
+-Click dret i cickar nuevo volumen simple
+
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/716f1922-68e9-4382-9200-dae15912e53c" />
+
+-Assignar el espai i assignar la lletra del disc
+
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/0c9fee0c-670a-430b-aa9c-69e20f1058a1" />
+
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/8aaac76e-c113-47ae-a044-ac8adc6a4cd9" />
+
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/c10373be-b3a5-4e45-ba0f-aed126eaa7bf" />
+
+- Resultat
+
+<img width="823" height="576" alt="image" src="https://github.com/user-attachments/assets/606c0f45-b457-4d7e-a3a1-f0ac64ae36e6" />
+
 - Una en FAT32 anomenada `Portable`
 
-## Pas 4. Assignar lletres i comprovar amb `diskpart` la configuració
+<img width="812" height="158" alt="image" src="https://github.com/user-attachments/assets/816e79c0-08d3-42dc-80c4-81a99e378a28" />
+
+- Assigno l'espai que queda i assigno lletra al disc
+
+<img width="812" height="454" alt="image" src="https://github.com/user-attachments/assets/19616554-5f88-4934-b99e-d6be9681494d" />
+
+<img width="812" height="454" alt="image" src="https://github.com/user-attachments/assets/5c189d64-06b1-4f9c-b14b-0a9e507444ba" />
+
+<img width="812" height="454" alt="image" src="https://github.com/user-attachments/assets/5f07eae1-561d-4281-a8c9-2cbaca711cb8" />
+
+
+## Pas 4. comprovar amb `diskpart` la configuració
+
+- Obrir cmd amb el WIndows + r i posar diskpart i seguit list disk i list volume
+
+<img width="827" height="512" alt="image" src="https://github.com/user-attachments/assets/31f0c53c-2dd8-4805-840e-c60994438e1c" />
+
+
+
+
+
+
 
 ---
 
@@ -16,13 +73,33 @@
 
 ## Pas 5. Activar quotes de disc a la partició `Dades` (NTFS)
 
+- obrir primer este equipo
+
+<img width="858" height="591" alt="image" src="https://github.com/user-attachments/assets/c0e16724-2684-4097-b774-812d169db6f0" />
+
+- Anar a propiedades de la partició Dades i cuota:
+
+<img width="858" height="591" alt="image" src="https://github.com/user-attachments/assets/ab2e905e-d34d-499e-b0a3-14e2ec1b9d3d" />
+
+- activar les dos primeres caselles
+
+<img width="368" height="461" alt="image" src="https://github.com/user-attachments/assets/ede061b4-3c20-4a5a-9bb5-b104e6a2e17a" />
+
 ## Pas 6. Establir límit de 300 MB per usuari amb notificació d’advertència
+
+<img width="368" height="461" alt="image" src="https://github.com/user-attachments/assets/f848a672-0645-483e-96ea-6e67231a1743" />
+
 
 ## Pas 7. Crear dos usuaris locals
 - `alumne1`
 - `alumne2`
 
+<img width="699" height="461" alt="image" src="https://github.com/user-attachments/assets/8e546ad5-6469-41c6-8a35-946ff021017c" />
+
 ## Pas 8. Afegir-los a un grup nou anomenat `Limitats`
+
+<img width="699" height="461" alt="image" src="https://github.com/user-attachments/assets/85e86647-9837-4726-9e19-f1e4fce3fcd7" />
+
 
 ## Pas 9. Provar la còpia de fitxers dins `Dades` per veure com actuen les quotes (superar límit)
 
@@ -32,7 +109,17 @@
 
 ## Pas 10. Afegir un tercer disc virtual i formatar-lo en NTFS com a `Backups`
 
+<img width="829" height="508" alt="image" src="https://github.com/user-attachments/assets/4e268041-9020-45ff-a5ce-36a65bd080c2" />
+
+<img width="829" height="508" alt="image" src="https://github.com/user-attachments/assets/c353d38e-cc34-44ca-8fc4-4e0dbff840d1" />
+
+
 ## Pas 11. Crear la carpeta `CòpiesUsuaris` dins `Backups`
+
+<img width="829" height="508" alt="image" src="https://github.com/user-attachments/assets/1990e772-7430-4572-9621-984e1e0f45bc" />
+
+
+
 
 ## Pas 12. Crear un script `.bat`
 
@@ -47,6 +134,9 @@ a:
 ```bat
 E:\CòpiesUsuaris\%USERNAME%
 ```
+
+
+<img width="829" height="508" alt="image" src="https://github.com/user-attachments/assets/254378d3-4cc9-4316-b215-c251459fbe3c" />
 
 ## Pas 13. Obrir `gpedit.msc`
 
