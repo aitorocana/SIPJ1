@@ -24,4 +24,5 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
 ## [Unidad 2: Implementació i Gestió d’un Sistema Windows amb Tecnologia ABP](unidad2/unidad2.md) 
 ## [Sprint 1: Avaluació, Instal·lació i Configuració de Xarxes i Sistemes Operatius](SP5/SP5.md)
 ## [Sprint 2: Gestió de la Informació del Sistema i Administració](SP6/SP6.md)
+## [Sprint 3: Gestió de Recursos en Xarxa, Seguretat i Còpies de Seguretat](SP7/SP7.md)
 
