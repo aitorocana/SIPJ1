@@ -12,14 +12,22 @@ Al servidor, obre:
 
 Administrador de tasques → Rendiment → Obre el Monitor de recursos
 
+<img width="779" height="586" alt="image" src="https://github.com/user-attachments/assets/19423f45-e5cf-47e6-b377-638bf09a7bf8" />
+
+
 ### 2. Revisar l’ús de CPU
 
 Comprova:
 
 - processos que consumeixen més CPU
+
+<img width="468" height="586" alt="image" src="https://github.com/user-attachments/assets/f74be293-2c1f-4205-b321-a2a8d438d866" />
+
+
 - percentatge total d’ús
 
-Fes una captura.
+<img width="850" height="447" alt="image" src="https://github.com/user-attachments/assets/c52fb0ad-d290-4edf-9cd7-43ada80ab638" />
+
 
 ### 3. Revisar la memòria RAM
 
