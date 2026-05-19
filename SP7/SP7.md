@@ -14,6 +14,9 @@ Administrador de tasques → Rendiment → Obre el Monitor de recursos
 
 <img width="779" height="586" alt="image" src="https://github.com/user-attachments/assets/19423f45-e5cf-47e6-b377-638bf09a7bf8" />
 
+<img width="945" height="722" alt="image" src="https://github.com/user-attachments/assets/46859c8c-c1cb-4929-9ca7-0b6aa87c094c" />
+
+
 
 ### 2. Revisar l’ús de CPU
 
@@ -23,10 +26,7 @@ Comprova:
 
 <img width="468" height="586" alt="image" src="https://github.com/user-attachments/assets/f74be293-2c1f-4205-b321-a2a8d438d866" />
 
-
-- percentatge total d’ús
-
-<img width="850" height="447" alt="image" src="https://github.com/user-attachments/assets/c52fb0ad-d290-4edf-9cd7-43ada80ab638" />
+<img width="728" height="388" alt="image" src="https://github.com/user-attachments/assets/e2d2169a-5067-4cfc-9365-4a57121bae48" />
 
 
 ### 3. Revisar la memòria RAM
@@ -37,11 +37,13 @@ Comprova:
 
 - memòria utilitzada
 
-<img width="405" height="464" alt="image" src="https://github.com/user-attachments/assets/410e2a91-a51f-4671-a6e8-da3b0f51d000" />
+
+<img width="891" height="602" alt="image" src="https://github.com/user-attachments/assets/e16f510f-574a-44d0-833b-b5557461b5a0" />
+
 
 - memòria lliure
 
-<img width="755" height="570" alt="image" src="https://github.com/user-attachments/assets/f895bb9c-ba90-4fa8-9e92-de1bb389b82e" />
+<img width="831" height="281" alt="image" src="https://github.com/user-attachments/assets/e36dca83-9cec-4948-a878-94c177cf1a28" />
 
 
 Fes una captura.
@@ -55,14 +57,8 @@ Comprova:
 - processos amb més lectura/escriptura
 - activitat del disc
 
-<img width="871" height="572" alt="image" src="https://github.com/user-attachments/assets/8553da2f-622f-4feb-afd6-e8e9a3b2d9f2" />
+<img width="861" height="473" alt="image" src="https://github.com/user-attachments/assets/b8bd312a-ed9c-480f-ba68-799f897fe618" />
 
-- El percentatge d’activitat del disc és de 1%
-- La velocitat d’escriptura és de 68,9 KB/s
-- La velocitat de lectura és de 0 KB/s
-- El temps de resposta és de 0,4 ms
-- el disc és un HDD (SATA)
-- té una capacitat aproximada de 50 GB
 
 ### 5. Revisar la xarxa
 
@@ -75,7 +71,10 @@ Comprova:
 
 <img width="1032" height="736" alt="image" src="https://github.com/user-attachments/assets/0091a83c-a462-4599-a16e-b82d9eb048ed" />
 
-<img width="786" height="184" alt="image" src="https://github.com/user-attachments/assets/d6bd7d72-b7ee-4b24-a017-7dd7614e6fa0" />
+<img width="861" height="473" alt="image" src="https://github.com/user-attachments/assets/ae97ed83-6037-443b-b0c4-f9de88af213d" />
+
+<img width="861" height="473" alt="image" src="https://github.com/user-attachments/assets/98861787-1eea-455d-ba83-4343a241a652" />
+
 
 ### 6. Revisar els esdeveniments del sistema
 
